@@ -6,15 +6,43 @@
   "global": {
     "time": 1539388800000
   },
-  "aliases": {
-    "<VILLAGE>": "Rok",
-    "<INN>": "Börris' Inn & Tavern",
-    "<CLINIC>": "the clinic",
-    "<BLACKSMITHS>": "Kraig and Sons' Blades & Armor",
-    "<PLAZA>": "the village's small plaza",
-    "<DUNGEON1>": "the creepy cave",
-    "<DUNGEON2>": "the bandit camp"
-  },
+  "aliases": [
+    {
+      "key": "VILLAGE",
+      "alias": "Rok",
+      "type": "location"
+    },
+    {
+      "key": "INN",
+      "alias": "Börris' Inn & Tavern",
+      "type": "location"
+    },
+    {
+      "key": "CLINIC",
+      "alias": "the clinic",
+      "type": "location"
+    },
+    {
+      "key": "BLACKSMITHS",
+      "alias": "Kraig and Sons' Blades & Armor",
+      "type": "location"
+    },
+    {
+      "key": "PLAZA",
+      "alias": "the village's small plaza",
+      "type": "location"
+    },
+    {
+      "key": "DUNGEON1",
+      "alias": "the creepy cave",
+      "type": "location"
+    },
+    {
+      "key": "DUNGEON2",
+      "alias": "the bandit camp",
+      "type": "location"
+    }
+  ],
   "nodes": [
     {
       "id": "spawnlake",
