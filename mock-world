@@ -53,32 +53,32 @@
     {
       "id": "spawnlake_shore",
       "title": "the Lake of Birth",
-      "loc_x": 148,
-      "loc_y": 70
+      "loc_x": 124,
+      "loc_y": 66
     },
     {
       "id": "forest_path",
       "title": "the thick forest of doom",
-      "loc_x": 204,
-      "loc_y": 125
+      "loc_x": 251,
+      "loc_y": 165
     },
     {
       "id": "north_exit",
       "title": "the north end of the village",
-      "loc_x": 219,
-      "loc_y": 237
+      "loc_x": 184,
+      "loc_y": 262
     },
     {
       "id": "north_residential",
       "title": "village houses (north)",
-      "loc_x": 224,
-      "loc_y": 344
+      "loc_x": 277,
+      "loc_y": 377
     },
     {
       "id": "inn_street",
       "title": "the front of <INN>",
-      "loc_x": 181,
-      "loc_y": 469
+      "loc_x": 196,
+      "loc_y": 482
     },
     {
       "id": "inn",
@@ -95,8 +95,8 @@
     {
       "id": "clinic",
       "title": "the clinic",
-      "loc_x": 170,
-      "loc_y": 599
+      "loc_x": 207,
+      "loc_y": 571
     },
     {
       "id": "blacksmith_street",
@@ -119,20 +119,20 @@
     {
       "id": "bookstore_street",
       "title": "Book Store",
-      "loc_x": 220,
-      "loc_y": 689
+      "loc_x": 167,
+      "loc_y": 790
     },
     {
       "id": "residential_south",
       "title": "The Magician's house",
-      "loc_x": 323,
-      "loc_y": 752
+      "loc_x": 256,
+      "loc_y": 891
     },
     {
       "id": "exit_south",
       "title": "South Exit",
-      "loc_x": 335,
-      "loc_y": 892
+      "loc_x": 301,
+      "loc_y": 999
     },
     {
       "id": "intersection",
@@ -143,8 +143,8 @@
     {
       "id": "dungeon_one",
       "title": "<DUNGEON1>",
-      "loc_x": 710,
-      "loc_y": 1087
+      "loc_x": 671,
+      "loc_y": 1184
     },
     {
       "id": "dungeon_two",
@@ -301,6 +301,24 @@
     {
       "from": "exit_south",
       "to": "intersection"
+    },
+    {
+      "from": "inn",
+      "to": "blacksmith_street",
+      "handle_goto": "Go to <BLACKSMITHS>",
+      "handle_gobackto": "Return to <BLACKSMITHS>"
+    },
+    {
+      "from": "inn_street",
+      "to": "clinic",
+      "handle_goto": "Go to the clinic",
+      "handle_gobackto": "Return to the clinic"
+    },
+    {
+      "from": "clinic",
+      "to": "inn_street",
+      "handle_goto": "Go to the front of <INN>",
+      "handle_gobackto": "Return to the front of <INN>"
     }
   ],
   "text_node_links": [
