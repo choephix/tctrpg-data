@@ -896,5 +896,19 @@
       "handle": "Go back to intersection",
       "text": "I returned to intersection"
     }
-  ]
+  ],
+  "text": {
+    "default_feedback": {
+      "go_to": "I went to $$.",
+      "look_around": "I looked around. I was at $$.",
+      "look_up": "I looked up at the sky. It was almost noon."
+    },
+    "default_handle": {
+      "go_to": "Go to $$",
+      "talk_to": "Talk [to|with] $$",
+      "look_around": "Look around",
+      "_hidden": "...",
+      "look_up": "Look up"
+    }
+  }
 }
