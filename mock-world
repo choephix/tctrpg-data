@@ -209,8 +209,8 @@
     {
       "id": "trainer",
       "title": "node_27",
-      "loc_x": 341,
-      "loc_y": 360
+      "loc_x": 338,
+      "loc_y": 357
     },
     {
       "id": "bks_armor",
@@ -225,10 +225,10 @@
       "loc_y": 491
     },
     {
-      "id": "node_30",
+      "id": "bookstore",
       "title": "node_30",
-      "loc_x": 208,
-      "loc_y": 775
+      "loc_x": 258,
+      "loc_y": 764
     },
     {
       "id": "node_31",
@@ -556,12 +556,12 @@
     },
     {
       "from": "bookstore_street",
-      "to": "node_30",
+      "to": "bookstore",
       "handle_goto": "Go to node_30",
       "handle_gobackto": "Return to node_30"
     },
     {
-      "from": "node_30",
+      "from": "bookstore",
       "to": "bookstore_street",
       "handle_goto": "Go to Book Store",
       "handle_gobackto": "Return to Book Store"
