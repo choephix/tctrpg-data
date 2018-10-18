@@ -153,10 +153,10 @@
       "loc_y": 1257
     },
     {
-      "id": "node_18",
+      "id": "inn-myroom",
       "title": "node_18",
       "loc_x": 76,
-      "loc_y": 357
+      "loc_y": 363
     },
     {
       "id": "node_19",
@@ -207,22 +207,22 @@
       "loc_y": 1197
     },
     {
-      "id": "node_27",
+      "id": "trainer",
       "title": "node_27",
-      "loc_x": 344,
-      "loc_y": 357
+      "loc_x": 341,
+      "loc_y": 360
     },
     {
-      "id": "node_28",
+      "id": "bks_armor",
       "title": "node_28",
-      "loc_x": -7,
-      "loc_y": 595
+      "loc_x": -60,
+      "loc_y": 559
     },
     {
-      "id": "node_29",
+      "id": "bks_weapons",
       "title": "node_29",
-      "loc_x": -19,
-      "loc_y": 524
+      "loc_x": -31,
+      "loc_y": 491
     },
     {
       "id": "node_30",
@@ -406,12 +406,12 @@
     },
     {
       "from": "inn",
-      "to": "node_18",
+      "to": "inn-myroom",
       "handle_goto": "Go to node_18",
       "handle_gobackto": "Return to node_18"
     },
     {
-      "from": "node_18",
+      "from": "inn-myroom",
       "to": "inn",
       "handle_goto": "Go to <INN>",
       "handle_gobackto": "Return to <INN>"
@@ -520,36 +520,36 @@
     },
     {
       "from": "north_residential",
-      "to": "node_27",
+      "to": "trainer",
       "handle_goto": "Go to node_27",
       "handle_gobackto": "Return to node_27"
     },
     {
-      "from": "node_27",
+      "from": "trainer",
       "to": "north_residential",
       "handle_goto": "Go to village houses (north)",
       "handle_gobackto": "Return to village houses (north)"
     },
     {
       "from": "blacksmith_street",
-      "to": "node_28",
+      "to": "bks_armor",
       "handle_goto": "Go to node_28",
       "handle_gobackto": "Return to node_28"
     },
     {
-      "from": "node_28",
+      "from": "bks_armor",
       "to": "blacksmith_street",
       "handle_goto": "Go to <BLACKSMITHS>",
       "handle_gobackto": "Return to <BLACKSMITHS>"
     },
     {
       "from": "blacksmith_street",
-      "to": "node_29",
+      "to": "bks_weapons",
       "handle_goto": "Go to node_29",
       "handle_gobackto": "Return to node_29"
     },
     {
-      "from": "node_29",
+      "from": "bks_weapons",
       "to": "blacksmith_street",
       "handle_goto": "Go to <BLACKSMITHS>",
       "handle_gobackto": "Return to <BLACKSMITHS>"
