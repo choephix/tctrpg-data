@@ -21,4 +21,4 @@ Often, after a feature is roughly finished, content created for it may be polish
 ### `shitbox`
 Absolute shitpile. No one knows where you even are, what does it even mean to be anywhere? 
 Don't expect anything to work - all is broken by default.
-This is the place only for the bravest, to experiment ambitous, albeit utterly vague as ideas.
+This is the place only for the bravest, to experiment with ambitous, albeit vague as ideas.
