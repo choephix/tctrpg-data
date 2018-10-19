@@ -89,68 +89,68 @@
     {
       "id": "plaza",
       "title": "Central Plaza",
-      "loc_x": 149,
-      "loc_y": 551
+      "loc_x": 161,
+      "loc_y": 574
     },
     {
       "id": "clinic",
       "title": "the clinic",
-      "loc_x": 170,
-      "loc_y": 599
+      "loc_x": 116,
+      "loc_y": 713
     },
     {
       "id": "blacksmith_street",
       "title": "<BLACKSMITHS>",
-      "loc_x": 20,
-      "loc_y": 565
+      "loc_x": 243,
+      "loc_y": 716
     },
     {
       "id": "market_west",
       "title": "the marketplace (west)",
-      "loc_x": 88,
-      "loc_y": 653
+      "loc_x": 313,
+      "loc_y": 644
     },
     {
       "id": "market_east",
       "title": "the marketplace (east)",
-      "loc_x": 168,
-      "loc_y": 648
+      "loc_x": 471,
+      "loc_y": 680
     },
     {
       "id": "bookstore_street",
       "title": "Book Store",
-      "loc_x": 220,
-      "loc_y": 689
+      "loc_x": 394,
+      "loc_y": 790
     },
     {
       "id": "residential_south",
       "title": "The Magician's house",
-      "loc_x": 323,
-      "loc_y": 752
+      "loc_x": 542,
+      "loc_y": 799
     },
     {
       "id": "exit_south",
       "title": "South Exit",
-      "loc_x": 335,
-      "loc_y": 892
+      "loc_x": 638,
+      "loc_y": 978
     },
     {
       "id": "intersection",
       "title": "the intersection",
-      "loc_x": 384,
-      "loc_y": 1083
+      "loc_x": 765,
+      "loc_y": 1100
     },
     {
       "id": "dungeon_one",
       "title": "<DUNGEON1>",
-      "loc_x": 710,
-      "loc_y": 1087
+      "loc_x": 878,
+      "loc_y": 1153
     },
     {
       "id": "dungeon_two",
       "title": "<DUNGEON2>",
-      "loc_x": 347,
-      "loc_y": 1177
+      "loc_x": 672,
+      "loc_y": 1182
     }
   ],
   "node_links": [
@@ -195,80 +195,16 @@
       "to": "inn"
     },
     {
-      "from": "inn_street",
-      "to": "plaza"
-    },
-    {
       "from": "inn",
       "to": "inn_street"
     },
     {
-      "from": "plaza",
-      "to": "inn_street"
-    },
-    {
-      "from": "plaza",
-      "to": "clinic"
-    },
-    {
-      "from": "plaza",
-      "to": "blacksmith_street"
-    },
-    {
-      "from": "plaza",
-      "to": "market_west"
-    },
-    {
-      "from": "clinic",
-      "to": "market_east"
-    },
-    {
-      "from": "clinic",
-      "to": "plaza"
-    },
-    {
-      "from": "blacksmith_street",
-      "to": "plaza"
-    },
-    {
-      "from": "blacksmith_street",
-      "to": "market_west"
-    },
-    {
-      "from": "market_west",
-      "to": "plaza"
-    },
-    {
-      "from": "market_west",
-      "to": "blacksmith_street"
-    },
-    {
       "from": "market_west",
       "to": "market_east"
     },
     {
       "from": "market_east",
       "to": "market_west"
-    },
-    {
-      "from": "market_east",
-      "to": "clinic"
-    },
-    {
-      "from": "market_east",
-      "to": "bookstore_street"
-    },
-    {
-      "from": "bookstore_street",
-      "to": "market_east"
-    },
-    {
-      "from": "bookstore_street",
-      "to": "residential_south"
-    },
-    {
-      "from": "residential_south",
-      "to": "bookstore_street"
     },
     {
       "from": "residential_south",
@@ -301,6 +237,66 @@
     {
       "from": "exit_south",
       "to": "intersection"
+    },
+    {
+      "from": "inn_street",
+      "to": "inn_street",
+      "handle_goto": "Go to the front of <INN>",
+      "handle_gobackto": "Return to the front of <INN>"
+    },
+    {
+      "from": "inn_street",
+      "to": "plaza",
+      "handle_goto": "Go to Central Plaza",
+      "handle_gobackto": "Return to Central Plaza"
+    },
+    {
+      "from": "plaza",
+      "to": "inn_street",
+      "handle_goto": "Go to the front of <INN>",
+      "handle_gobackto": "Return to the front of <INN>"
+    },
+    {
+      "from": "plaza",
+      "to": "market_west",
+      "handle_goto": "Go to the marketplace (west)",
+      "handle_gobackto": "Return to the marketplace (west)"
+    },
+    {
+      "from": "market_west",
+      "to": "market_west",
+      "handle_goto": "Go to the marketplace (west)",
+      "handle_gobackto": "Return to the marketplace (west)"
+    },
+    {
+      "from": "market_west",
+      "to": "plaza",
+      "handle_goto": "Go to Central Plaza",
+      "handle_gobackto": "Return to Central Plaza"
+    },
+    {
+      "from": "plaza",
+      "to": "clinic",
+      "handle_goto": "Go to the clinic",
+      "handle_gobackto": "Return to the clinic"
+    },
+    {
+      "from": "clinic",
+      "to": "plaza",
+      "handle_goto": "Go to Central Plaza",
+      "handle_gobackto": "Return to Central Plaza"
+    },
+    {
+      "from": "market_east",
+      "to": "residential_south",
+      "handle_goto": "Go to The Magician's house",
+      "handle_gobackto": "Return to The Magician's house"
+    },
+    {
+      "from": "residential_south",
+      "to": "bookstore_street",
+      "handle_goto": "Go to Book Store",
+      "handle_gobackto": "Return to Book Store"
     }
   ],
   "text_node_links": [
