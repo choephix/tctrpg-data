@@ -95,8 +95,8 @@
     {
       "id": "clinic",
       "title": "the clinic",
-      "loc_x": 207,
-      "loc_y": 571
+      "loc_x": 218,
+      "loc_y": 584
     },
     {
       "id": "blacksmith_street",
@@ -113,32 +113,32 @@
     {
       "id": "market_east",
       "title": "the marketplace (east)",
-      "loc_x": 168,
-      "loc_y": 648
+      "loc_x": 214,
+      "loc_y": 678
     },
     {
       "id": "bookstore_street",
       "title": "Book Store",
-      "loc_x": 167,
-      "loc_y": 790
+      "loc_x": 304,
+      "loc_y": 726
     },
     {
       "id": "residential_south",
       "title": "The Magician's house",
-      "loc_x": 257,
-      "loc_y": 895
+      "loc_x": 412,
+      "loc_y": 814
     },
     {
       "id": "exit_south",
       "title": "South Exit",
-      "loc_x": 301,
-      "loc_y": 999
+      "loc_x": 520,
+      "loc_y": 866
     },
     {
       "id": "intersection",
       "title": "the intersection",
-      "loc_x": 384,
-      "loc_y": 1083
+      "loc_x": 566,
+      "loc_y": 1090
     },
     {
       "id": "dungeon_one",
@@ -227,14 +227,14 @@
     {
       "id": "bookstore",
       "title": "node_30",
-      "loc_x": 258,
-      "loc_y": 764
+      "loc_x": 332,
+      "loc_y": 642
     },
     {
-      "id": "node_31",
+      "id": "maho",
       "title": "node_31",
-      "loc_x": 194,
-      "loc_y": 955
+      "loc_x": 414,
+      "loc_y": 750
     }
   ],
   "node_links": [
@@ -568,12 +568,12 @@
     },
     {
       "from": "residential_south",
-      "to": "node_31",
+      "to": "maho",
       "handle_goto": "Go to node_31",
       "handle_gobackto": "Return to node_31"
     },
     {
-      "from": "node_31",
+      "from": "maho",
       "to": "residential_south",
       "handle_goto": "Go to The Magician's house",
       "handle_gobackto": "Return to The Magician's house"
