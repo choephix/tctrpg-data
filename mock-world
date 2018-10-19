@@ -149,62 +149,14 @@
     {
       "id": "dungeon_two",
       "title": "<DUNGEON2>",
-      "loc_x": 309,
-      "loc_y": 1257
+      "loc_x": 433,
+      "loc_y": 1205
     },
     {
       "id": "inn-myroom",
       "title": "node_18",
       "loc_x": 76,
       "loc_y": 363
-    },
-    {
-      "id": "node_19",
-      "title": "node_19",
-      "loc_x": 750,
-      "loc_y": 1127
-    },
-    {
-      "id": "node_20",
-      "title": "node_20",
-      "loc_x": 816,
-      "loc_y": 1149
-    },
-    {
-      "id": "node_21",
-      "title": "node_21",
-      "loc_x": 824,
-      "loc_y": 1216
-    },
-    {
-      "id": "node_22",
-      "title": "node_22",
-      "loc_x": 779,
-      "loc_y": 1226
-    },
-    {
-      "id": "node_23",
-      "title": "node_23",
-      "loc_x": 753,
-      "loc_y": 1275
-    },
-    {
-      "id": "node_24",
-      "title": "node_24",
-      "loc_x": 709,
-      "loc_y": 1286
-    },
-    {
-      "id": "node_25",
-      "title": "node_25",
-      "loc_x": 686,
-      "loc_y": 1245
-    },
-    {
-      "id": "node_26",
-      "title": "node_26",
-      "loc_x": 716,
-      "loc_y": 1197
     },
     {
       "id": "trainer",
@@ -415,108 +367,6 @@
       "to": "inn",
       "handle_goto": "Go to <INN>",
       "handle_gobackto": "Return to <INN>"
-    },
-    {
-      "from": "dungeon_one",
-      "to": "node_19",
-      "handle_goto": "Go to node_19",
-      "handle_gobackto": "Return to node_19"
-    },
-    {
-      "from": "node_19",
-      "to": "dungeon_one",
-      "handle_goto": "Go to <DUNGEON1>",
-      "handle_gobackto": "Return to <DUNGEON1>"
-    },
-    {
-      "from": "node_19",
-      "to": "node_20",
-      "handle_goto": "Go to node_20",
-      "handle_gobackto": "Return to node_20"
-    },
-    {
-      "from": "node_20",
-      "to": "node_19",
-      "handle_goto": "Go to node_19",
-      "handle_gobackto": "Return to node_19"
-    },
-    {
-      "from": "node_20",
-      "to": "node_21",
-      "handle_goto": "Go to node_21",
-      "handle_gobackto": "Return to node_21"
-    },
-    {
-      "from": "node_21",
-      "to": "node_20",
-      "handle_goto": "Go to node_20",
-      "handle_gobackto": "Return to node_20"
-    },
-    {
-      "from": "node_21",
-      "to": "node_22",
-      "handle_goto": "Go to node_22",
-      "handle_gobackto": "Return to node_22"
-    },
-    {
-      "from": "node_22",
-      "to": "node_21",
-      "handle_goto": "Go to node_21",
-      "handle_gobackto": "Return to node_21"
-    },
-    {
-      "from": "node_22",
-      "to": "node_23",
-      "handle_goto": "Go to node_23",
-      "handle_gobackto": "Return to node_23"
-    },
-    {
-      "from": "node_23",
-      "to": "node_22",
-      "handle_goto": "Go to node_22",
-      "handle_gobackto": "Return to node_22"
-    },
-    {
-      "from": "node_23",
-      "to": "node_24",
-      "handle_goto": "Go to node_24",
-      "handle_gobackto": "Return to node_24"
-    },
-    {
-      "from": "node_24",
-      "to": "node_23",
-      "handle_goto": "Go to node_23",
-      "handle_gobackto": "Return to node_23"
-    },
-    {
-      "from": "node_24",
-      "to": "node_25",
-      "handle_goto": "Go to node_25",
-      "handle_gobackto": "Return to node_25"
-    },
-    {
-      "from": "node_25",
-      "to": "node_24",
-      "handle_goto": "Go to node_24",
-      "handle_gobackto": "Return to node_24"
-    },
-    {
-      "from": "node_25",
-      "to": "node_26",
-      "handle_goto": "Go to node_26",
-      "handle_gobackto": "Return to node_26"
-    },
-    {
-      "from": "node_26",
-      "to": "node_25",
-      "handle_goto": "Go to node_25",
-      "handle_gobackto": "Return to node_25"
-    },
-    {
-      "from": "node_26",
-      "to": "dungeon_one",
-      "handle_goto": "Go to <DUNGEON1>",
-      "handle_gobackto": "Return to <DUNGEON1>"
     },
     {
       "from": "north_residential",
