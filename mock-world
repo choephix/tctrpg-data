@@ -89,14 +89,14 @@
     {
       "id": "plaza",
       "title": "Central Plaza",
-      "loc_x": 149,
-      "loc_y": 551
+      "loc_x": 173,
+      "loc_y": 567
     },
     {
       "id": "clinic",
       "title": "the clinic",
-      "loc_x": 218,
-      "loc_y": 584
+      "loc_x": 237,
+      "loc_y": 615
     },
     {
       "id": "blacksmith_street",
@@ -155,8 +155,8 @@
     {
       "id": "inn-myroom",
       "title": "node_18",
-      "loc_x": 76,
-      "loc_y": 363
+      "loc_x": 107,
+      "loc_y": 389
     },
     {
       "id": "trainer",
@@ -337,24 +337,6 @@
     {
       "from": "exit_south",
       "to": "intersection"
-    },
-    {
-      "from": "inn",
-      "to": "blacksmith_street",
-      "handle_goto": "Go to <BLACKSMITHS>",
-      "handle_gobackto": "Return to <BLACKSMITHS>"
-    },
-    {
-      "from": "inn_street",
-      "to": "clinic",
-      "handle_goto": "Go to the clinic",
-      "handle_gobackto": "Return to the clinic"
-    },
-    {
-      "from": "clinic",
-      "to": "inn_street",
-      "handle_goto": "Go to the front of <INN>",
-      "handle_gobackto": "Return to the front of <INN>"
     },
     {
       "from": "inn",
