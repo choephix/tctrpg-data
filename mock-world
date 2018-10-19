@@ -167,20 +167,20 @@
     {
       "id": "bks_armor",
       "title": "node_28",
-      "loc_x": -60,
-      "loc_y": 559
+      "loc_x": -23,
+      "loc_y": 589
     },
     {
       "id": "bks_weapons",
       "title": "node_29",
-      "loc_x": -31,
-      "loc_y": 491
+      "loc_x": -19,
+      "loc_y": 529
     },
     {
       "id": "bookstore",
       "title": "node_30",
-      "loc_x": 332,
-      "loc_y": 642
+      "loc_x": 333,
+      "loc_y": 655
     },
     {
       "id": "maho",
