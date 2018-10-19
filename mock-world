@@ -89,44 +89,44 @@
     {
       "id": "plaza",
       "title": "Central Plaza",
-      "loc_x": 161,
-      "loc_y": 574
+      "loc_x": 207,
+      "loc_y": 582
     },
     {
       "id": "clinic",
       "title": "the clinic",
-      "loc_x": 116,
-      "loc_y": 713
+      "loc_x": 91,
+      "loc_y": 632
     },
     {
       "id": "blacksmith_street",
       "title": "<BLACKSMITHS>",
-      "loc_x": 243,
-      "loc_y": 716
+      "loc_x": 314,
+      "loc_y": 624
     },
     {
       "id": "market_west",
       "title": "the marketplace (west)",
-      "loc_x": 313,
-      "loc_y": 644
+      "loc_x": 238,
+      "loc_y": 753
     },
     {
       "id": "market_east",
       "title": "the marketplace (east)",
-      "loc_x": 471,
-      "loc_y": 680
+      "loc_x": 379,
+      "loc_y": 772
     },
     {
       "id": "bookstore_street",
       "title": "Book Store",
-      "loc_x": 394,
-      "loc_y": 790
+      "loc_x": 442,
+      "loc_y": 668
     },
     {
       "id": "residential_south",
       "title": "The Magician's house",
-      "loc_x": 542,
-      "loc_y": 799
+      "loc_x": 590,
+      "loc_y": 819
     },
     {
       "id": "exit_south",
@@ -294,9 +294,69 @@
     },
     {
       "from": "residential_south",
+      "to": "market_east",
+      "handle_goto": "Go to the marketplace (east)",
+      "handle_gobackto": "Return to the marketplace (east)"
+    },
+    {
+      "from": "bookstore_street",
+      "to": "residential_south",
+      "handle_goto": "Go to The Magician's house",
+      "handle_gobackto": "Return to The Magician's house"
+    },
+    {
+      "from": "residential_south",
       "to": "bookstore_street",
       "handle_goto": "Go to Book Store",
       "handle_gobackto": "Return to Book Store"
+    },
+    {
+      "from": "bookstore_street",
+      "to": "market_east",
+      "handle_goto": "Go to the marketplace (east)",
+      "handle_gobackto": "Return to the marketplace (east)"
+    },
+    {
+      "from": "market_east",
+      "to": "bookstore_street",
+      "handle_goto": "Go to Book Store",
+      "handle_gobackto": "Return to Book Store"
+    },
+    {
+      "from": "plaza",
+      "to": "blacksmith_street",
+      "handle_goto": "Go to <BLACKSMITHS>",
+      "handle_gobackto": "Return to <BLACKSMITHS>"
+    },
+    {
+      "from": "blacksmith_street",
+      "to": "plaza",
+      "handle_goto": "Go to Central Plaza",
+      "handle_gobackto": "Return to Central Plaza"
+    },
+    {
+      "from": "market_west",
+      "to": "clinic",
+      "handle_goto": "Go to the clinic",
+      "handle_gobackto": "Return to the clinic"
+    },
+    {
+      "from": "clinic",
+      "to": "market_west",
+      "handle_goto": "Go to the marketplace (west)",
+      "handle_gobackto": "Return to the marketplace (west)"
+    },
+    {
+      "from": "blacksmith_street",
+      "to": "bookstore_street",
+      "handle_goto": "Go to Book Store",
+      "handle_gobackto": "Return to Book Store"
+    },
+    {
+      "from": "bookstore_street",
+      "to": "blacksmith_street",
+      "handle_goto": "Go to <BLACKSMITHS>",
+      "handle_gobackto": "Return to <BLACKSMITHS>"
     }
   ],
   "text_node_links": [
