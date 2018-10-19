@@ -17,3 +17,8 @@ It's not supposed to make sense, rather it provides access to ways for pushing t
 The village of ***Áppe*** — an often broken pile of locations, items , etc.
 Default testbed for current work, content is rapidly added, removed and updated.
 Often, after a feature is roughly finished, content created for it may be polished up a bit and moved to Lorem.
+
+### `shitbox`
+Absolute shitpile. No one knows where you even are, what does it even mean to be anywhere? 
+Don't expect anything to work. Everything is broken by default.
+This is the place only for the bravest, to experiment ambitous, albeit utterly vague as ideas.
