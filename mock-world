@@ -187,6 +187,12 @@
       "title": "node_31",
       "loc_x": 414,
       "loc_y": 750
+    },
+    {
+      "id": "bear_den",
+      "title": "node_24",
+      "loc_x": 362,
+      "loc_y": 97
     }
   ],
   "node_links": [
@@ -409,6 +415,18 @@
       "to": "residential_south",
       "handle_goto": "Go to The Magician's house",
       "handle_gobackto": "Return to The Magician's house"
+    },
+    {
+      "from": "forest_path",
+      "to": "bear_den",
+      "handle_goto": "Go to node_24",
+      "handle_gobackto": "Return to node_24"
+    },
+    {
+      "from": "bear_den",
+      "to": "forest_path",
+      "handle_goto": "Go to the thick forest of doom",
+      "handle_gobackto": "Return to the thick forest of doom"
     }
   ],
   "text_node_links": [
