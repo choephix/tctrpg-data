@@ -45,318 +45,90 @@
   ],
   "nodes": [
     {
-      "id": "spawnlake",
-      "title": "inside the Lake of Birth",
-      "loc_x": 123,
-      "loc_y": 21
+      "id": "spawnpoint",
+      "title": "Le Hub",
+      "loc_x": 156,
+      "loc_y": 688
     },
     {
-      "id": "spawnlake_shore",
-      "title": "the Lake of Birth",
-      "loc_x": 148,
-      "loc_y": 70
+      "id": "twonode",
+      "title": "",
+      "loc_x": 88,
+      "loc_y": 637
     },
     {
-      "id": "forest_path",
-      "title": "the thick forest of doom",
-      "loc_x": 204,
-      "loc_y": 125
-    },
-    {
-      "id": "north_exit",
-      "title": "the north end of the village",
-      "loc_x": 219,
-      "loc_y": 237
-    },
-    {
-      "id": "north_residential",
-      "title": "village houses (north)",
-      "loc_x": 224,
-      "loc_y": 344
-    },
-    {
-      "id": "inn_street",
-      "title": "the front of <INN>",
-      "loc_x": 181,
-      "loc_y": 469
-    },
-    {
-      "id": "inn",
-      "title": "<INN>",
-      "loc_x": 115,
-      "loc_y": 435
-    },
-    {
-      "id": "plaza",
-      "title": "Central Plaza",
-      "loc_x": 207,
-      "loc_y": 582
-    },
-    {
-      "id": "clinic",
-      "title": "the clinic",
-      "loc_x": 91,
-      "loc_y": 632
-    },
-    {
-      "id": "blacksmith_street",
-      "title": "<BLACKSMITHS>",
+      "id": "onenode",
+      "title": "",
       "loc_x": 314,
       "loc_y": 624
     },
     {
-      "id": "market_west",
-      "title": "the marketplace (west)",
-      "loc_x": 238,
-      "loc_y": 753
+      "id": "threenode",
+      "title": "",
+      "loc_x": 190,
+      "loc_y": 759
     },
     {
-      "id": "market_east",
-      "title": "the marketplace (east)",
-      "loc_x": 379,
-      "loc_y": 772
-    },
-    {
-      "id": "bookstore_street",
-      "title": "Book Store",
-      "loc_x": 442,
-      "loc_y": 668
-    },
-    {
-      "id": "residential_south",
-      "title": "The Magician's house",
-      "loc_x": 590,
-      "loc_y": 819
-    },
-    {
-      "id": "exit_south",
-      "title": "South Exit",
-      "loc_x": 638,
-      "loc_y": 978
-    },
-    {
-      "id": "intersection",
-      "title": "the intersection",
-      "loc_x": 765,
-      "loc_y": 1100
-    },
-    {
-      "id": "dungeon_one",
-      "title": "<DUNGEON1>",
-      "loc_x": 878,
-      "loc_y": 1153
-    },
-    {
-      "id": "dungeon_two",
-      "title": "<DUNGEON2>",
-      "loc_x": 672,
-      "loc_y": 1182
+      "id": "farnode",
+      "title": "",
+      "loc_x": 310,
+      "loc_y": 830
     }
   ],
   "node_links": [
     {
-      "from": "spawnlake",
-      "to": "spawnlake_shore"
+      "from": "spawnpoint",
+      "to": "threenode",
+      "handle_goto": "Go to the marketplace (west)",
+      "handle_gobackto": "Return to the marketplace (west)"
     },
     {
-      "from": "spawnlake_shore",
-      "to": "forest_path"
-    },
-    {
-      "from": "forest_path",
-      "to": "spawnlake_shore"
-    },
-    {
-      "from": "forest_path",
-      "to": "north_exit"
-    },
-    {
-      "from": "north_exit",
-      "to": "forest_path"
-    },
-    {
-      "from": "north_exit",
-      "to": "north_residential"
-    },
-    {
-      "from": "north_residential",
-      "to": "north_exit"
-    },
-    {
-      "from": "north_residential",
-      "to": "inn_street"
-    },
-    {
-      "from": "inn_street",
-      "to": "north_residential"
-    },
-    {
-      "from": "inn_street",
-      "to": "inn"
-    },
-    {
-      "from": "inn",
-      "to": "inn_street"
-    },
-    {
-      "from": "market_west",
-      "to": "market_east"
-    },
-    {
-      "from": "market_east",
-      "to": "market_west"
-    },
-    {
-      "from": "residential_south",
-      "to": "exit_south"
-    },
-    {
-      "from": "exit_south",
-      "to": "residential_south"
-    },
-    {
-      "from": "intersection",
-      "to": "dungeon_one"
-    },
-    {
-      "from": "intersection",
-      "to": "dungeon_two"
-    },
-    {
-      "from": "intersection",
-      "to": "exit_south"
-    },
-    {
-      "from": "dungeon_one",
-      "to": "intersection"
-    },
-    {
-      "from": "dungeon_two",
-      "to": "intersection"
-    },
-    {
-      "from": "exit_south",
-      "to": "intersection"
-    },
-    {
-      "from": "inn_street",
-      "to": "inn_street",
-      "handle_goto": "Go to the front of <INN>",
-      "handle_gobackto": "Return to the front of <INN>"
-    },
-    {
-      "from": "inn_street",
-      "to": "plaza",
-      "handle_goto": "Go to Central Plaza",
-      "handle_gobackto": "Return to Central Plaza"
-    },
-    {
-      "from": "plaza",
-      "to": "inn_street",
-      "handle_goto": "Go to the front of <INN>",
-      "handle_gobackto": "Return to the front of <INN>"
-    },
-    {
-      "from": "plaza",
+      "from": "threenode",
       "to": "market_west",
       "handle_goto": "Go to the marketplace (west)",
       "handle_gobackto": "Return to the marketplace (west)"
     },
     {
-      "from": "market_west",
-      "to": "market_west",
-      "handle_goto": "Go to the marketplace (west)",
-      "handle_gobackto": "Return to the marketplace (west)"
-    },
-    {
-      "from": "market_west",
-      "to": "plaza",
+      "from": "threenode",
+      "to": "spawnpoint",
       "handle_goto": "Go to Central Plaza",
       "handle_gobackto": "Return to Central Plaza"
     },
     {
-      "from": "plaza",
-      "to": "clinic",
+      "from": "spawnpoint",
+      "to": "twonode",
       "handle_goto": "Go to the clinic",
       "handle_gobackto": "Return to the clinic"
     },
     {
-      "from": "clinic",
-      "to": "plaza",
+      "from": "twonode",
+      "to": "spawnpoint",
       "handle_goto": "Go to Central Plaza",
       "handle_gobackto": "Return to Central Plaza"
     },
     {
-      "from": "market_east",
-      "to": "residential_south",
-      "handle_goto": "Go to The Magician's house",
-      "handle_gobackto": "Return to The Magician's house"
-    },
-    {
-      "from": "residential_south",
-      "to": "market_east",
-      "handle_goto": "Go to the marketplace (east)",
-      "handle_gobackto": "Return to the marketplace (east)"
-    },
-    {
-      "from": "bookstore_street",
-      "to": "residential_south",
-      "handle_goto": "Go to The Magician's house",
-      "handle_gobackto": "Return to The Magician's house"
-    },
-    {
-      "from": "residential_south",
-      "to": "bookstore_street",
-      "handle_goto": "Go to Book Store",
-      "handle_gobackto": "Return to Book Store"
-    },
-    {
-      "from": "bookstore_street",
-      "to": "market_east",
-      "handle_goto": "Go to the marketplace (east)",
-      "handle_gobackto": "Return to the marketplace (east)"
-    },
-    {
-      "from": "market_east",
-      "to": "bookstore_street",
-      "handle_goto": "Go to Book Store",
-      "handle_gobackto": "Return to Book Store"
-    },
-    {
-      "from": "plaza",
-      "to": "blacksmith_street",
+      "from": "spawnpoint",
+      "to": "onenode",
       "handle_goto": "Go to <BLACKSMITHS>",
       "handle_gobackto": "Return to <BLACKSMITHS>"
     },
     {
-      "from": "blacksmith_street",
-      "to": "plaza",
+      "from": "onenode",
+      "to": "spawnpoint",
       "handle_goto": "Go to Central Plaza",
       "handle_gobackto": "Return to Central Plaza"
     },
     {
-      "from": "market_west",
-      "to": "clinic",
-      "handle_goto": "Go to the clinic",
-      "handle_gobackto": "Return to the clinic"
-    },
-    {
-      "from": "clinic",
-      "to": "market_west",
+      "from": "farnode",
+      "to": "threenode",
       "handle_goto": "Go to the marketplace (west)",
       "handle_gobackto": "Return to the marketplace (west)"
     },
     {
-      "from": "blacksmith_street",
-      "to": "bookstore_street",
-      "handle_goto": "Go to Book Store",
-      "handle_gobackto": "Return to Book Store"
-    },
-    {
-      "from": "bookstore_street",
-      "to": "blacksmith_street",
-      "handle_goto": "Go to <BLACKSMITHS>",
-      "handle_gobackto": "Return to <BLACKSMITHS>"
+      "from": "threenode",
+      "to": "farnode",
+      "handle_goto": "Go to the marketplace (east)",
+      "handle_gobackto": "Return to the marketplace (east)"
     }
   ],
   "text_node_links": [
