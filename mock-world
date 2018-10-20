@@ -1,6 +1,6 @@
 {
   "start": {
-    "node": "onenode",
+    "node": "spawnlake",
     "on_start": "I woke up. There is a veery veery loong, huge, giant, humongous, incomprehensibly ginormous list of things I did.\nBut that's not important now.\n\n\n-\n\n"
   },
   "global": {
@@ -9,7 +9,7 @@
   "aliases": [
     {
       "key": "VILLAGE",
-      "alias": "Rok",
+      "alias": "Áppe",
       "type": "location"
     },
     {
@@ -45,84 +45,388 @@
   ],
   "nodes": [
     {
-      "id": "center",
-      "title": "Le Hub",
-      "loc_x": 156,
-      "loc_y": 688
+      "id": "spawnlake",
+      "title": "inside the Lake of Birth",
+      "loc_x": 123,
+      "loc_y": 21
     },
     {
-      "id": "twonode",
-      "title": "",
+      "id": "spawnlake_shore",
+      "title": "the Lake of Birth",
+      "loc_x": 124,
+      "loc_y": 66
+    },
+    {
+      "id": "forest_path",
+      "title": "the thick forest of doom",
+      "loc_x": 257,
+      "loc_y": 129
+    },
+    {
+      "id": "north_exit",
+      "title": "the north end of the village",
+      "loc_x": 215,
+      "loc_y": 235
+    },
+    {
+      "id": "north_residential",
+      "title": "village houses (north)",
+      "loc_x": 277,
+      "loc_y": 377
+    },
+    {
+      "id": "inn_street",
+      "title": "the front of <INN>",
+      "loc_x": 196,
+      "loc_y": 482
+    },
+    {
+      "id": "inn",
+      "title": "<INN>",
+      "loc_x": 115,
+      "loc_y": 435
+    },
+    {
+      "id": "plaza",
+      "title": "Central Plaza",
+      "loc_x": 173,
+      "loc_y": 567
+    },
+    {
+      "id": "clinic",
+      "title": "the clinic",
+      "loc_x": 237,
+      "loc_y": 615
+    },
+    {
+      "id": "blacksmith_street",
+      "title": "<BLACKSMITHS>",
+      "loc_x": 20,
+      "loc_y": 565
+    },
+    {
+      "id": "market_west",
+      "title": "the marketplace (west)",
       "loc_x": 88,
-      "loc_y": 637
+      "loc_y": 653
     },
     {
-      "id": "onenode",
-      "title": "",
-      "loc_x": 314,
-      "loc_y": 624
+      "id": "market_east",
+      "title": "the marketplace (east)",
+      "loc_x": 214,
+      "loc_y": 678
     },
     {
-      "id": "threenode",
-      "title": "",
-      "loc_x": 190,
-      "loc_y": 759
+      "id": "bookstore_street",
+      "title": "Book Store",
+      "loc_x": 304,
+      "loc_y": 726
     },
     {
-      "id": "farnode",
-      "title": "",
-      "loc_x": 310,
-      "loc_y": 830
+      "id": "residential_south",
+      "title": "The Magician's house",
+      "loc_x": 412,
+      "loc_y": 814
+    },
+    {
+      "id": "exit_south",
+      "title": "South Exit",
+      "loc_x": 520,
+      "loc_y": 866
+    },
+    {
+      "id": "intersection",
+      "title": "the intersection",
+      "loc_x": 566,
+      "loc_y": 1090
+    },
+    {
+      "id": "dungeon_one",
+      "title": "<DUNGEON1>",
+      "loc_x": 668,
+      "loc_y": 1179
+    },
+    {
+      "id": "dungeon_two",
+      "title": "<DUNGEON2>",
+      "loc_x": 433,
+      "loc_y": 1205
+    },
+    {
+      "id": "inn-myroom",
+      "title": "node_18",
+      "loc_x": 107,
+      "loc_y": 389
+    },
+    {
+      "id": "trainer",
+      "title": "node_27",
+      "loc_x": 338,
+      "loc_y": 357
+    },
+    {
+      "id": "bks_armor",
+      "title": "node_28",
+      "loc_x": -23,
+      "loc_y": 589
+    },
+    {
+      "id": "bks_weapons",
+      "title": "node_29",
+      "loc_x": -19,
+      "loc_y": 529
+    },
+    {
+      "id": "bookstore",
+      "title": "node_30",
+      "loc_x": 333,
+      "loc_y": 655
+    },
+    {
+      "id": "maho",
+      "title": "node_31",
+      "loc_x": 414,
+      "loc_y": 750
+    },
+    {
+      "id": "bear_den",
+      "title": "node_24",
+      "loc_x": 362,
+      "loc_y": 97
     }
   ],
   "node_links": [
     {
-      "from": "center",
-      "to": "onenode",
-      "handle_goto": "Go to the marketplace (west)",
-      "handle_gobackto": "Return to the marketplace (west)"
+      "from": "spawnlake",
+      "to": "spawnlake_shore"
     },
     {
-      "from": "center",
-      "to": "twonode",
-      "handle_goto": "Go to the marketplace (west)",
-      "handle_gobackto": "Return to the marketplace (west)"
+      "from": "spawnlake_shore",
+      "to": "forest_path"
     },
     {
-      "from": "center",
-      "to": "threenode",
-      "handle_goto": "Go to Central Plaza",
-      "handle_gobackto": "Return to Central Plaza"
+      "from": "forest_path",
+      "to": "spawnlake_shore"
     },
     {
-      "from": "threenode",
-      "to": "farnode",
-      "handle_goto": "Go to the clinic",
-      "handle_gobackto": "Return to the clinic"
+      "from": "forest_path",
+      "to": "north_exit"
     },
     {
-      "from": "farnode",
-      "to": "threenode",
-      "handle_goto": "Go to Central Plaza",
-      "handle_gobackto": "Return to Central Plaza"
+      "from": "north_exit",
+      "to": "forest_path"
     },
     {
-      "from": "threenode",
-      "to": "center",
+      "from": "north_exit",
+      "to": "north_residential"
+    },
+    {
+      "from": "north_residential",
+      "to": "north_exit"
+    },
+    {
+      "from": "north_residential",
+      "to": "inn_street"
+    },
+    {
+      "from": "inn_street",
+      "to": "north_residential"
+    },
+    {
+      "from": "inn_street",
+      "to": "inn"
+    },
+    {
+      "from": "inn_street",
+      "to": "plaza"
+    },
+    {
+      "from": "inn",
+      "to": "inn_street"
+    },
+    {
+      "from": "plaza",
+      "to": "inn_street"
+    },
+    {
+      "from": "plaza",
+      "to": "clinic"
+    },
+    {
+      "from": "plaza",
+      "to": "blacksmith_street"
+    },
+    {
+      "from": "plaza",
+      "to": "market_west"
+    },
+    {
+      "from": "clinic",
+      "to": "market_east"
+    },
+    {
+      "from": "clinic",
+      "to": "plaza"
+    },
+    {
+      "from": "blacksmith_street",
+      "to": "plaza"
+    },
+    {
+      "from": "blacksmith_street",
+      "to": "market_west"
+    },
+    {
+      "from": "market_west",
+      "to": "plaza"
+    },
+    {
+      "from": "market_west",
+      "to": "blacksmith_street"
+    },
+    {
+      "from": "market_west",
+      "to": "market_east"
+    },
+    {
+      "from": "market_east",
+      "to": "market_west"
+    },
+    {
+      "from": "market_east",
+      "to": "clinic"
+    },
+    {
+      "from": "market_east",
+      "to": "bookstore_street"
+    },
+    {
+      "from": "bookstore_street",
+      "to": "market_east"
+    },
+    {
+      "from": "bookstore_street",
+      "to": "residential_south"
+    },
+    {
+      "from": "residential_south",
+      "to": "bookstore_street"
+    },
+    {
+      "from": "residential_south",
+      "to": "exit_south"
+    },
+    {
+      "from": "exit_south",
+      "to": "residential_south"
+    },
+    {
+      "from": "intersection",
+      "to": "dungeon_one"
+    },
+    {
+      "from": "intersection",
+      "to": "dungeon_two"
+    },
+    {
+      "from": "intersection",
+      "to": "exit_south"
+    },
+    {
+      "from": "dungeon_one",
+      "to": "intersection"
+    },
+    {
+      "from": "dungeon_two",
+      "to": "intersection"
+    },
+    {
+      "from": "exit_south",
+      "to": "intersection"
+    },
+    {
+      "from": "inn",
+      "to": "inn-myroom",
+      "handle_goto": "Go to node_18",
+      "handle_gobackto": "Return to node_18"
+    },
+    {
+      "from": "inn-myroom",
+      "to": "inn",
+      "handle_goto": "Go to <INN>",
+      "handle_gobackto": "Return to <INN>"
+    },
+    {
+      "from": "north_residential",
+      "to": "trainer",
+      "handle_goto": "Go to node_27",
+      "handle_gobackto": "Return to node_27"
+    },
+    {
+      "from": "trainer",
+      "to": "north_residential",
+      "handle_goto": "Go to village houses (north)",
+      "handle_gobackto": "Return to village houses (north)"
+    },
+    {
+      "from": "blacksmith_street",
+      "to": "bks_armor",
+      "handle_goto": "Go to node_28",
+      "handle_gobackto": "Return to node_28"
+    },
+    {
+      "from": "bks_armor",
+      "to": "blacksmith_street",
       "handle_goto": "Go to <BLACKSMITHS>",
       "handle_gobackto": "Return to <BLACKSMITHS>"
     },
     {
-      "from": "twonode",
-      "to": "center",
-      "handle_goto": "Go to Central Plaza",
-      "handle_gobackto": "Return to Central Plaza"
+      "from": "blacksmith_street",
+      "to": "bks_weapons",
+      "handle_goto": "Go to node_29",
+      "handle_gobackto": "Return to node_29"
     },
     {
-      "from": "onenode",
-      "to": "center",
-      "handle_goto": "Go to the marketplace (west)",
-      "handle_gobackto": "Return to the marketplace (west)"
+      "from": "bks_weapons",
+      "to": "blacksmith_street",
+      "handle_goto": "Go to <BLACKSMITHS>",
+      "handle_gobackto": "Return to <BLACKSMITHS>"
+    },
+    {
+      "from": "bookstore_street",
+      "to": "bookstore",
+      "handle_goto": "Go to node_30",
+      "handle_gobackto": "Return to node_30"
+    },
+    {
+      "from": "bookstore",
+      "to": "bookstore_street",
+      "handle_goto": "Go to Book Store",
+      "handle_gobackto": "Return to Book Store"
+    },
+    {
+      "from": "residential_south",
+      "to": "maho",
+      "handle_goto": "Go to node_31",
+      "handle_gobackto": "Return to node_31"
+    },
+    {
+      "from": "maho",
+      "to": "residential_south",
+      "handle_goto": "Go to The Magician's house",
+      "handle_gobackto": "Return to The Magician's house"
+    },
+    {
+      "from": "forest_path",
+      "to": "bear_den",
+      "handle_goto": "Go to node_24",
+      "handle_gobackto": "Return to node_24"
+    },
+    {
+      "from": "bear_den",
+      "to": "forest_path",
+      "handle_goto": "Go to the thick forest of doom",
+      "handle_gobackto": "Return to the thick forest of doom"
     }
   ],
   "text_node_links": [
