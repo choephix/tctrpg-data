@@ -53,26 +53,26 @@
     {
       "id": "twonode",
       "title": "",
-      "loc_x": 88,
-      "loc_y": 637
+      "loc_x": 73,
+      "loc_y": 654
     },
     {
       "id": "onenode",
       "title": "",
-      "loc_x": 314,
-      "loc_y": 624
+      "loc_x": 214,
+      "loc_y": 625
     },
     {
       "id": "threenode",
       "title": "",
-      "loc_x": 190,
-      "loc_y": 759
+      "loc_x": 186,
+      "loc_y": 770
     },
     {
       "id": "farnode",
       "title": "",
-      "loc_x": 310,
-      "loc_y": 830
+      "loc_x": 267,
+      "loc_y": 787
     }
   ],
   "node_links": [
