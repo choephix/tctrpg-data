@@ -367,7 +367,12 @@
   },
   "journal": {
     "aliases": [],
-    "snippets": [],
+    "snippets": [
+      {
+        "key": "village_zero",
+        "text": "Áppe"
+      }
+    ],
     "defaults": [],
     "actions": {
       "goto": []
