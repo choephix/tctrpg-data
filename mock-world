@@ -346,87 +346,59 @@
     },
     {
       "from": "inn",
-      "to": "inn-myroom",
-      "handle_goto": "Go to node_18",
-      "handle_gobackto": "Return to node_18"
+      "to": "inn-myroom"
     },
     {
       "from": "inn-myroom",
-      "to": "inn",
-      "handle_goto": "Go to <INN>",
-      "handle_gobackto": "Return to <INN>"
+      "to": "inn"
     },
     {
       "from": "north_residential",
-      "to": "trainer",
-      "handle_goto": "Go to node_27",
-      "handle_gobackto": "Return to node_27"
+      "to": "trainer"
     },
     {
       "from": "trainer",
-      "to": "north_residential",
-      "handle_goto": "Go to village houses (north)",
-      "handle_gobackto": "Return to village houses (north)"
+      "to": "north_residential"
     },
     {
       "from": "blacksmith_street",
-      "to": "bks_armor",
-      "handle_goto": "Go to node_28",
-      "handle_gobackto": "Return to node_28"
+      "to": "bks_armor"
     },
     {
       "from": "bks_armor",
-      "to": "blacksmith_street",
-      "handle_goto": "Go to <BLACKSMITHS>",
-      "handle_gobackto": "Return to <BLACKSMITHS>"
+      "to": "blacksmith_street"
     },
     {
       "from": "blacksmith_street",
-      "to": "bks_weapons",
-      "handle_goto": "Go to node_29",
-      "handle_gobackto": "Return to node_29"
+      "to": "bks_weapons"
     },
     {
       "from": "bks_weapons",
-      "to": "blacksmith_street",
-      "handle_goto": "Go to <BLACKSMITHS>",
-      "handle_gobackto": "Return to <BLACKSMITHS>"
+      "to": "blacksmith_street"
     },
     {
       "from": "bookstore_street",
-      "to": "bookstore",
-      "handle_goto": "Go to node_30",
-      "handle_gobackto": "Return to node_30"
+      "to": "bookstore"
     },
     {
       "from": "bookstore",
-      "to": "bookstore_street",
-      "handle_goto": "Go to Book Store",
-      "handle_gobackto": "Return to Book Store"
+      "to": "bookstore_street"
     },
     {
       "from": "residential_south",
-      "to": "maho",
-      "handle_goto": "Go to node_31",
-      "handle_gobackto": "Return to node_31"
+      "to": "maho"
     },
     {
       "from": "maho",
-      "to": "residential_south",
-      "handle_goto": "Go to The Magician's house",
-      "handle_gobackto": "Return to The Magician's house"
+      "to": "residential_south"
     },
     {
       "from": "forest_path",
-      "to": "bear_den",
-      "handle_goto": "Go to node_24",
-      "handle_gobackto": "Return to node_24"
+      "to": "bear_den"
     },
     {
       "from": "bear_den",
-      "to": "forest_path",
-      "handle_goto": "Go to the thick forest of doom",
-      "handle_gobackto": "Return to the thick forest of doom"
+      "to": "forest_path"
     }
   ],
   "text_node_links": [
