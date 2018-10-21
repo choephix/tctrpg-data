@@ -3,7 +3,6 @@
     "nodes": [
       {
         "id": "spawnpoint",
-        "title": "The Spawn Point",
         "loc_x": 400,
         "loc_y": 800
       }
