@@ -1,720 +1,87 @@
 {
-  "start": {
-    "node": "spawnlake",
-    "on_start": "I woke up. There is a veery veery loong, huge, giant, humongous, incomprehensibly ginormous list of things I did.\nBut that's not important now.\n\n\n-\n\n"
+  "world": {
+    "nodes": [
+      {
+        "id": "center",
+        "title": "Le Hub",
+        "loc_x": 156,
+        "loc_y": 688
+      },
+      {
+        "id": "twonode",
+        "title": "",
+        "loc_x": 73,
+        "loc_y": 654
+      },
+      {
+        "id": "onenode",
+        "title": "",
+        "loc_x": 214,
+        "loc_y": 625
+      },
+      {
+        "id": "threenode",
+        "title": "",
+        "loc_x": 186,
+        "loc_y": 770
+      },
+      {
+        "id": "farnode",
+        "title": "",
+        "loc_x": 267,
+        "loc_y": 787
+      }
+    ],
+    "links": [
+      {
+        "from": "center",
+        "to": "onenode"
+      },
+      {
+        "from": "center",
+        "to": "twonode"
+      },
+      {
+        "from": "center",
+        "to": "threenode"
+      },
+      {
+        "from": "threenode",
+        "to": "farnode"
+      },
+      {
+        "from": "farnode",
+        "to": "threenode"
+      },
+      {
+        "from": "threenode",
+        "to": "center"
+      },
+      {
+        "from": "twonode",
+        "to": "center"
+      },
+      {
+        "from": "onenode",
+        "to": "center"
+      }
+    ],
+    "subnotes": [],
+    "entities": {
+      "areas": [],
+      "characters": [],
+      "items": []
+    }
   },
-  "global": {
-    "time": 1539388800000
+  "journal": {
+    "aliases": [],
+    "snippets": [],
+    "defaults": [],
+    "actions": {
+      "goto": []
+    }
   },
-  "aliases": [
-    {
-      "key": "VILLAGE",
-      "alias": "le pile o' shite",
-      "type": "location"
-    },
-    {
-      "key": "INN",
-      "alias": "Börris' Inn & Tavern",
-      "type": "location"
-    },
-    {
-      "key": "CLINIC",
-      "alias": "the clinic",
-      "type": "location"
-    },
-    {
-      "key": "BLACKSMITHS",
-      "alias": "Kraig and Sons' Blades & Armor",
-      "type": "location"
-    },
-    {
-      "key": "PLAZA",
-      "alias": "the village's small plaza",
-      "type": "location"
-    },
-    {
-      "key": "DUNGEON1",
-      "alias": "the very crepy cave",
-      "type": "location"
-    },
-    {
-      "key": "DUNGEON2",
-      "alias": "the bandit camp",
-      "type": "location"
-    }
-  ],
-  "nodes": [
-    {
-      "id": "center",
-      "title": "Le Hub",
-      "loc_x": 156,
-      "loc_y": 688
-    },
-    {
-      "id": "twonode",
-      "title": "",
-      "loc_x": 73,
-      "loc_y": 654
-    },
-    {
-      "id": "onenode",
-      "title": "",
-      "loc_x": 214,
-      "loc_y": 625
-    },
-    {
-      "id": "threenode",
-      "title": "",
-      "loc_x": 186,
-      "loc_y": 770
-    },
-    {
-      "id": "farnode",
-      "title": "",
-      "loc_x": 267,
-      "loc_y": 787
-    }
-  ],
-  "node_links": [
-    {
-      "from": "center",
-      "to": "onenode"
-    },
-    {
-      "from": "center",
-      "to": "twonode"
-    },
-    {
-      "from": "center",
-      "to": "threenode"
-    },
-    {
-      "from": "threenode",
-      "to": "farnode"
-    },
-    {
-      "from": "farnode",
-      "to": "threenode"
-    },
-    {
-      "from": "threenode",
-      "to": "center"
-    },
-    {
-      "from": "twonode",
-      "to": "center"
-    },
-    {
-      "from": "onenode",
-      "to": "center"
-    }
-  ],
-  "text_node_links": [
-    {
-      "from": "spawnlake",
-      "to": "spawnlake_shore",
-      "flags": [],
-      "handle": "Go to spawnlake_shore",
-      "text": "I went to spawnlake_shore"
-    },
-    {
-      "from": "spawnlake",
-      "to": "spawnlake_shore",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to spawnlake_shore",
-      "text": "I returned to spawnlake_shore"
-    },
-    {
-      "from": "spawnlake_shore",
-      "to": "forest_path",
-      "flags": [],
-      "handle": "Go to forest_path",
-      "text": "I went to forest_path"
-    },
-    {
-      "from": "spawnlake_shore",
-      "to": "forest_path",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to forest_path",
-      "text": "I returned to forest_path"
-    },
-    {
-      "from": "forest_path",
-      "to": "spawnlake_shore",
-      "flags": [],
-      "handle": "Go to spawnlake_shore",
-      "text": "I went to spawnlake_shore"
-    },
-    {
-      "from": "forest_path",
-      "to": "spawnlake_shore",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to spawnlake_shore",
-      "text": "I returned to spawnlake_shore"
-    },
-    {
-      "from": "forest_path",
-      "to": "north_exit",
-      "flags": [],
-      "handle": "Go to north_exit",
-      "text": "I went to north_exit"
-    },
-    {
-      "from": "forest_path",
-      "to": "north_exit",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to north_exit",
-      "text": "I returned to north_exit"
-    },
-    {
-      "from": "north_exit",
-      "to": "forest_path",
-      "flags": [],
-      "handle": "Go to forest_path",
-      "text": "I went to forest_path"
-    },
-    {
-      "from": "north_exit",
-      "to": "forest_path",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to forest_path",
-      "text": "I returned to forest_path"
-    },
-    {
-      "from": "north_exit",
-      "to": "north_residential",
-      "flags": [],
-      "handle": "Go to north_residential",
-      "text": "I went to north_residential"
-    },
-    {
-      "from": "north_exit",
-      "to": "north_residential",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to north_residential",
-      "text": "I returned to north_residential"
-    },
-    {
-      "from": "north_residential",
-      "to": "north_exit",
-      "flags": [],
-      "handle": "Go to north_exit",
-      "text": "I went to north_exit"
-    },
-    {
-      "from": "north_residential",
-      "to": "north_exit",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to north_exit",
-      "text": "I returned to north_exit"
-    },
-    {
-      "from": "north_residential",
-      "to": "inn_street",
-      "flags": [],
-      "handle": "Go to inn_street",
-      "text": "I went to inn_street"
-    },
-    {
-      "from": "north_residential",
-      "to": "inn_street",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to inn_street",
-      "text": "I returned to inn_street"
-    },
-    {
-      "from": "inn_street",
-      "to": "north_residential",
-      "flags": [],
-      "handle": "Go to north_residential",
-      "text": "I went to north_residential"
-    },
-    {
-      "from": "inn_street",
-      "to": "north_residential",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to north_residential",
-      "text": "I returned to north_residential"
-    },
-    {
-      "from": "inn_street",
-      "to": "inn",
-      "flags": [],
-      "handle": "Go to inn",
-      "text": "I went to inn"
-    },
-    {
-      "from": "inn_street",
-      "to": "inn",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to inn",
-      "text": "I returned to inn"
-    },
-    {
-      "from": "inn_street",
-      "to": "plaza",
-      "flags": [],
-      "handle": "Go to plaza",
-      "text": "I went to plaza"
-    },
-    {
-      "from": "inn_street",
-      "to": "plaza",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to plaza",
-      "text": "I returned to plaza"
-    },
-    {
-      "from": "inn",
-      "to": "inn_street",
-      "flags": [],
-      "handle": "Go to inn_street",
-      "text": "I went to inn_street"
-    },
-    {
-      "from": "inn",
-      "to": "inn_street",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to inn_street",
-      "text": "I returned to inn_street"
-    },
-    {
-      "from": "plaza",
-      "to": "inn_street",
-      "flags": [],
-      "handle": "Go to inn_street",
-      "text": "I went to inn_street"
-    },
-    {
-      "from": "plaza",
-      "to": "inn_street",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to inn_street",
-      "text": "I returned to inn_street"
-    },
-    {
-      "from": "plaza",
-      "to": "clinic",
-      "flags": [],
-      "handle": "Go to clinic",
-      "text": "I went to clinic"
-    },
-    {
-      "from": "plaza",
-      "to": "clinic",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to clinic",
-      "text": "I returned to clinic"
-    },
-    {
-      "from": "plaza",
-      "to": "blacksmith_street",
-      "flags": [],
-      "handle": "Go to blacksmith_street",
-      "text": "I went to blacksmith_street"
-    },
-    {
-      "from": "plaza",
-      "to": "blacksmith_street",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to blacksmith_street",
-      "text": "I returned to blacksmith_street"
-    },
-    {
-      "from": "plaza",
-      "to": "market_west",
-      "flags": [],
-      "handle": "Go to market_west",
-      "text": "I went to market_west"
-    },
-    {
-      "from": "plaza",
-      "to": "market_west",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to market_west",
-      "text": "I returned to market_west"
-    },
-    {
-      "from": "clinic",
-      "to": "market_east",
-      "flags": [],
-      "handle": "Go to market_east",
-      "text": "I went to market_east"
-    },
-    {
-      "from": "clinic",
-      "to": "market_east",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to market_east",
-      "text": "I returned to market_east"
-    },
-    {
-      "from": "clinic",
-      "to": "plaza",
-      "flags": [],
-      "handle": "Go to plaza",
-      "text": "I went to plaza"
-    },
-    {
-      "from": "clinic",
-      "to": "plaza",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to plaza",
-      "text": "I returned to plaza"
-    },
-    {
-      "from": "blacksmith_street",
-      "to": "plaza",
-      "flags": [],
-      "handle": "Go to plaza",
-      "text": "I went to plaza"
-    },
-    {
-      "from": "blacksmith_street",
-      "to": "plaza",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to plaza",
-      "text": "I returned to plaza"
-    },
-    {
-      "from": "blacksmith_street",
-      "to": "market_west",
-      "flags": [],
-      "handle": "Go to market_west",
-      "text": "I went to market_west"
-    },
-    {
-      "from": "blacksmith_street",
-      "to": "market_west",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to market_west",
-      "text": "I returned to market_west"
-    },
-    {
-      "from": "market_west",
-      "to": "plaza",
-      "flags": [],
-      "handle": "Go to plaza",
-      "text": "I went to plaza"
-    },
-    {
-      "from": "market_west",
-      "to": "plaza",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to plaza",
-      "text": "I returned to plaza"
-    },
-    {
-      "from": "market_west",
-      "to": "blacksmith_street",
-      "flags": [],
-      "handle": "Go to blacksmith_street",
-      "text": "I went to blacksmith_street"
-    },
-    {
-      "from": "market_west",
-      "to": "blacksmith_street",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to blacksmith_street",
-      "text": "I returned to blacksmith_street"
-    },
-    {
-      "from": "market_west",
-      "to": "market_east",
-      "flags": [],
-      "handle": "Go to market_east",
-      "text": "I went to market_east"
-    },
-    {
-      "from": "market_west",
-      "to": "market_east",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to market_east",
-      "text": "I returned to market_east"
-    },
-    {
-      "from": "market_east",
-      "to": "market_west",
-      "flags": [],
-      "handle": "Go to market_west",
-      "text": "I went to market_west"
-    },
-    {
-      "from": "market_east",
-      "to": "market_west",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to market_west",
-      "text": "I returned to market_west"
-    },
-    {
-      "from": "market_east",
-      "to": "clinic",
-      "flags": [],
-      "handle": "Go to clinic",
-      "text": "I went to clinic"
-    },
-    {
-      "from": "market_east",
-      "to": "clinic",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to clinic",
-      "text": "I returned to clinic"
-    },
-    {
-      "from": "market_east",
-      "to": "bookstore_street",
-      "flags": [],
-      "handle": "Go to bookstore_street",
-      "text": "I went to bookstore_street"
-    },
-    {
-      "from": "market_east",
-      "to": "bookstore_street",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to bookstore_street",
-      "text": "I returned to bookstore_street"
-    },
-    {
-      "from": "bookstore_street",
-      "to": "market_east",
-      "flags": [],
-      "handle": "Go to market_east",
-      "text": "I went to market_east"
-    },
-    {
-      "from": "bookstore_street",
-      "to": "market_east",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to market_east",
-      "text": "I returned to market_east"
-    },
-    {
-      "from": "bookstore_street",
-      "to": "residential_south",
-      "flags": [],
-      "handle": "Go to residential_south",
-      "text": "I went to residential_south"
-    },
-    {
-      "from": "bookstore_street",
-      "to": "residential_south",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to residential_south",
-      "text": "I returned to residential_south"
-    },
-    {
-      "from": "residential_south",
-      "to": "bookstore_street",
-      "flags": [],
-      "handle": "Go to bookstore_street",
-      "text": "I went to bookstore_street"
-    },
-    {
-      "from": "residential_south",
-      "to": "bookstore_street",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to bookstore_street",
-      "text": "I returned to bookstore_street"
-    },
-    {
-      "from": "residential_south",
-      "to": "exit_south",
-      "flags": [],
-      "handle": "Go to exit_south",
-      "text": "I went to exit_south"
-    },
-    {
-      "from": "residential_south",
-      "to": "exit_south",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to exit_south",
-      "text": "I returned to exit_south"
-    },
-    {
-      "from": "exit_south",
-      "to": "residential_south",
-      "flags": [],
-      "handle": "Go to residential_south",
-      "text": "I went to residential_south"
-    },
-    {
-      "from": "exit_south",
-      "to": "residential_south",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to residential_south",
-      "text": "I returned to residential_south"
-    },
-    {
-      "from": "intersection",
-      "to": "dungeon_one",
-      "flags": [],
-      "handle": "Go to dungeon_one",
-      "text": "I went to dungeon_one"
-    },
-    {
-      "from": "intersection",
-      "to": "dungeon_one",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to dungeon_one",
-      "text": "I returned to dungeon_one"
-    },
-    {
-      "from": "intersection",
-      "to": "dungeon_two",
-      "flags": [],
-      "handle": "Go to dungeon_two",
-      "text": "I went to dungeon_two"
-    },
-    {
-      "from": "intersection",
-      "to": "dungeon_two",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to dungeon_two",
-      "text": "I returned to dungeon_two"
-    },
-    {
-      "from": "intersection",
-      "to": "exit_south",
-      "flags": [],
-      "handle": "Go to exit_south",
-      "text": "I went to exit_south"
-    },
-    {
-      "from": "intersection",
-      "to": "exit_south",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to exit_south",
-      "text": "I returned to exit_south"
-    },
-    {
-      "from": "dungeon_one",
-      "to": "intersection",
-      "flags": [],
-      "handle": "Go to intersection",
-      "text": "I went to intersection"
-    },
-    {
-      "from": "dungeon_one",
-      "to": "intersection",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to intersection",
-      "text": "I returned to intersection"
-    },
-    {
-      "from": "dungeon_two",
-      "to": "intersection",
-      "flags": [],
-      "handle": "Go to intersection",
-      "text": "I went to intersection"
-    },
-    {
-      "from": "dungeon_two",
-      "to": "intersection",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to intersection",
-      "text": "I returned to intersection"
-    },
-    {
-      "from": "exit_south",
-      "to": "intersection",
-      "flags": [],
-      "handle": "Go to intersection",
-      "text": "I went to intersection"
-    },
-    {
-      "from": "exit_south",
-      "to": "intersection",
-      "flags": [
-        "back"
-      ],
-      "handle": "Go back to intersection",
-      "text": "I returned to intersection"
-    }
-  ],
-  "text": {
-    "default_feedback": {
-      "go_to": "I went to $$.",
-      "look_around": "I looked around. I was at $$.",
-      "look_up": "I looked up at the sky. It was almost noon."
-    },
-    "default_handle": {
-      "go_to": "Go to $$",
-      "talk_to": "Talk [to|with] $$",
-      "look_around": "Look around",
-      "_hidden": "...",
-      "look_up": "Look up"
-    }
+  "ini": {
+    "spawn_node": "spawnlake"
   }
 }
