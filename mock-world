@@ -78,51 +78,35 @@
   "node_links": [
     {
       "from": "center",
-      "to": "onenode",
-      "handle_goto": "Go to the marketplace (west)",
-      "handle_gobackto": "Return to the marketplace (west)"
+      "to": "onenode"
     },
     {
       "from": "center",
-      "to": "twonode",
-      "handle_goto": "Go to the marketplace (west)",
-      "handle_gobackto": "Return to the marketplace (west)"
+      "to": "twonode"
     },
     {
       "from": "center",
-      "to": "threenode",
-      "handle_goto": "Go to Central Plaza",
-      "handle_gobackto": "Return to Central Plaza"
+      "to": "threenode"
     },
     {
       "from": "threenode",
-      "to": "farnode",
-      "handle_goto": "Go to the clinic",
-      "handle_gobackto": "Return to the clinic"
+      "to": "farnode"
     },
     {
       "from": "farnode",
-      "to": "threenode",
-      "handle_goto": "Go to Central Plaza",
-      "handle_gobackto": "Return to Central Plaza"
+      "to": "threenode"
     },
     {
       "from": "threenode",
-      "to": "center",
-      "handle_goto": "Go to <BLACKSMITHS>",
-      "handle_gobackto": "Return to <BLACKSMITHS>"
+      "to": "center"
     },
     {
       "from": "twonode",
-      "to": "center",
-      "handle_goto": "Go to Central Plaza",
-      "handle_gobackto": "Return to Central Plaza"
+      "to": "center"
     },
     {
       "from": "onenode",
-      "to": "center",
-      "handle_goto": "Go to the marketplace (west)",
-      "handle_gobackto": "Return to the marketplace (west)"
+      "to": "center"
     }
   ],
   "text_node_links": [
