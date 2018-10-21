@@ -3,151 +3,126 @@
     "nodes": [
       {
         "id": "spawnlake",
-        "title": "inside the Lake of Birth",
         "loc_x": 123,
         "loc_y": 21
       },
       {
         "id": "spawnlake_shore",
-        "title": "the Lake of Birth",
         "loc_x": 124,
         "loc_y": 66
       },
       {
         "id": "forest_path",
-        "title": "the thick forest of doom",
         "loc_x": 257,
         "loc_y": 129
       },
       {
         "id": "north_exit",
-        "title": "the north end of the village",
         "loc_x": 215,
         "loc_y": 235
       },
       {
         "id": "north_residential",
-        "title": "village houses (north)",
         "loc_x": 277,
         "loc_y": 377
       },
       {
         "id": "inn_street",
-        "title": "the front of <INN>",
         "loc_x": 196,
         "loc_y": 482
       },
       {
         "id": "inn",
-        "title": "<INN>",
         "loc_x": 115,
         "loc_y": 435
       },
       {
         "id": "plaza",
-        "title": "Central Plaza",
         "loc_x": 173,
         "loc_y": 567
       },
       {
         "id": "clinic",
-        "title": "the clinic",
         "loc_x": 237,
         "loc_y": 615
       },
       {
         "id": "blacksmith_street",
-        "title": "<BLACKSMITHS>",
         "loc_x": 20,
         "loc_y": 565
       },
       {
         "id": "market_west",
-        "title": "the marketplace (west)",
         "loc_x": 88,
         "loc_y": 653
       },
       {
         "id": "market_east",
-        "title": "the marketplace (east)",
         "loc_x": 214,
         "loc_y": 678
       },
       {
         "id": "bookstore_street",
-        "title": "Book Store",
         "loc_x": 304,
         "loc_y": 726
       },
       {
         "id": "residential_south",
-        "title": "The Magician's house",
         "loc_x": 412,
         "loc_y": 814
       },
       {
         "id": "exit_south",
-        "title": "South Exit",
         "loc_x": 520,
         "loc_y": 866
       },
       {
         "id": "intersection",
-        "title": "the intersection",
         "loc_x": 566,
         "loc_y": 1090
       },
       {
         "id": "dungeon_one",
-        "title": "<DUNGEON1>",
         "loc_x": 668,
         "loc_y": 1179
       },
       {
         "id": "dungeon_two",
-        "title": "<DUNGEON2>",
         "loc_x": 433,
         "loc_y": 1205
       },
       {
         "id": "inn-myroom",
-        "title": "node_18",
         "loc_x": 107,
         "loc_y": 389
       },
       {
         "id": "trainer",
-        "title": "node_27",
         "loc_x": 338,
         "loc_y": 357
       },
       {
         "id": "bks_armor",
-        "title": "node_28",
         "loc_x": -23,
         "loc_y": 589
       },
       {
         "id": "bks_weapons",
-        "title": "node_29",
         "loc_x": -19,
         "loc_y": 529
       },
       {
         "id": "bookstore",
-        "title": "node_30",
         "loc_x": 333,
         "loc_y": 655
       },
       {
         "id": "maho",
-        "title": "node_31",
         "loc_x": 414,
         "loc_y": 750
       },
       {
         "id": "bear_den",
-        "title": "node_24",
         "loc_x": 362,
         "loc_y": 97
       }
