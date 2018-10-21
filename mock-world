@@ -3,109 +3,91 @@
     "nodes": [
       {
         "id": "spawnlake",
-        "title": "inside the Lake of Birth",
         "loc_x": 123,
         "loc_y": 21
       },
       {
         "id": "spawnlake_shore",
-        "title": "the Lake of Birth",
         "loc_x": 148,
         "loc_y": 70
       },
       {
         "id": "forest_path",
-        "title": "the thick forest of doom",
         "loc_x": 204,
         "loc_y": 125
       },
       {
         "id": "north_exit",
-        "title": "the north end of the village",
         "loc_x": 219,
         "loc_y": 237
       },
       {
         "id": "north_residential",
-        "title": "village houses (north)",
         "loc_x": 224,
         "loc_y": 344
       },
       {
         "id": "inn_street",
-        "title": "the front of <INN>",
         "loc_x": 181,
         "loc_y": 469
       },
       {
         "id": "inn",
-        "title": "<INN>",
         "loc_x": 115,
         "loc_y": 435
       },
       {
         "id": "plaza",
-        "title": "Central Plaza",
         "loc_x": 149,
         "loc_y": 551
       },
       {
         "id": "clinic",
-        "title": "the clinic",
         "loc_x": 170,
         "loc_y": 599
       },
       {
         "id": "blacksmith_street",
-        "title": "<BLACKSMITHS>",
         "loc_x": 20,
         "loc_y": 565
       },
       {
         "id": "market_west",
-        "title": "the marketplace (west)",
         "loc_x": 88,
         "loc_y": 653
       },
       {
         "id": "market_east",
-        "title": "the marketplace (east)",
         "loc_x": 168,
         "loc_y": 648
       },
       {
         "id": "bookstore_street",
-        "title": "Book Store",
         "loc_x": 220,
         "loc_y": 689
       },
       {
         "id": "residential_south",
-        "title": "The Magician's house",
         "loc_x": 323,
         "loc_y": 752
       },
       {
         "id": "exit_south",
-        "title": "South Exit",
         "loc_x": 335,
         "loc_y": 892
       },
       {
         "id": "intersection",
-        "title": "the intersection",
         "loc_x": 384,
         "loc_y": 1083
       },
       {
         "id": "dungeon_one",
-        "title": "<DUNGEON1>",
         "loc_x": 710,
         "loc_y": 1087
       },
       {
         "id": "dungeon_two",
-        "title": "<DUNGEON2>",
         "loc_x": 347,
         "loc_y": 1177
       }
