@@ -269,7 +269,12 @@
   },
   "journal": {
     "aliases": [],
-    "snippets": [],
+    "snippets": [
+      {
+        "key": "village_zero",
+        "text": "Rŏk"
+      }
+    ],
     "defaults": [],
     "actions": {
       "goto": []
