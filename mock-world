@@ -3,31 +3,26 @@
     "nodes": [
       {
         "id": "center",
-        "title": "Le Hub",
         "loc_x": 156,
         "loc_y": 688
       },
       {
         "id": "twonode",
-        "title": "",
         "loc_x": 73,
         "loc_y": 654
       },
       {
         "id": "onenode",
-        "title": "",
         "loc_x": 214,
         "loc_y": 625
       },
       {
         "id": "threenode",
-        "title": "",
         "loc_x": 186,
         "loc_y": 770
       },
       {
         "id": "farnode",
-        "title": "",
         "loc_x": 267,
         "loc_y": 787
       }
