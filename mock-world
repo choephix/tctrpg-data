@@ -61,7 +61,18 @@
         "to": "center"
       }
     ],
-    "subnotes": [],
+    "subnotes": [
+      {
+        "id": "square",
+        "loc_x": 200,
+        "loc_y": 800
+      },
+      {
+        "id": "circle",
+        "loc_x": 22,
+        "loc_y": 700
+      }
+    ],
     "entities": {
       "areas": [],
       "characters": [],
