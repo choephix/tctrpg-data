@@ -333,7 +333,7 @@
         "to": "forest_path"
       }
     ],
-    "subnotes": [],
+    "subnodes": [],
     "entities": {
       "areas": [],
       "characters": [],
@@ -345,7 +345,7 @@
     "snippets": [
       {
         "key": "village_zero",
-        "text": "√Åppe"
+        "text": "¡ppe"
       }
     ],
     "defaults": [],
