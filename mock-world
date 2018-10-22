@@ -61,14 +61,16 @@
         "to": "center"
       }
     ],
-    "subnotes": [
+    "subnodes": [
       {
         "id": "square",
+        "parent": "threenode",
         "loc_x": 200,
-        "loc_y": 800
+        "loc_y": 900
       },
       {
         "id": "circle",
+        "parent": "twonode",
         "loc_x": 22,
         "loc_y": 700
       }
