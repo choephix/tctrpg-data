@@ -100,6 +100,6 @@
     }
   },
   "ini": {
-    "spawn_node": "spawnlake"
+    "spawn_node": "center"
   }
 }
