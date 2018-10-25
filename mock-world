@@ -2,323 +2,348 @@
   "world": {
     "nodes": [
       {
-        "id": "spawnlake",
-        "loc_x": 123,
-        "loc_y": 21
+        "slug": "spawnlake",
+        "uid": "vTm5shJb",
+        "x": 123,
+        "y": 21
       },
       {
-        "id": "spawnlake_shore",
-        "loc_x": 124,
-        "loc_y": 66
+        "slug": "spawnlake_shore",
+        "uid": "AdGMquH_",
+        "x": 124,
+        "y": 66
       },
       {
-        "id": "forest_path",
-        "loc_x": 257,
-        "loc_y": 129
+        "slug": "forest_path",
+        "uid": "9gx1gQdw",
+        "x": 257,
+        "y": 129
       },
       {
-        "id": "north_exit",
-        "loc_x": 215,
-        "loc_y": 235
+        "slug": "north_exit",
+        "uid": "vpq2wkZM",
+        "x": 215,
+        "y": 235
       },
       {
-        "id": "north_residential",
-        "loc_x": 277,
-        "loc_y": 377
+        "slug": "north_residential",
+        "uid": "r9JTpNBe",
+        "x": 277,
+        "y": 377
       },
       {
-        "id": "inn_street",
-        "loc_x": 154,
-        "loc_y": 479
+        "slug": "inn_street",
+        "uid": "88MjFB6v",
+        "x": 154,
+        "y": 479
       },
       {
-        "id": "inn",
-        "loc_x": 116,
-        "loc_y": 443
+        "slug": "inn",
+        "uid": "2IwPnWo4",
+        "x": 116,
+        "y": 443
       },
       {
-        "id": "plaza",
-        "loc_x": 173,
-        "loc_y": 567
+        "slug": "plaza",
+        "uid": "XOdVqZ2R",
+        "x": 173,
+        "y": 567
       },
       {
-        "id": "clinic",
-        "loc_x": 237,
-        "loc_y": 615
+        "slug": "clinic",
+        "uid": "fIpqTS9u",
+        "x": 237,
+        "y": 615
       },
       {
-        "id": "blacksmith_street",
-        "loc_x": 20,
-        "loc_y": 565
+        "slug": "blacksmith_street",
+        "uid": "I6c&hdXb",
+        "x": 20,
+        "y": 565
       },
       {
-        "id": "market_west",
-        "loc_x": 88,
-        "loc_y": 653
+        "slug": "market_west",
+        "uid": "77UGodwK",
+        "x": 88,
+        "y": 653
       },
       {
-        "id": "market_east",
-        "loc_x": 214,
-        "loc_y": 678
+        "slug": "market_east",
+        "uid": "GkLzsCod",
+        "x": 214,
+        "y": 678
       },
       {
-        "id": "bookstore_street",
-        "loc_x": 304,
-        "loc_y": 726
+        "slug": "bookstore_street",
+        "uid": "ebvZuS52",
+        "x": 304,
+        "y": 726
       },
       {
-        "id": "residential_south",
-        "loc_x": 412,
-        "loc_y": 814
+        "slug": "residential_south",
+        "uid": "CT7QCqPJ",
+        "x": 412,
+        "y": 814
       },
       {
-        "id": "exit_south",
-        "loc_x": 520,
-        "loc_y": 866
+        "slug": "exit_south",
+        "uid": "AE16o1Td",
+        "x": 520,
+        "y": 866
       },
       {
-        "id": "intersection",
-        "loc_x": 566,
-        "loc_y": 1090
+        "slug": "intersection",
+        "uid": "4O8zhFYE",
+        "x": 566,
+        "y": 1090
       },
       {
-        "id": "dungeon_one",
-        "loc_x": 668,
-        "loc_y": 1179
+        "slug": "dungeon_one",
+        "uid": "TCgPBgqZ",
+        "x": 668,
+        "y": 1179
       },
       {
-        "id": "dungeon_two",
-        "loc_x": 433,
-        "loc_y": 1205
+        "slug": "dungeon_two",
+        "uid": "Rp0JkVv4",
+        "x": 433,
+        "y": 1205
       },
       {
-        "id": "trainer",
-        "loc_x": 338,
-        "loc_y": 357
+        "slug": "trainer",
+        "uid": "87kjcOlj",
+        "x": 338,
+        "y": 357
       },
       {
-        "id": "bookstore",
-        "loc_x": 333,
-        "loc_y": 655
+        "slug": "bookstore",
+        "uid": "3U&W5itp",
+        "x": 333,
+        "y": 655
       },
       {
-        "id": "maho",
-        "loc_x": 414,
-        "loc_y": 750
+        "slug": "maho",
+        "uid": "iDCuO2eE",
+        "x": 414,
+        "y": 750
       },
       {
-        "id": "bear_den",
-        "loc_x": 362,
-        "loc_y": 97
+        "slug": "bear_den",
+        "uid": "I&iu5GU1",
+        "x": 362,
+        "y": 97
       },
       {
-        "id": "node_22",
-        "loc_x": 95,
-        "loc_y": 480
+        "slug": "node_22",
+        "uid": "HVTgFo7x",
+        "x": 95,
+        "y": 480
       }
     ],
     "links": [
       {
-        "from": "spawnlake",
-        "to": "spawnlake_shore"
+        "from": "vTm5shJb",
+        "to": "AdGMquH_"
       },
       {
-        "from": "spawnlake_shore",
-        "to": "forest_path"
+        "from": "AdGMquH_",
+        "to": "9gx1gQdw"
       },
       {
-        "from": "forest_path",
-        "to": "spawnlake_shore"
+        "from": "9gx1gQdw",
+        "to": "AdGMquH_"
       },
       {
-        "from": "forest_path",
-        "to": "north_exit"
+        "from": "9gx1gQdw",
+        "to": "vpq2wkZM"
       },
       {
-        "from": "north_exit",
-        "to": "forest_path"
+        "from": "vpq2wkZM",
+        "to": "9gx1gQdw"
       },
       {
-        "from": "north_exit",
-        "to": "north_residential"
+        "from": "vpq2wkZM",
+        "to": "r9JTpNBe"
       },
       {
-        "from": "north_residential",
-        "to": "north_exit"
+        "from": "r9JTpNBe",
+        "to": "vpq2wkZM"
       },
       {
-        "from": "north_residential",
-        "to": "inn_street"
+        "from": "r9JTpNBe",
+        "to": "88MjFB6v"
       },
       {
-        "from": "inn_street",
-        "to": "north_residential"
+        "from": "88MjFB6v",
+        "to": "r9JTpNBe"
       },
       {
-        "from": "inn_street",
-        "to": "inn"
+        "from": "88MjFB6v",
+        "to": "2IwPnWo4"
       },
       {
-        "from": "inn_street",
-        "to": "plaza"
+        "from": "88MjFB6v",
+        "to": "XOdVqZ2R"
       },
       {
-        "from": "inn",
-        "to": "inn_street"
+        "from": "2IwPnWo4",
+        "to": "88MjFB6v"
       },
       {
-        "from": "plaza",
-        "to": "inn_street"
+        "from": "XOdVqZ2R",
+        "to": "88MjFB6v"
       },
       {
-        "from": "plaza",
-        "to": "clinic"
+        "from": "XOdVqZ2R",
+        "to": "fIpqTS9u"
       },
       {
-        "from": "plaza",
-        "to": "blacksmith_street"
+        "from": "XOdVqZ2R",
+        "to": "I6c&hdXb"
       },
       {
-        "from": "plaza",
-        "to": "market_west"
+        "from": "XOdVqZ2R",
+        "to": "77UGodwK"
       },
       {
-        "from": "clinic",
-        "to": "market_east"
+        "from": "fIpqTS9u",
+        "to": "GkLzsCod"
       },
       {
-        "from": "clinic",
-        "to": "plaza"
+        "from": "fIpqTS9u",
+        "to": "XOdVqZ2R"
       },
       {
-        "from": "blacksmith_street",
-        "to": "plaza"
+        "from": "I6c&hdXb",
+        "to": "XOdVqZ2R"
       },
       {
-        "from": "blacksmith_street",
-        "to": "market_west"
+        "from": "I6c&hdXb",
+        "to": "77UGodwK"
       },
       {
-        "from": "market_west",
-        "to": "plaza"
+        "from": "77UGodwK",
+        "to": "XOdVqZ2R"
       },
       {
-        "from": "market_west",
-        "to": "blacksmith_street"
+        "from": "77UGodwK",
+        "to": "I6c&hdXb"
       },
       {
-        "from": "market_west",
-        "to": "market_east"
+        "from": "77UGodwK",
+        "to": "GkLzsCod"
       },
       {
-        "from": "market_east",
-        "to": "market_west"
+        "from": "GkLzsCod",
+        "to": "77UGodwK"
       },
       {
-        "from": "market_east",
-        "to": "clinic"
+        "from": "GkLzsCod",
+        "to": "fIpqTS9u"
       },
       {
-        "from": "market_east",
-        "to": "bookstore_street"
+        "from": "GkLzsCod",
+        "to": "ebvZuS52"
       },
       {
-        "from": "bookstore_street",
-        "to": "market_east"
+        "from": "ebvZuS52",
+        "to": "GkLzsCod"
       },
       {
-        "from": "bookstore_street",
-        "to": "residential_south"
+        "from": "ebvZuS52",
+        "to": "CT7QCqPJ"
       },
       {
-        "from": "residential_south",
-        "to": "bookstore_street"
+        "from": "CT7QCqPJ",
+        "to": "ebvZuS52"
       },
       {
-        "from": "residential_south",
-        "to": "exit_south"
+        "from": "CT7QCqPJ",
+        "to": "AE16o1Td"
       },
       {
-        "from": "exit_south",
-        "to": "residential_south"
+        "from": "AE16o1Td",
+        "to": "CT7QCqPJ"
       },
       {
-        "from": "intersection",
-        "to": "dungeon_one"
+        "from": "4O8zhFYE",
+        "to": "TCgPBgqZ"
       },
       {
-        "from": "intersection",
-        "to": "dungeon_two"
+        "from": "4O8zhFYE",
+        "to": "Rp0JkVv4"
       },
       {
-        "from": "intersection",
-        "to": "exit_south"
+        "from": "4O8zhFYE",
+        "to": "AE16o1Td"
       },
       {
-        "from": "dungeon_one",
-        "to": "intersection"
+        "from": "TCgPBgqZ",
+        "to": "4O8zhFYE"
       },
       {
-        "from": "dungeon_two",
-        "to": "intersection"
+        "from": "Rp0JkVv4",
+        "to": "4O8zhFYE"
       },
       {
-        "from": "exit_south",
-        "to": "intersection"
+        "from": "AE16o1Td",
+        "to": "4O8zhFYE"
       },
       {
-        "from": "north_residential",
-        "to": "trainer"
+        "from": "r9JTpNBe",
+        "to": "87kjcOlj"
       },
       {
-        "from": "trainer",
-        "to": "north_residential"
+        "from": "87kjcOlj",
+        "to": "r9JTpNBe"
       },
       {
-        "from": "bookstore_street",
-        "to": "bookstore"
+        "from": "ebvZuS52",
+        "to": "3U&W5itp"
       },
       {
-        "from": "bookstore",
-        "to": "bookstore_street"
+        "from": "3U&W5itp",
+        "to": "ebvZuS52"
       },
       {
-        "from": "residential_south",
-        "to": "maho"
+        "from": "CT7QCqPJ",
+        "to": "iDCuO2eE"
       },
       {
-        "from": "maho",
-        "to": "residential_south"
+        "from": "iDCuO2eE",
+        "to": "CT7QCqPJ"
       },
       {
-        "from": "forest_path",
-        "to": "bear_den"
+        "from": "9gx1gQdw",
+        "to": "I&iu5GU1"
       },
       {
-        "from": "bear_den",
-        "to": "forest_path"
+        "from": "I&iu5GU1",
+        "to": "9gx1gQdw"
       },
       {
-        "from": "inn",
-        "to": "node_22"
+        "from": "2IwPnWo4",
+        "to": "HVTgFo7x"
       },
       {
-        "from": "node_22",
-        "to": "inn"
+        "from": "HVTgFo7x",
+        "to": "2IwPnWo4"
       }
     ],
     "subnodes": [
       {
-        "id": "blacksmith_armor",
-        "loc_x": -3,
-        "loc_y": 531,
-        "parent": "blacksmith_street"
+        "slug": "blacksmith_armor",
+        "uid": "DPLJ_G60",
+        "parent": "I6c&hdXb",
+        "x": -3,
+        "y": 531
       },
       {
-        "id": "blacksmith_weapons",
-        "loc_x": -18,
-        "loc_y": 561,
-        "parent": "blacksmith_street"
+        "slug": "blacksmith_weapons",
+        "uid": "RT4Jdr49",
+        "parent": "I6c&hdXb",
+        "x": -18,
+        "y": 561
       }
     ],
     "areas": [],
