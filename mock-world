@@ -2,9 +2,10 @@
   "world": {
     "nodes": [
       {
-        "id": "spawnpoint",
-        "loc_x": 400,
-        "loc_y": 800
+        "slug": "spawnpoint",
+        "uid": "rMCIS4ch",
+        "x": 400,
+        "y": 800
       }
     ],
     "links": [],
