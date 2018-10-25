@@ -2,77 +2,84 @@
   "world": {
     "nodes": [
       {
-        "id": "center",
-        "loc_x": 156,
-        "loc_y": 688
+        "slug": "center",
+        "uid": "hrI2_4vL",
+        "x": 156,
+        "y": 688
       },
       {
-        "id": "twonode",
-        "loc_x": 73,
-        "loc_y": 654
+        "slug": "twonode",
+        "uid": "Zn6f1Uma",
+        "x": 73,
+        "y": 654
       },
       {
-        "id": "onenode",
-        "loc_x": 214,
-        "loc_y": 625
+        "slug": "onenode",
+        "uid": "AXfG50Lg",
+        "x": 214,
+        "y": 625
       },
       {
-        "id": "threenode",
-        "loc_x": 186,
-        "loc_y": 770
+        "slug": "threenode",
+        "uid": "JI95dczi",
+        "x": 186,
+        "y": 770
       },
       {
-        "id": "farnode",
-        "loc_x": 267,
-        "loc_y": 787
+        "slug": "farnode",
+        "uid": "DbWSyGMh",
+        "x": 267,
+        "y": 787
       }
     ],
     "links": [
       {
-        "from": "center",
-        "to": "onenode"
+        "from": "hrI2_4vL",
+        "to": "AXfG50Lg"
       },
       {
-        "from": "center",
-        "to": "twonode"
+        "from": "hrI2_4vL",
+        "to": "Zn6f1Uma"
       },
       {
-        "from": "center",
-        "to": "threenode"
+        "from": "hrI2_4vL",
+        "to": "JI95dczi"
       },
       {
-        "from": "threenode",
-        "to": "farnode"
+        "from": "JI95dczi",
+        "to": "DbWSyGMh"
       },
       {
-        "from": "farnode",
-        "to": "threenode"
+        "from": "DbWSyGMh",
+        "to": "JI95dczi"
       },
       {
-        "from": "threenode",
-        "to": "center"
+        "from": "JI95dczi",
+        "to": "hrI2_4vL"
       },
       {
-        "from": "twonode",
-        "to": "center"
+        "from": "Zn6f1Uma",
+        "to": "hrI2_4vL"
       },
       {
-        "from": "onenode",
-        "to": "center"
+        "from": "AXfG50Lg",
+        "to": "hrI2_4vL"
       }
     ],
     "subnodes": [
       {
-        "id": "square",
-        "parent": "threenode",
-        "loc_x": 200,
-        "loc_y": 900
+        "slug": "square",
+        "uid": "PQd0bezE",
+        "parent": "JI95dczi",
+        "x": 200,
+        "y": 900
       },
       {
-        "id": "circle",
-        "parent": "twonode",
-        "loc_x": 22,
-        "loc_y": 700
+        "slug": "circle",
+        "uid": "Bd3AykWW",
+        "parent": "Zn6f1Uma",
+        "x": 22,
+        "y": 700
       }
     ],
     "areas": [],
