@@ -102,7 +102,8 @@
           "from": "xxx",
           "to": "xxx",
           "params": [
-            "back"
+            "back",
+            "hungry"
           ],
           "handle": "Go to shitplace",
           "text": "I went to a shit place."
