@@ -92,24 +92,9 @@
         "loc_y": 1205
       },
       {
-        "id": "inn-myroom",
-        "loc_x": 107,
-        "loc_y": 389
-      },
-      {
         "id": "trainer",
         "loc_x": 338,
         "loc_y": 357
-      },
-      {
-        "id": "bks_armor",
-        "loc_x": -33,
-        "loc_y": 1130
-      },
-      {
-        "id": "bks_weapons",
-        "loc_x": -21,
-        "loc_y": 1178
       },
       {
         "id": "bookstore",
@@ -125,6 +110,11 @@
         "id": "bear_den",
         "loc_x": 362,
         "loc_y": 97
+      },
+      {
+        "id": "node_22",
+        "loc_x": 121.43353468322616,
+        "loc_y": 370.744307990883
       }
     ],
     "links": [
@@ -277,14 +267,6 @@
         "to": "intersection"
       },
       {
-        "from": "inn",
-        "to": "inn-myroom"
-      },
-      {
-        "from": "inn-myroom",
-        "to": "inn"
-      },
-      {
         "from": "north_residential",
         "to": "trainer"
       },
@@ -315,9 +297,30 @@
       {
         "from": "bear_den",
         "to": "forest_path"
+      },
+      {
+        "from": "inn",
+        "to": "node_22"
+      },
+      {
+        "from": "node_22",
+        "to": "inn"
       }
     ],
-    "subnodes": [],
+    "subnodes": [
+      {
+        "id": "blacksmith_armor",
+        "loc_x": -3,
+        "loc_y": 531,
+        "parent": "blacksmith_street"
+      },
+      {
+        "id": "blacksmith_weapons",
+        "loc_x": -18,
+        "loc_y": 561,
+        "parent": "blacksmith_street"
+      }
+    ],
     "areas": [],
     "characters": [],
     "items": []
