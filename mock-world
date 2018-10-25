@@ -349,15 +349,15 @@
         "slug": "blacksmith_armor",
         "uid": "DPLJ_G60",
         "parent": "I6c&hdXb",
-        "x": -163,
-        "y": -19
+        "x": -164,
+        "y": -22
       },
       {
         "slug": "blacksmith_weapons",
         "uid": "RT4Jdr49",
         "parent": "I6c&hdXb",
-        "x": -178,
-        "y": 11
+        "x": -137,
+        "y": -30
       },
       {
         "uid": "QyG9weFC",
@@ -376,8 +376,8 @@
       {
         "uid": "I1PKrb_3",
         "slug": "drawer",
-        "x": -103,
-        "y": -103,
+        "x": -99.72320000000002,
+        "y": -105.86719999999998,
         "parent": "QyG9weFC"
       },
       {
