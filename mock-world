@@ -2,363 +2,87 @@
   "world": {
     "nodes": [
       {
-        "slug": "spawnlake",
+        "slug": "spawnpoint",
         "uid": "inlOxg3K",
-        "x": -37,
-        "y": -529
+        "x": 0,
+        "y": 0
       },
       {
-        "slug": "spawnlake_shore",
+        "slug": "the_south",
         "uid": "WiVwtInV",
-        "x": -36,
-        "y": -484
+        "x": 0,
+        "y": 100
       },
       {
-        "slug": "forest_path",
-        "uid": "EkQg1XQb",
-        "x": 97,
-        "y": -421
+        "slug": "the_east",
+        "uid": "pEY4S6qx",
+        "x": 100,
+        "y": 0
       },
       {
-        "slug": "north_exit",
-        "uid": "g8cQzyVY",
-        "x": 55,
-        "y": -315
+        "slug": "the_north",
+        "uid": "Q_RZeDQt",
+        "x": 0,
+        "y": -100
       },
       {
-        "slug": "north_residential",
-        "uid": "mbiH31J1",
-        "x": 117,
-        "y": -173
-      },
-      {
-        "slug": "inn_street",
-        "uid": "at8SXHdX",
-        "x": 36,
-        "y": -68
-      },
-      {
-        "slug": "inn",
-        "uid": "6UZarsRk",
-        "x": -45,
-        "y": -115
-      },
-      {
-        "slug": "plaza",
-        "uid": "vKTc_sSZ",
-        "x": 13,
-        "y": 17
-      },
-      {
-        "slug": "clinic",
-        "uid": "KodN5UIs",
-        "x": 77,
-        "y": 65
-      },
-      {
-        "slug": "blacksmith_street",
-        "uid": "317j18zX",
-        "x": -140,
-        "y": 15
-      },
-      {
-        "slug": "market_west",
-        "uid": "7mIBzxAH",
-        "x": -72,
-        "y": 103
-      },
-      {
-        "slug": "market_east",
-        "uid": "3a1qn28i",
-        "x": 54,
-        "y": 128
-      },
-      {
-        "slug": "bookstore_street",
-        "uid": "BSdvDm9J",
-        "x": 144,
-        "y": 176
-      },
-      {
-        "slug": "residential_south",
-        "uid": "Fc2NyHYm",
-        "x": 252,
-        "y": 264
-      },
-      {
-        "slug": "exit_south",
-        "uid": "RmxtsVQO",
-        "x": 360,
-        "y": 316
-      },
-      {
-        "slug": "intersection",
-        "uid": "YpsV&23Z",
-        "x": 406,
-        "y": 540
-      },
-      {
-        "slug": "dungeon_one",
-        "uid": "sUjD7ebz",
-        "x": 508,
-        "y": 629
-      },
-      {
-        "slug": "dungeon_two",
-        "uid": "AXJzXyl1",
-        "x": 273,
-        "y": 655
-      },
-      {
-        "slug": "inn-myroom",
-        "uid": "aEmVqbS4",
-        "x": -53,
-        "y": -161
-      },
-      {
-        "slug": "trainer",
-        "uid": "eK8&bvfI",
-        "x": 178,
-        "y": -193
-      },
-      {
-        "slug": "bks_armor",
-        "uid": "Dr_Yqgzc",
-        "x": -183,
-        "y": 39
-      },
-      {
-        "slug": "bks_weapons",
-        "uid": "cdueLxA0",
-        "x": -179,
-        "y": -21
-      },
-      {
-        "slug": "bookstore",
-        "uid": "68CXVmxJ",
-        "x": 173,
-        "y": 105
-      },
-      {
-        "slug": "maho",
-        "uid": "5jJR_Ttt",
-        "x": 254,
-        "y": 200
-      },
-      {
-        "slug": "bear_den",
-        "uid": "WXbWmxdD",
-        "x": 202,
-        "y": -453
+        "slug": "the_west",
+        "uid": "LRaobwCF",
+        "x": -100,
+        "y": 0
       }
     ],
     "links": [
+      {
+        "from": "WiVwtInV",
+        "to": "inlOxg3K"
+      },
       {
         "from": "inlOxg3K",
         "to": "WiVwtInV"
       },
       {
         "from": "WiVwtInV",
-        "to": "EkQg1XQb"
+        "to": "pEY4S6qx"
       },
       {
-        "from": "EkQg1XQb",
+        "from": "pEY4S6qx",
         "to": "WiVwtInV"
       },
       {
-        "from": "EkQg1XQb",
-        "to": "g8cQzyVY"
+        "from": "pEY4S6qx",
+        "to": "Q_RZeDQt"
       },
       {
-        "from": "g8cQzyVY",
-        "to": "EkQg1XQb"
+        "from": "Q_RZeDQt",
+        "to": "pEY4S6qx"
       },
       {
-        "from": "g8cQzyVY",
-        "to": "mbiH31J1"
+        "from": "Q_RZeDQt",
+        "to": "LRaobwCF"
       },
       {
-        "from": "mbiH31J1",
-        "to": "g8cQzyVY"
+        "from": "LRaobwCF",
+        "to": "Q_RZeDQt"
       },
       {
-        "from": "mbiH31J1",
-        "to": "at8SXHdX"
+        "from": "LRaobwCF",
+        "to": "WiVwtInV"
       },
       {
-        "from": "at8SXHdX",
-        "to": "mbiH31J1"
-      },
-      {
-        "from": "at8SXHdX",
-        "to": "6UZarsRk"
-      },
-      {
-        "from": "at8SXHdX",
-        "to": "vKTc_sSZ"
-      },
-      {
-        "from": "6UZarsRk",
-        "to": "at8SXHdX"
-      },
-      {
-        "from": "vKTc_sSZ",
-        "to": "at8SXHdX"
-      },
-      {
-        "from": "vKTc_sSZ",
-        "to": "KodN5UIs"
-      },
-      {
-        "from": "vKTc_sSZ",
-        "to": "317j18zX"
-      },
-      {
-        "from": "vKTc_sSZ",
-        "to": "7mIBzxAH"
-      },
-      {
-        "from": "KodN5UIs",
-        "to": "3a1qn28i"
-      },
-      {
-        "from": "KodN5UIs",
-        "to": "vKTc_sSZ"
-      },
-      {
-        "from": "317j18zX",
-        "to": "vKTc_sSZ"
-      },
-      {
-        "from": "317j18zX",
-        "to": "7mIBzxAH"
-      },
-      {
-        "from": "7mIBzxAH",
-        "to": "vKTc_sSZ"
-      },
-      {
-        "from": "7mIBzxAH",
-        "to": "317j18zX"
-      },
-      {
-        "from": "7mIBzxAH",
-        "to": "3a1qn28i"
-      },
-      {
-        "from": "3a1qn28i",
-        "to": "7mIBzxAH"
-      },
-      {
-        "from": "3a1qn28i",
-        "to": "KodN5UIs"
-      },
-      {
-        "from": "3a1qn28i",
-        "to": "BSdvDm9J"
-      },
-      {
-        "from": "BSdvDm9J",
-        "to": "3a1qn28i"
-      },
-      {
-        "from": "BSdvDm9J",
-        "to": "Fc2NyHYm"
-      },
-      {
-        "from": "Fc2NyHYm",
-        "to": "BSdvDm9J"
-      },
-      {
-        "from": "Fc2NyHYm",
-        "to": "RmxtsVQO"
-      },
-      {
-        "from": "RmxtsVQO",
-        "to": "Fc2NyHYm"
-      },
-      {
-        "from": "YpsV&23Z",
-        "to": "sUjD7ebz"
-      },
-      {
-        "from": "YpsV&23Z",
-        "to": "AXJzXyl1"
-      },
-      {
-        "from": "YpsV&23Z",
-        "to": "RmxtsVQO"
-      },
-      {
-        "from": "sUjD7ebz",
-        "to": "YpsV&23Z"
-      },
-      {
-        "from": "AXJzXyl1",
-        "to": "YpsV&23Z"
-      },
-      {
-        "from": "RmxtsVQO",
-        "to": "YpsV&23Z"
-      },
-      {
-        "from": "6UZarsRk",
-        "to": "aEmVqbS4"
-      },
-      {
-        "from": "aEmVqbS4",
-        "to": "6UZarsRk"
-      },
-      {
-        "from": "mbiH31J1",
-        "to": "eK8&bvfI"
-      },
-      {
-        "from": "eK8&bvfI",
-        "to": "mbiH31J1"
-      },
-      {
-        "from": "317j18zX",
-        "to": "Dr_Yqgzc"
-      },
-      {
-        "from": "Dr_Yqgzc",
-        "to": "317j18zX"
-      },
-      {
-        "from": "317j18zX",
-        "to": "cdueLxA0"
-      },
-      {
-        "from": "cdueLxA0",
-        "to": "317j18zX"
-      },
-      {
-        "from": "BSdvDm9J",
-        "to": "68CXVmxJ"
-      },
-      {
-        "from": "68CXVmxJ",
-        "to": "BSdvDm9J"
-      },
-      {
-        "from": "Fc2NyHYm",
-        "to": "5jJR_Ttt"
-      },
-      {
-        "from": "5jJR_Ttt",
-        "to": "Fc2NyHYm"
-      },
-      {
-        "from": "EkQg1XQb",
-        "to": "WXbWmxdD"
-      },
-      {
-        "from": "WXbWmxdD",
-        "to": "EkQg1XQb"
+        "from": "WiVwtInV",
+        "to": "LRaobwCF"
       }
     ],
-    "subnodes": [],
+    "subnodes": [
+      {
+        "slug": "sub",
+        "uid": "fIhVyTjx",
+        "parent": "Q_RZeDQt",
+        "x": 0,
+        "y": -50
+      }
+    ],
     "areas": [],
     "characters": [],
     "items": []
@@ -377,6 +101,6 @@
     }
   },
   "ini": {
-    "spawn_node": "spawnlake"
+    "spawn_node": "spawnpoint"
   }
 }
