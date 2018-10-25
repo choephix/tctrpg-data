@@ -8,28 +8,28 @@
       },
       {
         "id": "spawnlake_shore",
-        "loc_x": 148,
-        "loc_y": 70
+        "loc_x": 124,
+        "loc_y": 66
       },
       {
         "id": "forest_path",
-        "loc_x": 204,
-        "loc_y": 125
+        "loc_x": 257,
+        "loc_y": 129
       },
       {
         "id": "north_exit",
-        "loc_x": 219,
-        "loc_y": 237
+        "loc_x": 215,
+        "loc_y": 235
       },
       {
         "id": "north_residential",
-        "loc_x": 224,
-        "loc_y": 344
+        "loc_x": 277,
+        "loc_y": 377
       },
       {
         "id": "inn_street",
-        "loc_x": 181,
-        "loc_y": 469
+        "loc_x": 196,
+        "loc_y": 482
       },
       {
         "id": "inn",
@@ -38,13 +38,13 @@
       },
       {
         "id": "plaza",
-        "loc_x": 149,
-        "loc_y": 551
+        "loc_x": 173,
+        "loc_y": 567
       },
       {
         "id": "clinic",
-        "loc_x": 170,
-        "loc_y": 599
+        "loc_x": 237,
+        "loc_y": 615
       },
       {
         "id": "blacksmith_street",
@@ -58,38 +58,73 @@
       },
       {
         "id": "market_east",
-        "loc_x": 168,
-        "loc_y": 648
+        "loc_x": 214,
+        "loc_y": 678
       },
       {
         "id": "bookstore_street",
-        "loc_x": 220,
-        "loc_y": 689
+        "loc_x": 304,
+        "loc_y": 726
       },
       {
         "id": "residential_south",
-        "loc_x": 323,
-        "loc_y": 752
+        "loc_x": 412,
+        "loc_y": 814
       },
       {
         "id": "exit_south",
-        "loc_x": 335,
-        "loc_y": 892
+        "loc_x": 520,
+        "loc_y": 866
       },
       {
         "id": "intersection",
-        "loc_x": 384,
-        "loc_y": 1083
+        "loc_x": 566,
+        "loc_y": 1090
       },
       {
         "id": "dungeon_one",
-        "loc_x": 710,
-        "loc_y": 1087
+        "loc_x": 668,
+        "loc_y": 1179
       },
       {
         "id": "dungeon_two",
-        "loc_x": 347,
-        "loc_y": 1177
+        "loc_x": 433,
+        "loc_y": 1205
+      },
+      {
+        "id": "inn-myroom",
+        "loc_x": 107,
+        "loc_y": 389
+      },
+      {
+        "id": "trainer",
+        "loc_x": 338,
+        "loc_y": 357
+      },
+      {
+        "id": "bks_armor",
+        "loc_x": -33,
+        "loc_y": 1130
+      },
+      {
+        "id": "bks_weapons",
+        "loc_x": -21,
+        "loc_y": 1178
+      },
+      {
+        "id": "bookstore",
+        "loc_x": 333,
+        "loc_y": 655
+      },
+      {
+        "id": "maho",
+        "loc_x": 414,
+        "loc_y": 750
+      },
+      {
+        "id": "bear_den",
+        "loc_x": 362,
+        "loc_y": 97
       }
     ],
     "links": [
@@ -240,6 +275,46 @@
       {
         "from": "exit_south",
         "to": "intersection"
+      },
+      {
+        "from": "inn",
+        "to": "inn-myroom"
+      },
+      {
+        "from": "inn-myroom",
+        "to": "inn"
+      },
+      {
+        "from": "north_residential",
+        "to": "trainer"
+      },
+      {
+        "from": "trainer",
+        "to": "north_residential"
+      },
+      {
+        "from": "bookstore_street",
+        "to": "bookstore"
+      },
+      {
+        "from": "bookstore",
+        "to": "bookstore_street"
+      },
+      {
+        "from": "residential_south",
+        "to": "maho"
+      },
+      {
+        "from": "maho",
+        "to": "residential_south"
+      },
+      {
+        "from": "forest_path",
+        "to": "bear_den"
+      },
+      {
+        "from": "bear_den",
+        "to": "forest_path"
       }
     ],
     "subnodes": [],
