@@ -110,7 +110,7 @@
         "y": 1205
       },
       {
-        "slug": "trainer",
+        "slug": "combat_trainer",
         "uid": "87kjcOlj",
         "x": 338,
         "y": 357
@@ -142,8 +142,8 @@
       {
         "uid": "SbQpKjcC",
         "slug": "inn_basement",
-        "x": 139,
-        "y": 396
+        "x": 140,
+        "y": 393
       }
     ],
     "links": [
@@ -379,6 +379,55 @@
         "x": 57,
         "y": 447,
         "parent": "QyG9weFC"
+      },
+      {
+        "slug": "asorted_goods",
+        "uid": "SdZSP4AG",
+        "parent": "77UGodwK",
+        "x": 62,
+        "y": 674
+      },
+      {
+        "slug": "food_a",
+        "uid": "VRqbyWzJ",
+        "parent": "77UGodwK",
+        "x": 42,
+        "y": 640
+      },
+      {
+        "slug": "leatherworks",
+        "uid": "cg_fgFgU",
+        "parent": "77UGodwK",
+        "x": 93,
+        "y": 614
+      },
+      {
+        "slug": "jewlery",
+        "uid": "nZcr9sEV",
+        "parent": "GkLzsCod",
+        "x": 252,
+        "y": 665
+      },
+      {
+        "slug": "herbs_and_potions",
+        "uid": "S&6ZPPk5",
+        "parent": "GkLzsCod",
+        "x": 188,
+        "y": 706
+      },
+      {
+        "slug": "food_b",
+        "uid": "df2HglHF",
+        "parent": "GkLzsCod",
+        "x": 182,
+        "y": 640
+      },
+      {
+        "slug": "the_bar",
+        "uid": "EE6EVAiy",
+        "parent": "2IwPnWo4",
+        "x": 70,
+        "y": 398
       }
     ],
     "areas": [],
