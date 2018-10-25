@@ -4,32 +4,32 @@
       {
         "slug": "spawnlake",
         "uid": "vTm5shJb",
-        "x": -37,
-        "y": -529
+        "x": -95,
+        "y": -573
       },
       {
         "slug": "spawnlake_shore",
         "uid": "AdGMquH_",
-        "x": -36,
-        "y": -484
+        "x": -128,
+        "y": -540
       },
       {
         "slug": "forest_path",
         "uid": "9gx1gQdw",
-        "x": 97,
-        "y": -421
+        "x": -37,
+        "y": -472
       },
       {
         "slug": "north_exit",
         "uid": "vpq2wkZM",
-        "x": 55,
-        "y": -315
+        "x": 23,
+        "y": -370
       },
       {
         "slug": "north_residential",
         "uid": "r9JTpNBe",
-        "x": 117,
-        "y": -173
+        "x": 50,
+        "y": -197
       },
       {
         "slug": "inn_street",
@@ -112,8 +112,8 @@
       {
         "slug": "combat_trainer",
         "uid": "87kjcOlj",
-        "x": 178,
-        "y": -193
+        "x": 91,
+        "y": -212
       },
       {
         "slug": "bookstore",
@@ -130,8 +130,8 @@
       {
         "slug": "bear_lair",
         "uid": "I&iu5GU1",
-        "x": 202,
-        "y": -453
+        "x": 82,
+        "y": -608
       },
       {
         "slug": "myroom",
