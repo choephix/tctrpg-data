@@ -52,7 +52,7 @@
       {
         "slug": "clinic",
         "uid": "fIpqTS9u",
-        "x": 32,
+        "x": 43,
         "y": 55
       },
       {
@@ -70,26 +70,26 @@
       {
         "slug": "market_east",
         "uid": "GkLzsCod",
-        "x": 54,
-        "y": 128
+        "x": 51,
+        "y": 124
       },
       {
         "slug": "bookstore_street",
         "uid": "ebvZuS52",
-        "x": 144,
-        "y": 176
+        "x": 139,
+        "y": 156
       },
       {
         "slug": "residential_south",
         "uid": "CT7QCqPJ",
-        "x": 252,
-        "y": 264
+        "x": 241,
+        "y": 269
       },
       {
         "slug": "exit_south",
         "uid": "AE16o1Td",
-        "x": 360,
-        "y": 316
+        "x": 372,
+        "y": 351
       },
       {
         "slug": "intersection",
@@ -118,14 +118,14 @@
       {
         "slug": "bookstore",
         "uid": "3U&W5itp",
-        "x": 173,
-        "y": 105
+        "x": 166,
+        "y": 103
       },
       {
         "slug": "maho",
         "uid": "iDCuO2eE",
-        "x": 254,
-        "y": 200
+        "x": 259,
+        "y": 223
       },
       {
         "slug": "bear_lair",
@@ -412,15 +412,15 @@
         "slug": "herbs_and_potions",
         "uid": "S&6ZPPk5",
         "parent": "GkLzsCod",
-        "x": 59,
-        "y": 88
+        "x": 19,
+        "y": 84
       },
       {
         "slug": "food_b",
         "uid": "df2HglHF",
         "parent": "GkLzsCod",
-        "x": 84,
-        "y": 117
+        "x": 71,
+        "y": 163
       },
       {
         "slug": "the_bar",
@@ -433,15 +433,15 @@
         "slug": "magic",
         "uid": "gAmwYwOF",
         "parent": "3U&W5itp",
-        "x": 204,
-        "y": 95
+        "x": 151,
+        "y": 67
       },
       {
         "slug": "lore",
         "uid": "I22iIzzK",
         "parent": "3U&W5itp",
-        "x": 203,
-        "y": 61
+        "x": 185.36160000000007,
+        "y": 66.96608
       }
     ],
     "areas": [],
