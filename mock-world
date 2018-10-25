@@ -4,31 +4,31 @@
       {
         "slug": "center",
         "uid": "hrI2_4vL",
-        "x": -3,
+        "x": 0,
         "y": 0
       },
       {
         "slug": "twonode",
         "uid": "Zn6f1Uma",
-        "x": -86,
+        "x": -83,
         "y": -33
       },
       {
         "slug": "onenode",
         "uid": "AXfG50Lg",
-        "x": 55,
+        "x": 58,
         "y": -62
       },
       {
         "slug": "threenode",
         "uid": "JI95dczi",
-        "x": 27,
+        "x": 30,
         "y": 83
       },
       {
         "slug": "farnode",
         "uid": "DbWSyGMh",
-        "x": 108,
+        "x": 111,
         "y": 100
       }
     ],
