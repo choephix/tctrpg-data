@@ -334,18 +334,16 @@
       }
     ],
     "subnodes": [],
-    "entities": {
-      "areas": [],
-      "characters": [],
-      "items": []
-    }
+    "areas": [],
+    "characters": [],
+    "items": []
   },
   "journal": {
     "aliases": [],
     "snippets": [
       {
         "key": "village_zero",
-        "text": "Áppe"
+        "text": "Ãppe"
       }
     ],
     "defaults": [],
