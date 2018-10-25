@@ -242,12 +242,10 @@
         "to": "intersection"
       }
     ],
-    "subnotes": [],
-    "entities": {
-      "areas": [],
-      "characters": [],
-      "items": []
-    }
+    "subnodes": [],
+    "areas": [],
+    "characters": [],
+    "items": []
   },
   "journal": {
     "aliases": [],
