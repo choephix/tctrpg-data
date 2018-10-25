@@ -75,11 +75,9 @@
         "loc_y": 700
       }
     ],
-    "entities": {
-      "areas": [],
-      "characters": [],
-      "items": []
-    }
+    "areas": [],
+    "characters": [],
+    "items": []
   },
   "journal": {
     "aliases": [],
