@@ -4,32 +4,32 @@
       {
         "slug": "center",
         "uid": "hrI2_4vL",
-        "x": 156,
-        "y": 688
+        "x": -4,
+        "y": 138
       },
       {
         "slug": "twonode",
         "uid": "Zn6f1Uma",
-        "x": 73,
-        "y": 654
+        "x": -87,
+        "y": 104
       },
       {
         "slug": "onenode",
         "uid": "AXfG50Lg",
-        "x": 214,
-        "y": 625
+        "x": 54,
+        "y": 75
       },
       {
         "slug": "threenode",
         "uid": "JI95dczi",
-        "x": 186,
-        "y": 770
+        "x": 26,
+        "y": 220
       },
       {
         "slug": "farnode",
         "uid": "DbWSyGMh",
-        "x": 267,
-        "y": 787
+        "x": 107,
+        "y": 237
       }
     ],
     "links": [
@@ -71,15 +71,15 @@
         "slug": "square",
         "uid": "PQd0bezE",
         "parent": "JI95dczi",
-        "x": 200,
-        "y": 900
+        "x": 40,
+        "y": 350
       },
       {
         "slug": "circle",
         "uid": "Bd3AykWW",
         "parent": "Zn6f1Uma",
-        "x": 22,
-        "y": 700
+        "x": -138,
+        "y": 150
       }
     ],
     "areas": [],
