@@ -58,8 +58,8 @@
       {
         "slug": "blacksmith_street",
         "uid": "I6c&hdXb",
-        "x": 20,
-        "y": 565
+        "x": 23,
+        "y": 564
       },
       {
         "slug": "market_west",
@@ -134,10 +134,16 @@
         "y": 97
       },
       {
-        "slug": "node_22",
+        "slug": "myroom",
         "uid": "HVTgFo7x",
         "x": 95,
         "y": 480
+      },
+      {
+        "uid": "SbQpKjcC",
+        "slug": "inn_basement",
+        "x": 139,
+        "y": 396
       }
     ],
     "links": [
@@ -328,6 +334,14 @@
       {
         "from": "HVTgFo7x",
         "to": "2IwPnWo4"
+      },
+      {
+        "from": "2IwPnWo4",
+        "to": "SbQpKjcC"
+      },
+      {
+        "from": "SbQpKjcC",
+        "to": "2IwPnWo4"
       }
     ],
     "subnodes": [
@@ -344,6 +358,27 @@
         "parent": "I6c&hdXb",
         "x": -18,
         "y": 561
+      },
+      {
+        "uid": "QyG9weFC",
+        "slug": "desk",
+        "x": 75,
+        "y": 437,
+        "parent": "HVTgFo7x"
+      },
+      {
+        "uid": "kyzsaF1E",
+        "slug": "bed",
+        "x": 56,
+        "y": 480,
+        "parent": "HVTgFo7x"
+      },
+      {
+        "uid": "I1PKrb_3",
+        "slug": "drawer",
+        "x": 57,
+        "y": 447,
+        "parent": "QyG9weFC"
       }
     ],
     "areas": [],
