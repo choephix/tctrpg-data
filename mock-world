@@ -46,14 +46,14 @@
       {
         "slug": "plaza",
         "uid": "XOdVqZ2R",
-        "x": 13,
+        "x": 0,
         "y": 17
       },
       {
         "slug": "clinic",
         "uid": "fIpqTS9u",
-        "x": 59,
-        "y": 68
+        "x": 32,
+        "y": 55
       },
       {
         "slug": "blacksmith_street",
@@ -384,43 +384,43 @@
         "slug": "asorted_goods",
         "uid": "SdZSP4AG",
         "parent": "77UGodwK",
-        "x": -98,
-        "y": 124
+        "x": -116,
+        "y": 65
       },
       {
         "slug": "food_a",
         "uid": "VRqbyWzJ",
         "parent": "77UGodwK",
-        "x": -118,
-        "y": 90
+        "x": -36,
+        "y": 87
       },
       {
         "slug": "leatherworks",
         "uid": "cg_fgFgU",
         "parent": "77UGodwK",
-        "x": -67,
-        "y": 64
+        "x": -100,
+        "y": 129
       },
       {
         "slug": "jewlery",
         "uid": "nZcr9sEV",
         "parent": "GkLzsCod",
-        "x": 92,
-        "y": 115
+        "x": 21,
+        "y": 146
       },
       {
         "slug": "herbs_and_potions",
         "uid": "S&6ZPPk5",
         "parent": "GkLzsCod",
-        "x": 28,
-        "y": 156
+        "x": 59,
+        "y": 88
       },
       {
         "slug": "food_b",
         "uid": "df2HglHF",
         "parent": "GkLzsCod",
-        "x": 22,
-        "y": 90
+        "x": 84,
+        "y": 117
       },
       {
         "slug": "the_bar",
