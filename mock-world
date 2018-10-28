@@ -101,10 +101,7 @@
         {
           "from": "xxx",
           "to": "xxx",
-          "params": [
-            "back",
-            "hungry"
-          ],
+          "params": "back",
           "handle": "Go to shitplace",
           "text": "I went to a shit place."
         },
@@ -114,6 +111,13 @@
           "params": [],
           "handle": "Go to shitplace",
           "text": "I went to a shit place."
+        },
+        {
+          "from": "null",
+          "to": "spawnpoint",
+          "params": "spawn",
+          "handle": "",
+          "text": "I spawned at \"The Spawn Point\""
         }
       ]
     }
