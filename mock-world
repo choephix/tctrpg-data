@@ -2,262 +2,110 @@
   "world": {
     "nodes": [
       {
-        "slug": "spawnlake",
+        "slug": "spawnbath",
         "uid": "ssBJzhsm",
-        "x": -37,
-        "y": -529
+        "x": 0,
+        "y": 0
       },
       {
-        "slug": "spawnlake_shore",
-        "uid": "lw&Y&Dsm",
-        "x": -12,
-        "y": -480
+        "slug": "node_1",
+        "uid": "M&u8c__z",
+        "x": 3.5,
+        "y": 111.5
       },
       {
-        "slug": "forest_path",
-        "uid": "dCkYxcLz",
-        "x": 44,
-        "y": -425
+        "slug": "node_2",
+        "uid": "cMT6x7eY",
+        "x": -167.5,
+        "y": 110.5
       },
       {
-        "slug": "north_exit",
-        "uid": "7dmBtjWK",
-        "x": 59,
-        "y": -313
+        "slug": "node_3",
+        "uid": "7EWddR4l",
+        "x": -128.5,
+        "y": 213.5
       },
       {
-        "slug": "north_residential",
-        "uid": "YLvrMYco",
-        "x": 64,
-        "y": -206
+        "slug": "node_4",
+        "uid": "_qJSVTZe",
+        "x": -30.5,
+        "y": 264.5
       },
       {
-        "slug": "inn_street",
-        "uid": "FiALIlDt",
-        "x": 21,
-        "y": -81
+        "slug": "node_5",
+        "uid": "WO89X9Pz",
+        "x": 87.5,
+        "y": 259.5
       },
       {
-        "slug": "inn",
-        "uid": "bxCuKUjC",
-        "x": -45,
-        "y": -115
+        "slug": "node_6",
+        "uid": "WAleYuHL",
+        "x": 150.5,
+        "y": 195.5
       },
       {
-        "slug": "plaza",
-        "uid": "yqyqhATd",
-        "x": -11,
-        "y": 1
-      },
-      {
-        "slug": "clinic",
-        "uid": "yFyX0VGK",
-        "x": 10,
-        "y": 49
-      },
-      {
-        "slug": "blacksmith_street",
-        "uid": "EkLnrzDf",
-        "x": -140,
-        "y": 15
-      },
-      {
-        "slug": "market_west",
-        "uid": "sqzuk5Ao",
-        "x": -72,
-        "y": 103
-      },
-      {
-        "slug": "market_east",
-        "uid": "&wVuf7pt",
-        "x": 8,
-        "y": 98
-      },
-      {
-        "slug": "bookstore_street",
-        "uid": "BkIu0Y&4",
-        "x": 60,
-        "y": 139
-      },
-      {
-        "slug": "residential_south",
-        "uid": "ixrYMu_G",
-        "x": 163,
-        "y": 202
-      },
-      {
-        "slug": "exit_south",
-        "uid": "di2oj0Hl",
-        "x": 175,
-        "y": 342
-      },
-      {
-        "slug": "intersection",
-        "uid": "kJI_RCYu",
-        "x": 224,
-        "y": 533
-      },
-      {
-        "slug": "dungeon_one",
-        "uid": "j0nTh2Um",
-        "x": 550,
-        "y": 537
-      },
-      {
-        "slug": "dungeon_two",
-        "uid": "Eh2Xq6WN",
-        "x": 187,
-        "y": 627
+        "slug": "node_7",
+        "uid": "AFqwozCp",
+        "x": 165.5,
+        "y": 114.5
       }
     ],
     "links": [
       {
+        "from": "M&u8c__z",
+        "to": "ssBJzhsm"
+      },
+      {
         "from": "ssBJzhsm",
-        "to": "lw&Y&Dsm"
+        "to": "M&u8c__z"
       },
       {
-        "from": "lw&Y&Dsm",
-        "to": "dCkYxcLz"
+        "from": "cMT6x7eY",
+        "to": "M&u8c__z"
       },
       {
-        "from": "dCkYxcLz",
-        "to": "lw&Y&Dsm"
+        "from": "M&u8c__z",
+        "to": "cMT6x7eY"
       },
       {
-        "from": "dCkYxcLz",
-        "to": "7dmBtjWK"
+        "from": "7EWddR4l",
+        "to": "M&u8c__z"
       },
       {
-        "from": "7dmBtjWK",
-        "to": "dCkYxcLz"
+        "from": "M&u8c__z",
+        "to": "7EWddR4l"
       },
       {
-        "from": "7dmBtjWK",
-        "to": "YLvrMYco"
+        "from": "_qJSVTZe",
+        "to": "M&u8c__z"
       },
       {
-        "from": "YLvrMYco",
-        "to": "7dmBtjWK"
+        "from": "M&u8c__z",
+        "to": "_qJSVTZe"
       },
       {
-        "from": "YLvrMYco",
-        "to": "FiALIlDt"
+        "from": "WO89X9Pz",
+        "to": "M&u8c__z"
       },
       {
-        "from": "FiALIlDt",
-        "to": "YLvrMYco"
+        "from": "M&u8c__z",
+        "to": "WO89X9Pz"
       },
       {
-        "from": "FiALIlDt",
-        "to": "bxCuKUjC"
+        "from": "WAleYuHL",
+        "to": "M&u8c__z"
       },
       {
-        "from": "FiALIlDt",
-        "to": "yqyqhATd"
+        "from": "M&u8c__z",
+        "to": "WAleYuHL"
       },
       {
-        "from": "bxCuKUjC",
-        "to": "FiALIlDt"
+        "from": "AFqwozCp",
+        "to": "M&u8c__z"
       },
       {
-        "from": "yqyqhATd",
-        "to": "FiALIlDt"
-      },
-      {
-        "from": "yqyqhATd",
-        "to": "yFyX0VGK"
-      },
-      {
-        "from": "yqyqhATd",
-        "to": "EkLnrzDf"
-      },
-      {
-        "from": "yqyqhATd",
-        "to": "sqzuk5Ao"
-      },
-      {
-        "from": "yFyX0VGK",
-        "to": "&wVuf7pt"
-      },
-      {
-        "from": "yFyX0VGK",
-        "to": "yqyqhATd"
-      },
-      {
-        "from": "EkLnrzDf",
-        "to": "yqyqhATd"
-      },
-      {
-        "from": "EkLnrzDf",
-        "to": "sqzuk5Ao"
-      },
-      {
-        "from": "sqzuk5Ao",
-        "to": "yqyqhATd"
-      },
-      {
-        "from": "sqzuk5Ao",
-        "to": "EkLnrzDf"
-      },
-      {
-        "from": "sqzuk5Ao",
-        "to": "&wVuf7pt"
-      },
-      {
-        "from": "&wVuf7pt",
-        "to": "sqzuk5Ao"
-      },
-      {
-        "from": "&wVuf7pt",
-        "to": "yFyX0VGK"
-      },
-      {
-        "from": "&wVuf7pt",
-        "to": "BkIu0Y&4"
-      },
-      {
-        "from": "BkIu0Y&4",
-        "to": "&wVuf7pt"
-      },
-      {
-        "from": "BkIu0Y&4",
-        "to": "ixrYMu_G"
-      },
-      {
-        "from": "ixrYMu_G",
-        "to": "BkIu0Y&4"
-      },
-      {
-        "from": "ixrYMu_G",
-        "to": "di2oj0Hl"
-      },
-      {
-        "from": "di2oj0Hl",
-        "to": "ixrYMu_G"
-      },
-      {
-        "from": "kJI_RCYu",
-        "to": "j0nTh2Um"
-      },
-      {
-        "from": "kJI_RCYu",
-        "to": "Eh2Xq6WN"
-      },
-      {
-        "from": "kJI_RCYu",
-        "to": "di2oj0Hl"
-      },
-      {
-        "from": "j0nTh2Um",
-        "to": "kJI_RCYu"
-      },
-      {
-        "from": "Eh2Xq6WN",
-        "to": "kJI_RCYu"
-      },
-      {
-        "from": "di2oj0Hl",
-        "to": "kJI_RCYu"
+        "from": "M&u8c__z",
+        "to": "AFqwozCp"
       }
     ],
     "subnodes": [],
@@ -275,10 +123,38 @@
     ],
     "defaults": [],
     "actions": {
-      "goto": []
+      "goto": [
+        {
+          "to": "spawnbath",
+          "params": "spawn",
+          "handle": "",
+          "text": "I spawned fresh at the village of Lorem."
+        },
+        {
+          "to": "node_1",
+          "params": "",
+          "handle": "",
+          "text": "I stepped onto \"Hub Plaza\" and looked around. I counted 6 doors in front of me.",
+          "from": "spawnbath"
+        },
+        {
+          "to": "spawnbath",
+          "params": "",
+          "handle": "Return to the \"Spawn Bath\".",
+          "text": "I returned to the \"Spawn Bath\" for... a reason?",
+          "from": "node_1"
+        },
+        {
+          "to": "node_2",
+          "params": "",
+          "handle": "",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lectus enim, porta tincidunt vulputate in, consequat vitae nunc. Donec sed sapien at sapien volutpat tincidunt. Curabitur sit amet mi sit amet massa egestas sagittis. Aliquam blandit lorem neque, nec pharetra dolor faucibus vel. Vestibulum nec nibh aliquet, tempus diam non, porta tortor. Quisque ut gravida ipsum, non ornare nibh. Aliquam maximus placerat felis at faucibus. Aliquam posuere odio dui, ut consectetur neque rhoncus vel. Phasellus rutrum tellus fermentum lorem semper, vitae consequat massa convallis. Proin tristique justo vitae nibh convallis porta. Nullam convallis nibh vel ex condimentum, lacinia eleifend libero pharetra.  Sed et mauris sit amet elit rhoncus volutpat a ornare magna. Integer eu interdum ex. Integer viverra leo nec efficitur consequat. Curabitur at tincidunt ipsum, ac efficitur ipsum. Nullam ac quam ac ex imperdiet ullamcorper. Mauris at ullamcorper velit. Nunc vulputate urna at neque elementum tincidunt. Fusce ut tempor velit, nec volutpat quam. Donec pulvinar lorem est, eget tempus dolor facilisis ut.  Phasellus in euismod risus. Morbi malesuada malesuada ante sit amet placerat. Nullam sit amet ornare lectus. Praesent ac aliquam neque. Nullam ornare blandit rhoncus. Ut porta tempor dolor, lacinia laoreet turpis viverra ut. Cras risus enim, tempor quis vestibulum non, porta eget purus. Nam eget turpis vel nibh tincidunt maximus sed ut nibh. Cras vel porttitor neque. Ut feugiat tincidunt tellus, in sagittis justo accumsan at. Vestibulum eget lacinia arcu.  Aenean malesuada eros ut lacus condimentum, et placerat nunc dignissim. Fusce egestas in quam at sollicitudin. Duis viverra augue augue, euismod posuere lacus tincidunt vel. Cras malesuada lobortis odio id rutrum. Maecenas id tincidunt quam. Donec malesuada auctor molestie. Fusce pretium malesuada nulla sed maximus. Etiam massa nisi, mattis blandit tortor et, pharetra rutrum nibh.  Donec enim libero, imperdiet at ante ac, egestas fermentum leo. Quisque nec ullamcorper odio. Morbi fermentum nunc ut varius aliquet. Ut semper eget ante ut mattis. Nullam vel scelerisque lacus. Aenean pellentesque venenatis ante, nec vestibulum purus gravida in. Nam consequat non sapien vel lobortis. Donec eget aliquam neque. Praesent aliquet, massa vitae ultricies posuere, augue sem ullamcorper nunc, id consectetur justo elit id odio. Nunc eu dignissim lacus. Proin felis turpis, semper sit amet neque sed, convallis faucibus sapien.",
+          "from": "node_1"
+        }
+      ]
     }
   },
   "ini": {
-    "spawn_node": "spawnlake"
+    "spawn_node": "spawnbath"
   }
 }
