@@ -145,6 +145,13 @@
           "from": "node_1"
         },
         {
+          "to": "spawnbath",
+          "params": "back",
+          "handle": "Immediately go back to the \"Spawn Bath\".",
+          "text": "I immediately went back to the \"Spawn Bath\".",
+          "from": "node_1"
+        },
+        {
           "to": "node_2",
           "params": "",
           "handle": "",
