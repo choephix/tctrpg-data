@@ -4,17 +4,17 @@
       {
         "slug": "spawnpoint",
         "uid": "inlOxg3K",
-        "x": 0,
-        "y": 0
+        "x": -0.48799999999999377,
+        "y": 4.512000000000048
       },
       {
-        "slug": "the_south",
+        "slug": "tavern",
         "uid": "WiVwtInV",
         "x": 0,
         "y": 100
       },
       {
-        "slug": "the_east",
+        "slug": "market",
         "uid": "pEY4S6qx",
         "x": 100,
         "y": 0
@@ -26,61 +26,69 @@
         "y": -100
       },
       {
-        "slug": "the_west",
+        "slug": "home",
         "uid": "LRaobwCF",
         "x": -100,
-        "y": 0
+        "y": -2
       }
     ],
     "links": [
       {
         "from": "WiVwtInV",
-        "to": "inlOxg3K"
+        "to": "pEY4S6qx"
+      },
+      {
+        "from": "pEY4S6qx",
+        "to": "WiVwtInV"
+      },
+      {
+        "from": "pEY4S6qx",
+        "to": "Q_RZeDQt"
+      },
+      {
+        "from": "Q_RZeDQt",
+        "to": "pEY4S6qx"
+      },
+      {
+        "from": "Q_RZeDQt",
+        "to": "LRaobwCF"
+      },
+      {
+        "from": "LRaobwCF",
+        "to": "Q_RZeDQt"
+      },
+      {
+        "from": "LRaobwCF",
+        "to": "WiVwtInV"
+      },
+      {
+        "from": "WiVwtInV",
+        "to": "LRaobwCF"
       },
       {
         "from": "inlOxg3K",
         "to": "WiVwtInV"
       },
       {
-        "from": "WiVwtInV",
+        "from": "inlOxg3K",
         "to": "pEY4S6qx"
       },
       {
-        "from": "pEY4S6qx",
-        "to": "WiVwtInV"
-      },
-      {
-        "from": "pEY4S6qx",
+        "from": "inlOxg3K",
         "to": "Q_RZeDQt"
       },
       {
-        "from": "Q_RZeDQt",
-        "to": "pEY4S6qx"
-      },
-      {
-        "from": "Q_RZeDQt",
-        "to": "LRaobwCF"
-      },
-      {
-        "from": "LRaobwCF",
-        "to": "Q_RZeDQt"
-      },
-      {
-        "from": "LRaobwCF",
-        "to": "WiVwtInV"
-      },
-      {
-        "from": "WiVwtInV",
+        "from": "inlOxg3K",
         "to": "LRaobwCF"
       }
     ],
     "subnodes": [
       {
-        "slug": "sub",
-        "uid": "fIhVyTjx",
-        "parent": "Q_RZeDQt",
-        "x": 0,
-        "y": -50
+        "slug": "bar",
+        "uid": "apm_WaD0",
+        "parent": "WiVwtInV",
+        "x": 56.108800000000016,
+        "y": 101.90079999999975
       }
     ],
     "areas": [],
