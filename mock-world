@@ -3,83 +3,83 @@
     "nodes": [
       {
         "slug": "spawnpoint",
-        "uid": "inlOxg3K",
+        "uid": "@spawnpoint",
         "x": 0.7920000000000088,
         "y": 4.5120000000000475
       },
       {
         "slug": "tavern",
-        "uid": "WiVwtInV",
+        "uid": "@tavern",
         "x": 0,
         "y": 100
       },
       {
         "slug": "market",
-        "uid": "pEY4S6qx",
+        "uid": "@market",
         "x": 100,
         "y": 0
       },
       {
         "slug": "the_north",
-        "uid": "Q_RZeDQt",
+        "uid": "@the_north",
         "x": 0,
         "y": -100
       },
       {
         "slug": "home",
-        "uid": "LRaobwCF",
+        "uid": "@home",
         "x": -100,
         "y": -2
       }
     ],
     "links": [
       {
-        "from": "WiVwtInV",
-        "to": "pEY4S6qx"
+        "from": "@tavern",
+        "to": "@market"
       },
       {
-        "from": "pEY4S6qx",
-        "to": "WiVwtInV"
+        "from": "@market",
+        "to": "@tavern"
       },
       {
-        "from": "pEY4S6qx",
-        "to": "Q_RZeDQt"
+        "from": "@market",
+        "to": "@the_north"
       },
       {
-        "from": "Q_RZeDQt",
-        "to": "pEY4S6qx"
+        "from": "@the_north",
+        "to": "@market"
       },
       {
-        "from": "Q_RZeDQt",
-        "to": "LRaobwCF"
+        "from": "@the_north",
+        "to": "@home"
       },
       {
-        "from": "LRaobwCF",
-        "to": "Q_RZeDQt"
+        "from": "@home",
+        "to": "@the_north"
       },
       {
-        "from": "LRaobwCF",
-        "to": "WiVwtInV"
+        "from": "@home",
+        "to": "@tavern"
       },
       {
-        "from": "WiVwtInV",
-        "to": "LRaobwCF"
+        "from": "@tavern",
+        "to": "@home"
       },
       {
-        "from": "inlOxg3K",
-        "to": "WiVwtInV"
+        "from": "@spawnpoint",
+        "to": "@tavern"
       },
       {
-        "from": "inlOxg3K",
-        "to": "pEY4S6qx"
+        "from": "@spawnpoint",
+        "to": "@market"
       },
       {
-        "from": "inlOxg3K",
-        "to": "Q_RZeDQt"
+        "from": "@spawnpoint",
+        "to": "@the_north"
       },
       {
-        "from": "inlOxg3K",
-        "to": "LRaobwCF"
+        "from": "@spawnpoint",
+        "to": "@home"
       }
     ],
     "subnodes": [
