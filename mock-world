@@ -3,109 +3,109 @@
     "nodes": [
       {
         "slug": "spawnbath",
-        "uid": "ssBJzhsm",
+        "uid": "@spawnbath",
         "x": 0,
         "y": 0
       },
       {
         "slug": "node_1",
-        "uid": "M&u8c__z",
+        "uid": "@node_1",
         "x": 3.5,
         "y": 111.5
       },
       {
         "slug": "node_2",
-        "uid": "cMT6x7eY",
+        "uid": "@node_2",
         "x": -167.5,
         "y": 110.5
       },
       {
         "slug": "node_3",
-        "uid": "7EWddR4l",
+        "uid": "@node_3",
         "x": -128.5,
         "y": 213.5
       },
       {
         "slug": "node_4",
-        "uid": "_qJSVTZe",
+        "uid": "@node_4",
         "x": -30.5,
         "y": 264.5
       },
       {
         "slug": "node_5",
-        "uid": "WO89X9Pz",
+        "uid": "@node_5",
         "x": 87.5,
         "y": 259.5
       },
       {
         "slug": "node_6",
-        "uid": "WAleYuHL",
+        "uid": "@node_6",
         "x": 150.5,
         "y": 195.5
       },
       {
         "slug": "node_7",
-        "uid": "AFqwozCp",
+        "uid": "@node_7",
         "x": 165.5,
         "y": 114.5
       }
     ],
     "links": [
       {
-        "from": "M&u8c__z",
-        "to": "ssBJzhsm"
+        "from": "@node_1",
+        "to": "@spawnbath"
       },
       {
-        "from": "ssBJzhsm",
-        "to": "M&u8c__z"
+        "from": "@spawnbath",
+        "to": "@node_1"
       },
       {
-        "from": "cMT6x7eY",
-        "to": "M&u8c__z"
+        "from": "@node_2",
+        "to": "@node_1"
       },
       {
-        "from": "M&u8c__z",
-        "to": "cMT6x7eY"
+        "from": "@node_1",
+        "to": "@node_2"
       },
       {
-        "from": "7EWddR4l",
-        "to": "M&u8c__z"
+        "from": "@node_3",
+        "to": "@node_1"
       },
       {
-        "from": "M&u8c__z",
-        "to": "7EWddR4l"
+        "from": "@node_1",
+        "to": "@node_3"
       },
       {
-        "from": "_qJSVTZe",
-        "to": "M&u8c__z"
+        "from": "@node_4",
+        "to": "@node_1"
       },
       {
-        "from": "M&u8c__z",
-        "to": "_qJSVTZe"
+        "from": "@node_1",
+        "to": "@node_4"
       },
       {
-        "from": "WO89X9Pz",
-        "to": "M&u8c__z"
+        "from": "@node_5",
+        "to": "@node_1"
       },
       {
-        "from": "M&u8c__z",
-        "to": "WO89X9Pz"
+        "from": "@node_1",
+        "to": "@node_5"
       },
       {
-        "from": "WAleYuHL",
-        "to": "M&u8c__z"
+        "from": "@node_6",
+        "to": "@node_1"
       },
       {
-        "from": "M&u8c__z",
-        "to": "WAleYuHL"
+        "from": "@node_1",
+        "to": "@node_6"
       },
       {
-        "from": "AFqwozCp",
-        "to": "M&u8c__z"
+        "from": "@node_7",
+        "to": "@node_1"
       },
       {
-        "from": "M&u8c__z",
-        "to": "AFqwozCp"
+        "from": "@node_1",
+        "to": "@node_7"
       }
     ],
     "subnodes": [],
