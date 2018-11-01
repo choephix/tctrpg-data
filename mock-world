@@ -107,18 +107,25 @@
     "actions": {
       "goto": [
         {
-          "from": "xxx",
-          "to": "xxx",
-          "params": "back",
-          "handle": "Return to shitplace",
-          "text": "I returned to a shitplace"
+          "from": "spawnpoint",
+          "to": "tavern",
+          "params": "",
+          "handle": "",
+          "text": "I reached a noticeably old and ill-maintained building, apparently presenting itself to be some sort of tavern."
         },
         {
-          "from": "xxx",
-          "to": "xxx",
-          "params": [],
-          "handle": "Go to shitplace",
-          "text": "I went to a shit place."
+          "from": "",
+          "to": "tavern",
+          "params": "back",
+          "handle": "Return to the tavern",
+          "text": ""
+        },
+        {
+          "from": "",
+          "to": "tavern",
+          "params": "",
+          "handle": "Enter the tavern",
+          "text": "I opened the front door of the old run-down tavern. As I entered, I was immediately greeted by the owner: \"Hey, nose-picker! I've been counting! You have so far picked your nose exactly {context.nosepicks} times. Keep it up!\" He smiled his ugliest grin."
         },
         {
           "from": "null",
