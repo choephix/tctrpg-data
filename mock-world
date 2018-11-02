@@ -129,7 +129,7 @@
         },
         {
           "from": "",
-          "to": "tavern",
+          "to": "home",
           "params": "",
           "handle": "Go home {{context.nosepicks}} {{len(context.history)}}",
           "text": "I went home to rest."
