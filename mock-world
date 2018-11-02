@@ -131,7 +131,7 @@
           "from": "",
           "to": "home",
           "params": "",
-          "handle": "Go home {{context.nosepicks}} {{len(context.history)}}",
+          "handle": "Go home {{context.nosepicks}} {{context.history.length}}",
           "text": "I went home to rest."
         },
         {
