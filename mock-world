@@ -125,7 +125,7 @@
           "to": "tavern",
           "params": "",
           "handle": "Enter the tavern",
-          "text": "I went back to the old run-down tavern and opened the front door. As I entered, I was immediately greeted by the owner: \"Hey, nose-picker! I've been counting! You have so far picked your nose exactly {context.nosepicks} times. Keep it up!\" He smiled his ugliest grin."
+          "text": "I went back to the old run-down tavern and opened the front door. As I entered, I was immediately greeted by the owner: \"Hey, nose-picker! I've been counting! You have so far picked your nose exactly {{context.nosepicks}} times. Keep it up!\" He smiled his ugliest grin."
         },
         {
           "from": "null",
