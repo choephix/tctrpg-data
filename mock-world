@@ -131,8 +131,8 @@
           "from": "",
           "to": "home",
           "params": "",
-          "handle": "Go home {{context.nosepicks}} {{context.history.length}}",
-          "text": "I went home to rest."
+          "handle": "Go home (moves: {{context.history.length}})",
+          "text": "I went home{{context.nosepicks==0?\".\":\" and washed my boogery hands in mah bucket. Gotta keep clean.\"}}"
         },
         {
           "from": "null",
