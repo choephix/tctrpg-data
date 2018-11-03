@@ -109,37 +109,34 @@
         {
           "from": "spawnpoint",
           "to": "tavern",
-          "params": "",
           "handle": "",
           "text": "I reached a noticeably old and ill-maintained building, apparently presenting itself to be some sort of tavern."
         },
         {
           "from": "",
           "to": "tavern",
-          "params": "back",
           "handle": "Return to the tavern",
-          "text": ""
+          "text": "",
+          "condition": "back"
         },
         {
           "from": "",
           "to": "tavern",
-          "params": "",
           "handle": "Enter the tavern",
           "text": "I went back to the old run-down tavern and opened the front door. As I entered, I was immediately greeted by the owner: \"Hey, nose-picker! I've been counting! You have so far picked your nose exactly {{context.nosepicks}} times. Keep it up!\" He smiled his ugliest grin."
         },
         {
           "from": "",
           "to": "home",
-          "params": "",
           "handle": "Go home (moves: {{context.history.length}})",
           "text": "I went home{{context.nosepicks==0?\".\":\" and washed my boogery hands in mah bucket. Gotta keep clean.\"}}"
         },
         {
           "from": "null",
           "to": "spawnpoint",
-          "params": "spawn",
           "handle": "",
-          "text": "I spawned at \"The Spawn Point\""
+          "text": "I spawned at \"The Spawn Point\"",
+          "condition": "spawn"
         }
       ]
     }
