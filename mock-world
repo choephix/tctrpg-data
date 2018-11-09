@@ -101,7 +101,13 @@
     "sequence_nodes": [
       {
         "uid": "ungamuS8",
-        "text": "..."
+        "text": "...",
+        "choices": [
+          {
+            "handle": "...",
+            "next": ""
+          }
+        ]
       },
       {
         "uid": "ijjN5RJg",
@@ -109,7 +115,15 @@
       },
       {
         "uid": "t0p2vTp8",
-        "text": "..."
+        "text": "...",
+        "choices": [
+          {
+            "handle": "..."
+          },
+          {
+            "handle": "..."
+          }
+        ]
       }
     ]
   },
