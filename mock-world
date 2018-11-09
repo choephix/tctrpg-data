@@ -97,7 +97,8 @@
     "defaults": [],
     "actions": {
       "goto": []
-    }
+    },
+    "sequence_nodes": []
   },
   "ini": {
     "spawn_node": "center"
