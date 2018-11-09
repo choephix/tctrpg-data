@@ -6,82 +6,10 @@
         "uid": "hrI2_4vL",
         "x": 0,
         "y": 0
-      },
-      {
-        "slug": "twonode",
-        "uid": "Zn6f1Uma",
-        "x": -83,
-        "y": -33
-      },
-      {
-        "slug": "onenode",
-        "uid": "AXfG50Lg",
-        "x": 58,
-        "y": -62
-      },
-      {
-        "slug": "threenode",
-        "uid": "JI95dczi",
-        "x": 30,
-        "y": 83
-      },
-      {
-        "slug": "farnode",
-        "uid": "DbWSyGMh",
-        "x": 111,
-        "y": 100
       }
     ],
-    "links": [
-      {
-        "from": "hrI2_4vL",
-        "to": "AXfG50Lg"
-      },
-      {
-        "from": "hrI2_4vL",
-        "to": "Zn6f1Uma"
-      },
-      {
-        "from": "hrI2_4vL",
-        "to": "JI95dczi"
-      },
-      {
-        "from": "JI95dczi",
-        "to": "DbWSyGMh"
-      },
-      {
-        "from": "DbWSyGMh",
-        "to": "JI95dczi"
-      },
-      {
-        "from": "JI95dczi",
-        "to": "hrI2_4vL"
-      },
-      {
-        "from": "Zn6f1Uma",
-        "to": "hrI2_4vL"
-      },
-      {
-        "from": "AXfG50Lg",
-        "to": "hrI2_4vL"
-      }
-    ],
-    "subnodes": [
-      {
-        "slug": "square",
-        "uid": "PQd0bezE",
-        "parent": "JI95dczi",
-        "x": -19,
-        "y": 127
-      },
-      {
-        "slug": "circle",
-        "uid": "Bd3AykWW",
-        "parent": "Zn6f1Uma",
-        "x": -89,
-        "y": -82
-      }
-    ],
+    "links": [],
+    "subnodes": [],
     "areas": [],
     "characters": [],
     "items": []
