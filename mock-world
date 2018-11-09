@@ -409,7 +409,8 @@
           "uid": "6Jv61yFv"
         }
       ]
-    }
+    },
+    "sequence_nodes": []
   },
   "ini": {
     "spawn_node": "spawnbath"
