@@ -138,7 +138,8 @@
           "uid": "CbuMYwQg"
         }
       ]
-    }
+    },
+    "sequence_nodes": []
   },
   "ini": {
     "spawn_node": "spawnpoint"
