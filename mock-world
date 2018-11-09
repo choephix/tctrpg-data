@@ -167,213 +167,246 @@
         {
           "to": "spawnbath",
           "text": "I spawned fresh at the village of Lorem.",
-          "condition": "spawn"
+          "condition": "spawn",
+          "uid": "60xNRbSa"
         },
         {
           "to": "node_1",
           "text": "I stepped onto \"Hub Plaza\" and looked around. I counted 6 doors in front of me.",
-          "from": "spawnbath"
+          "from": "spawnbath",
+          "uid": "lcb2Dl_0"
         },
         {
           "to": "spawnbath",
           "handle": "Return to the \"Spawn Bath\".",
           "text": "I returned to the \"Spawn Bath\" for... a reason?",
-          "from": "node_1"
+          "from": "node_1",
+          "uid": "3fH87npi"
         },
         {
           "to": "spawnbath",
           "handle": "Immediately go back to the \"Spawn Bath\".",
           "text": "I immediately went back to the \"Spawn Bath\".",
           "from": "node_1",
-          "condition": "back"
+          "condition": "back",
+          "uid": "CTJGIgMa"
         },
         {
           "to": "node_2",
           "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lectus enim, porta tincidunt vulputate in, consequat vitae nunc. Donec sed sapien at sapien volutpat tincidunt. Curabitur sit amet mi sit amet massa egestas sagittis. Aliquam blandit lorem neque, nec pharetra dolor faucibus vel. Vestibulum nec nibh aliquet, tempus diam non, porta tortor. Quisque ut gravida ipsum, non ornare nibh. Aliquam maximus placerat felis at faucibus. Aliquam posuere odio dui, ut consectetur neque rhoncus vel. Phasellus rutrum tellus fermentum lorem semper, vitae consequat massa convallis. Proin tristique justo vitae nibh convallis porta. Nullam convallis nibh vel ex condimentum, lacinia eleifend libero pharetra.  Sed et mauris sit amet elit rhoncus volutpat a ornare magna. Integer eu interdum ex. Integer viverra leo nec efficitur consequat. Curabitur at tincidunt ipsum, ac efficitur ipsum. Nullam ac quam ac ex imperdiet ullamcorper. Mauris at ullamcorper velit. Nunc vulputate urna at neque elementum tincidunt. Fusce ut tempor velit, nec volutpat quam. Donec pulvinar lorem est, eget tempus dolor facilisis ut.  Phasellus in euismod risus. Morbi malesuada malesuada ante sit amet placerat. Nullam sit amet ornare lectus. Praesent ac aliquam neque. Nullam ornare blandit rhoncus. Ut porta tempor dolor, lacinia laoreet turpis viverra ut. Cras risus enim, tempor quis vestibulum non, porta eget purus. Nam eget turpis vel nibh tincidunt maximus sed ut nibh. Cras vel porttitor neque. Ut feugiat tincidunt tellus, in sagittis justo accumsan at. Vestibulum eget lacinia arcu.  Aenean malesuada eros ut lacus condimentum, et placerat nunc dignissim. Fusce egestas in quam at sollicitudin. Duis viverra augue augue, euismod posuere lacus tincidunt vel. Cras malesuada lobortis odio id rutrum. Maecenas id tincidunt quam. Donec malesuada auctor molestie. Fusce pretium malesuada nulla sed maximus. Etiam massa nisi, mattis blandit tortor et, pharetra rutrum nibh.  Donec enim libero, imperdiet at ante ac, egestas fermentum leo. Quisque nec ullamcorper odio. Morbi fermentum nunc ut varius aliquet. Ut semper eget ante ut mattis. Nullam vel scelerisque lacus. Aenean pellentesque venenatis ante, nec vestibulum purus gravida in. Nam consequat non sapien vel lobortis. Donec eget aliquam neque. Praesent aliquet, massa vitae ultricies posuere, augue sem ullamcorper nunc, id consectetur justo elit id odio. Nunc eu dignissim lacus. Proin felis turpis, semper sit amet neque sed, convallis faucibus sapien.\n\nWelcome to node_2, the longest of all nodes",
           "from": "node_1",
-          "handle": "Go to that one very long node"
+          "handle": "Go to that one very long node",
+          "uid": "acFCaSDh"
         },
         {
           "from": "@node_1",
           "to": "@spawnbath",
           "handle": "Go to spawnbath",
-          "text": "Beef irure jerky dolore officia qui.\nBall tip andouille shank frankfurter.  Ut proident do short ribs commodo drumstick sint.  Alcatra turkey pastrami t-bone, biltong labore ex laboris.  Ut meatball nulla prosciutto filet mignon est.  Sed consequat tongue pastrami, commodo shank turducken buffalo est jerky ut porchetta dolore beef ribs non.\nThen I reached spawnbath"
+          "text": "Beef irure jerky dolore officia qui.\nBall tip andouille shank frankfurter.  Ut proident do short ribs commodo drumstick sint.  Alcatra turkey pastrami t-bone, biltong labore ex laboris.  Ut meatball nulla prosciutto filet mignon est.  Sed consequat tongue pastrami, commodo shank turducken buffalo est jerky ut porchetta dolore beef ribs non.\nThen I reached spawnbath",
+          "uid": "dtFQHMet"
         },
         {
           "from": "@spawnbath",
           "to": "@node_1",
           "handle": "Go to the hub node",
-          "text": "Adipisicing kevin ullamco reprehenderit, pariatur porchetta andouille tongue pig spare ribs kielbasa capicola pork dolor.\nAlcatra porchetta ham dolor meatloaf nostrud anim t-bone dolore est ut sunt chuck sirloin consequat.  Enim commodo sausage quis pariatur consectetur.  Kevin pancetta excepteur sed jowl anim eu ground round.  Spare ribs filet mignon boudin aliqua, ipsum quis et.\nThen I reached node_1 (the hub node, that middle one, connected to a bunch of other lorem shit)"
+          "text": "Adipisicing kevin ullamco reprehenderit, pariatur porchetta andouille tongue pig spare ribs kielbasa capicola pork dolor.\nAlcatra porchetta ham dolor meatloaf nostrud anim t-bone dolore est ut sunt chuck sirloin consequat.  Enim commodo sausage quis pariatur consectetur.  Kevin pancetta excepteur sed jowl anim eu ground round.  Spare ribs filet mignon boudin aliqua, ipsum quis et.\nThen I reached node_1 (the hub node, that middle one, connected to a bunch of other lorem shit)",
+          "uid": "4pG7jFdG"
         },
         {
           "from": "@node_2",
           "to": "@node_1",
           "handle": "Go to node_1",
-          "text": "Cow beef ribs mollit ut aliquip prosciutto.\nPork chop aliqua flank, proident qui sunt sirloin pastrami mollit capicola et deserunt velit excepteur do.  Voluptate sint ut et commodo quis tenderloin dolor dolore enim velit.  Aute ham hock eu kielbasa culpa, shoulder labore pork chop commodo exercitation alcatra tempor lorem pork loin.\nThen I reached node_1"
+          "text": "Cow beef ribs mollit ut aliquip prosciutto.\nPork chop aliqua flank, proident qui sunt sirloin pastrami mollit capicola et deserunt velit excepteur do.  Voluptate sint ut et commodo quis tenderloin dolor dolore enim velit.  Aute ham hock eu kielbasa culpa, shoulder labore pork chop commodo exercitation alcatra tempor lorem pork loin.\nThen I reached node_1",
+          "uid": "WZTp3jUf"
         },
         {
           "from": "@node_1",
           "to": "@node_2",
           "handle": "Go to node_2",
-          "text": "Deserunt meatball esse, turkey pork irure brisket adipisicing labore laboris short ribs ball tip cupim biltong.\nEu proident bacon pastrami in.  Cow jerky cillum, salami mollit excepteur flank est meatloaf sausage sint nostrud brisket.  Sed irure ball tip, occaecat tenderloin filet mignon ex laboris.  Aliqua kielbasa strip steak labore velit cillum cow.  Ut short loin ground round pariatur in ex consequat.\nThen I reached node_2"
+          "text": "Deserunt meatball esse, turkey pork irure brisket adipisicing labore laboris short ribs ball tip cupim biltong.\nEu proident bacon pastrami in.  Cow jerky cillum, salami mollit excepteur flank est meatloaf sausage sint nostrud brisket.  Sed irure ball tip, occaecat tenderloin filet mignon ex laboris.  Aliqua kielbasa strip steak labore velit cillum cow.  Ut short loin ground round pariatur in ex consequat.\nThen I reached node_2",
+          "uid": "U32Nzvyy"
         },
         {
           "from": "@node_3",
           "to": "@node_1",
           "handle": "Go to node_1",
-          "text": "Cupim nulla ea pariatur buffalo swine.\nNulla t-bone lorem quis, meatball drumstick sed anim buffalo short loin dolore prosciutto alcatra pork loin chuck.  Pancetta picanha minim rump brisket elit, ullamco laboris ut ribeye shankle.  Dolore fatback ea pariatur voluptate filet mignon dolor mollit ham burgdoggen capicola tri-tip culpa consectetur.  Frankfurter turducken venison pariatur, bresaola pork loin short ribs drumstick turkey.\nThen I reached node_1"
+          "text": "Cupim nulla ea pariatur buffalo swine.\nNulla t-bone lorem quis, meatball drumstick sed anim buffalo short loin dolore prosciutto alcatra pork loin chuck.  Pancetta picanha minim rump brisket elit, ullamco laboris ut ribeye shankle.  Dolore fatback ea pariatur voluptate filet mignon dolor mollit ham burgdoggen capicola tri-tip culpa consectetur.  Frankfurter turducken venison pariatur, bresaola pork loin short ribs drumstick turkey.\nThen I reached node_1",
+          "uid": "4pgLQcRX"
         },
         {
           "from": "@node_1",
           "to": "@node_3",
           "handle": "Go to node_3",
-          "text": "Ham porchetta pork loin hamburger, tongue do drumstick.\nPork belly ham pork loin excepteur bresaola nisi chicken tongue pork hamburger pork chop adipisicing.  Consectetur excepteur alcatra nisi beef, strip steak flank meatball dolore tail magna tenderloin.  Brisket pork elit sint kielbasa ullamco meatball magna non ham hock hamburger.  Fugiat ea non ipsum flank, nulla kevin velit hamburger do strip steak brisket.\nThen I reached node_3"
+          "text": "Ham porchetta pork loin hamburger, tongue do drumstick.\nPork belly ham pork loin excepteur bresaola nisi chicken tongue pork hamburger pork chop adipisicing.  Consectetur excepteur alcatra nisi beef, strip steak flank meatball dolore tail magna tenderloin.  Brisket pork elit sint kielbasa ullamco meatball magna non ham hock hamburger.  Fugiat ea non ipsum flank, nulla kevin velit hamburger do strip steak brisket.\nThen I reached node_3",
+          "uid": "MyyQpS8S"
         },
         {
           "from": "@node_4",
           "to": "@node_1",
           "handle": "Go to node_1",
-          "text": "Lorem veniam filet mignon, do pork loin andouille nulla pork chop deserunt tri-tip pork ut commodo officia.\nConsequat quis officia, shank elit commodo jerky minim ad fugiat ullamco enim id.  Brisket rump ground round anim ex qui aliqua shoulder tempor beef ribs.  Pork belly tail irure meatloaf beef, picanha qui.  Sirloin proident picanha, buffalo porchetta doner dolor.\nThen I reached node_1"
+          "text": "Lorem veniam filet mignon, do pork loin andouille nulla pork chop deserunt tri-tip pork ut commodo officia.\nConsequat quis officia, shank elit commodo jerky minim ad fugiat ullamco enim id.  Brisket rump ground round anim ex qui aliqua shoulder tempor beef ribs.  Pork belly tail irure meatloaf beef, picanha qui.  Sirloin proident picanha, buffalo porchetta doner dolor.\nThen I reached node_1",
+          "uid": "&1SuZjg9"
         },
         {
           "from": "@node_1",
           "to": "@node_4",
           "handle": "Go to node_4",
-          "text": "Pariatur minim sunt andouille tail alcatra.\nAndouille pork chop bacon, ball tip t-bone turducken in officia swine corned beef.  Occaecat in tongue, cupidatat bresaola brisket id consequat dolore deserunt andouille sausage buffalo.  Cupidatat meatloaf capicola ipsum veniam labore aliquip rump dolor venison brisket spare ribs adipisicing.\nThen I reached node_4"
+          "text": "Pariatur minim sunt andouille tail alcatra.\nAndouille pork chop bacon, ball tip t-bone turducken in officia swine corned beef.  Occaecat in tongue, cupidatat bresaola brisket id consequat dolore deserunt andouille sausage buffalo.  Cupidatat meatloaf capicola ipsum veniam labore aliquip rump dolor venison brisket spare ribs adipisicing.\nThen I reached node_4",
+          "uid": "cs3aRi_8"
         },
         {
           "from": "@node_5",
           "to": "@node_1",
           "handle": "Go to node_1",
-          "text": "Brisket jerky strip steak shoulder.\nPork chop boudin aliqua, tenderloin ham tempor pastrami chuck capicola ut lorem.  Ad swine commodo short ribs tongue.  Tenderloin aute kielbasa venison shankle meatloaf pork loin qui ham hock.\nThen I reached node_1"
+          "text": "Brisket jerky strip steak shoulder.\nPork chop boudin aliqua, tenderloin ham tempor pastrami chuck capicola ut lorem.  Ad swine commodo short ribs tongue.  Tenderloin aute kielbasa venison shankle meatloaf pork loin qui ham hock.\nThen I reached node_1",
+          "uid": "gdvlt3Y0"
         },
         {
           "from": "@node_1",
           "to": "@node_5",
           "handle": "Go to node_5",
-          "text": "Chicken rump in aute labore ipsum kevin.\nFatback jowl pancetta corned beef culpa, velit nostrud.  Ut pork belly est corned beef strip steak landjaeger ut.  Qui flank venison shankle shoulder ipsum ball tip sausage irure prosciutto fatback cow non ea.  T-bone esse swine commodo, fatback sunt strip steak deserunt salami bresaola meatball tri-tip lorem venison nulla.  Drumstick sint ground round laborum tri-tip ullamco, ham meatloaf picanha spare ribs.  Buffalo cupim jowl, ground round nulla short ribs landjaeger pariatur ut kevin chicken qui ball tip strip steak pork.\nThen I reached node_5"
+          "text": "Chicken rump in aute labore ipsum kevin.\nFatback jowl pancetta corned beef culpa, velit nostrud.  Ut pork belly est corned beef strip steak landjaeger ut.  Qui flank venison shankle shoulder ipsum ball tip sausage irure prosciutto fatback cow non ea.  T-bone esse swine commodo, fatback sunt strip steak deserunt salami bresaola meatball tri-tip lorem venison nulla.  Drumstick sint ground round laborum tri-tip ullamco, ham meatloaf picanha spare ribs.  Buffalo cupim jowl, ground round nulla short ribs landjaeger pariatur ut kevin chicken qui ball tip strip steak pork.\nThen I reached node_5",
+          "uid": "UkdpWfpG"
         },
         {
           "from": "@node_6",
           "to": "@node_1",
           "handle": "Go to node_1",
-          "text": "Kevin dolore aliqua pig commodo.\nMagna aliquip ham pancetta, commodo pastrami meatball velit.  Mollit pork belly bresaola jowl veniam aliqua tail irure sausage dolor deserunt aliquip ut.  Dolore capicola tenderloin qui sint drumstick.  Alcatra tenderloin rump qui capicola.\nThen I reached node_1"
+          "text": "Kevin dolore aliqua pig commodo.\nMagna aliquip ham pancetta, commodo pastrami meatball velit.  Mollit pork belly bresaola jowl veniam aliqua tail irure sausage dolor deserunt aliquip ut.  Dolore capicola tenderloin qui sint drumstick.  Alcatra tenderloin rump qui capicola.\nThen I reached node_1",
+          "uid": "sxhVcLn3"
         },
         {
           "from": "@node_1",
           "to": "@node_6",
           "handle": "Go to node_6",
-          "text": "Pig aliqua short ribs cupidatat, frankfurter duis burgdoggen meatball leberkas ham.\nUllamco tri-tip cupidatat, dolore filet mignon andouille ut.  Brisket shankle ea occaecat picanha dolore.  Laboris t-bone salami veniam elit esse lorem bresaola strip steak pariatur.  Aliqua porchetta t-bone sirloin ea, frankfurter culpa labore capicola spare ribs.  Kielbasa andouille minim duis consectetur.  Alcatra sunt fatback boudin t-bone dolore, turducken qui.\nThen I reached node_6"
+          "text": "Pig aliqua short ribs cupidatat, frankfurter duis burgdoggen meatball leberkas ham.\nUllamco tri-tip cupidatat, dolore filet mignon andouille ut.  Brisket shankle ea occaecat picanha dolore.  Laboris t-bone salami veniam elit esse lorem bresaola strip steak pariatur.  Aliqua porchetta t-bone sirloin ea, frankfurter culpa labore capicola spare ribs.  Kielbasa andouille minim duis consectetur.  Alcatra sunt fatback boudin t-bone dolore, turducken qui.\nThen I reached node_6",
+          "uid": "R51jSCds"
         },
         {
           "from": "@node_7",
           "to": "@node_1",
           "handle": "Go to node_1",
-          "text": "In spare ribs tempor est, ball tip elit in exercitation porchetta pig aute shoulder.\nKevin landjaeger prosciutto dolor.  Ut jowl deserunt prosciutto, beef incididunt adipisicing ea buffalo.  Spare ribs kevin filet mignon t-bone, turducken beef ribs nulla.  Drumstick porchetta burgdoggen spare ribs excepteur beef ribs.\nThen I reached node_1"
+          "text": "In spare ribs tempor est, ball tip elit in exercitation porchetta pig aute shoulder.\nKevin landjaeger prosciutto dolor.  Ut jowl deserunt prosciutto, beef incididunt adipisicing ea buffalo.  Spare ribs kevin filet mignon t-bone, turducken beef ribs nulla.  Drumstick porchetta burgdoggen spare ribs excepteur beef ribs.\nThen I reached node_1",
+          "uid": "We1rPn_s"
         },
         {
           "from": "@node_1",
           "to": "@node_7",
           "handle": "Go to node_7",
-          "text": "Ad anim in, deserunt est leberkas alcatra tenderloin rump pork loin ea pork chop velit pork belly corned beef.\nLeberkas shankle strip steak pork belly sed, ea officia turkey sint nulla eiusmod tongue ground round.  Commodo esse pork, ex reprehenderit anim duis pork loin.  Dolore laboris spare ribs veniam doner tri-tip eiusmod est officia.  Short ribs occaecat tenderloin ullamco.\nThen I reached node_7"
+          "text": "Ad anim in, deserunt est leberkas alcatra tenderloin rump pork loin ea pork chop velit pork belly corned beef.\nLeberkas shankle strip steak pork belly sed, ea officia turkey sint nulla eiusmod tongue ground round.  Commodo esse pork, ex reprehenderit anim duis pork loin.  Dolore laboris spare ribs veniam doner tri-tip eiusmod est officia.  Short ribs occaecat tenderloin ullamco.\nThen I reached node_7",
+          "uid": "ZaRVMR5A"
         },
         {
           "from": "@node_1",
           "to": "@spawnbath",
           "handle": "Go back to spawnbath",
           "text": "Cupidatat velit aliqua short ribs.\nTongue jerky nostrud beef pastrami meatloaf.  Tempor velit officia in turducken bacon.  Ground round in cillum, pork porchetta non duis id bacon in burgdoggen in hamburger eu.  Laborum tongue salami, ex in filet mignon nisi.  Aliquip sirloin ex elit swine, landjaeger ground round pork chop meatball kevin.\nI had returned to spawnbath",
-          "condition": "back"
+          "condition": "back",
+          "uid": "GEDn3V86"
         },
         {
           "from": "@spawnbath",
           "to": "@node_1",
           "handle": "Go back to node_1",
           "text": "Beef ribs cupim consequat picanha shank.\nSausage ut jerky, tri-tip quis qui dolore pork burgdoggen turducken shankle tongue nulla.  Turkey quis chicken pariatur short ribs.  Ham hock leberkas esse ea ipsum, nisi pork loin picanha rump tail meatloaf deserunt.  Laboris eiusmod short ribs meatloaf fatback ea meatball, lorem fugiat pancetta.  Ex cupim dolor, hamburger sirloin pork belly magna fatback lorem turducken corned beef andouille veniam.  Adipisicing veniam ea short ribs nostrud tenderloin aute enim eu dolor chuck ut.\nI had returned to node_1",
-          "condition": "back"
+          "condition": "back",
+          "uid": "Sku475zC"
         },
         {
           "from": "@node_2",
           "to": "@node_1",
           "handle": "Go back to node_1",
           "text": "Pork in ribeye pancetta sed quis corned beef aliquip porchetta salami hamburger.\nCapicola mollit laboris, sint eiusmod pancetta hamburger ut qui.  Dolor laboris shoulder flank tail cupidatat.  Pancetta ham hock flank, sed pork belly spare ribs ut short loin cillum velit.  Chicken cow rump pork mollit.  Corned beef commodo capicola tri-tip ad ribeye hamburger culpa short loin ground round ipsum labore spare ribs.\nI had returned to node_1",
-          "condition": "back"
+          "condition": "back",
+          "uid": "wCdAac_e"
         },
         {
           "from": "@node_1",
           "to": "@node_2",
           "handle": "Go back to node_2",
           "text": "Rump reprehenderit labore est tenderloin anim nisi porchetta.\nMollit duis nostrud ut voluptate.  Boudin elit dolore ea, strip steak sint dolor meatloaf in exercitation eiusmod burgdoggen biltong consequat sausage.  T-bone cupidatat meatloaf non ipsum ut.  Magna ham hock ut doner tri-tip sausage rump irure fugiat andouille jowl.  Salami filet mignon ut, ut picanha bacon irure strip steak commodo.  Chuck porchetta nostrud andouille dolor brisket strip steak beef, labore tri-tip est picanha aute ut minim.\nI had returned to node_2",
-          "condition": "back"
+          "condition": "back",
+          "uid": "oY3fzBd8"
         },
         {
           "from": "@node_3",
           "to": "@node_1",
           "handle": "Go back to node_1",
           "text": "Fatback consectetur esse tail shankle ullamco occaecat spare ribs prosciutto pork bresaola in tempor.\nPork chop chicken burgdoggen minim mollit flank aliqua landjaeger.  Venison turducken spare ribs reprehenderit aliquip aute, landjaeger dolore quis ut pork loin ea.  Deserunt buffalo turkey, drumstick shankle leberkas ipsum rump.\nI had returned to node_1",
-          "condition": "back"
+          "condition": "back",
+          "uid": "dTxWl3Lt"
         },
         {
           "from": "@node_1",
           "to": "@node_3",
           "handle": "Go back to node_3",
           "text": "Pancetta esse aute pork.\nIn sint burgdoggen flank capicola biltong prosciutto bresaola.  Ea officia in do bacon, ullamco elit velit incididunt.  Nisi anim occaecat tail biltong magna pork belly, fatback eu tongue ad shoulder.\nI had returned to node_3",
-          "condition": "back"
+          "condition": "back",
+          "uid": "9ZmojeHI"
         },
         {
           "from": "@node_4",
           "to": "@node_1",
           "handle": "Go back to node_1",
           "text": "Meatloaf kevin tempor, short loin meatball andouille in est ea commodo pork non magna.\nConsectetur bacon aute hamburger, flank non elit voluptate duis salami nostrud venison ham shankle.  Ribeye anim capicola burgdoggen in nulla.  Short loin in buffalo chicken reprehenderit.  Officia tail shank nisi frankfurter landjaeger meatloaf culpa kevin veniam commodo.  Spare ribs ut fatback ball tip swine, meatball anim.  Swine buffalo turducken tempor, capicola esse minim laboris ut ullamco venison proident.\nI had returned to node_1",
-          "condition": "back"
+          "condition": "back",
+          "uid": "KmHxtyXN"
         },
         {
           "from": "@node_1",
           "to": "@node_4",
           "handle": "Go back to node_4",
           "text": "Beef ribs tri-tip nisi sed tail.\nTongue cupim voluptate duis minim frankfurter laboris in, turducken proident picanha id.  Veniam est tenderloin in sausage.  Turkey minim in shankle.  Pork ex veniam incididunt short loin elit.\nI had returned to node_4",
-          "condition": "back"
+          "condition": "back",
+          "uid": "1W85PWE&"
         },
         {
           "from": "@node_5",
           "to": "@node_1",
           "handle": "Go back to node_1",
           "text": "Ullamco nostrud anim et mollit, ut leberkas ut.\nIn cow beef ribs tail et eiusmod nostrud pastrami.  Swine excepteur enim, proident duis ut mollit frankfurter aliquip cupidatat chuck aliqua.  Spare ribs ribeye kielbasa est proident ullamco.  Incididunt shankle pastrami voluptate, eiusmod velit ut dolore dolor pork loin cillum nisi pork belly dolore magna.  Aliquip id culpa strip steak in tail est deserunt.\nI had returned to node_1",
-          "condition": "back"
+          "condition": "back",
+          "uid": "vBX8x_2S"
         },
         {
           "from": "@node_1",
           "to": "@node_5",
           "handle": "Go back to node_5",
           "text": "Labore fatback do jowl andouille.\nEu cupim officia, pork loin kevin beef ribs magna minim.  Pork chop eiusmod frankfurter dolore.  Tail magna incididunt andouille pancetta, meatball pork belly et aliquip buffalo in ground round consectetur tenderloin.  Shoulder rump brisket pork belly jowl aliquip nostrud consequat.  Meatloaf ground round dolore chuck.\nI had returned to node_5",
-          "condition": "back"
+          "condition": "back",
+          "uid": "aD8ZcU87"
         },
         {
           "from": "@node_6",
           "to": "@node_1",
           "handle": "Go back to node_1",
           "text": "Doner meatball non fugiat dolore.\nJerky cow et, dolor in aute pancetta pariatur occaecat pork chop proident.  Cupidatat magna id cow prosciutto nisi ex.  Rump filet mignon shankle venison.  Sed sirloin pig sausage ullamco kielbasa anim velit short ribs salami chicken officia short loin deserunt.  Salami buffalo sausage in ex, flank picanha tongue jerky et ham short ribs burgdoggen.  Flank jowl rump beef buffalo, meatloaf id et occaecat irure sint shankle short loin esse ball tip.\nI had returned to node_1",
-          "condition": "back"
+          "condition": "back",
+          "uid": "ynizBgXu"
         },
         {
           "from": "@node_1",
           "to": "@node_6",
           "handle": "Go back to node_6",
           "text": "Non laboris ut labore minim occaecat pork belly.\nMeatball aliqua do nisi jowl in labore.  Et deserunt labore est sint aliqua excepteur id.  Venison beef ribs ham hock, veniam andouille nisi tempor aliqua.  Nulla ex pork eiusmod ground round ham pariatur picanha t-bone rump esse corned beef ribeye bacon exercitation.\nI had returned to node_6",
-          "condition": "back"
+          "condition": "back",
+          "uid": "chQY0E_p"
         },
         {
           "from": "@node_7",
           "to": "@node_1",
           "handle": "Go back to node_1",
           "text": "Short ribs pig consequat sunt, ut ut ham hock spare ribs.\nOccaecat ham hock non pariatur flank in cillum aliquip meatloaf sint do tongue eiusmod strip steak.  Minim incididunt labore cow, jerky tongue mollit consequat.  Reprehenderit irure pig hamburger, eiusmod ut lorem consectetur drumstick porchetta pork belly boudin minim.  Aliqua eu pork loin veniam kielbasa pork.\nI had returned to node_1",
-          "condition": "back"
+          "condition": "back",
+          "uid": "G5GPtx6z"
         },
         {
           "from": "@node_1",
           "to": "@node_7",
           "handle": "Go back to node_7",
           "text": "Pork chop cillum ball tip beef, ex dolore hamburger ullamco id mollit deserunt.\nIpsum excepteur filet mignon eu sint eiusmod incididunt et chuck short loin laborum mollit.  Aliqua deserunt do quis sirloin ball tip andouille biltong laboris ipsum shankle corned beef bresaola drumstick.  T-bone duis labore, fugiat flank ad nostrud.  Tenderloin lorem pig, shank ball tip filet mignon id tri-tip salami incididunt ea cupim ham velit.  Bacon ground round eiusmod rump, turkey ut leberkas sirloin lorem ea in tri-tip proident duis.\nI had returned to node_7",
-          "condition": "back"
+          "condition": "back",
+          "uid": "6Jv61yFv"
         }
       ]
     }
