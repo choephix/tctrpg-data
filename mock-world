@@ -98,7 +98,20 @@
     "actions": {
       "goto": []
     },
-    "sequence_nodes": []
+    "sequence_nodes": [
+      {
+        "uid": "ungamuS8",
+        "text": "..."
+      },
+      {
+        "uid": "ijjN5RJg",
+        "text": "..."
+      },
+      {
+        "uid": "t0p2vTp8",
+        "text": "..."
+      }
+    ]
   },
   "ini": {
     "spawn_node": "center"
