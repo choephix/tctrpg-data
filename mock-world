@@ -26,7 +26,10 @@
     "actions": {
       "goto": []
     },
-    "sequence_nodes": []
+    "sequences": {
+      "triggers": [],
+      "nodes": []
+    }
   },
   "ini": {
     "spawn_node": "spawnpoint"
