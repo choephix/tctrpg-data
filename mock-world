@@ -414,7 +414,7 @@
       "triggers": [
         {
           "uid": "&Pl7hrPV",
-          "handle": "Quod totum contra est."
+          "handle": "Git some gud Lorem lore"
         },
         {
           "uid": "WqlMacwk",
@@ -435,6 +435,10 @@
         {
           "uid": "FGTUOVqF",
           "handle": "Si enim ita est, vide ne facinus facias, cum mori suadeas. "
+        },
+        {
+          "uid": "VeQstjlo",
+          "handle": "Quod totum contra est."
         }
       ],
       "nodes": [
