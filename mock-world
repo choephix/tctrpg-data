@@ -414,19 +414,27 @@
       "triggers": [
         {
           "uid": "&Pl7hrPV",
-          "handle": "..."
+          "handle": "Quod totum contra est."
         },
         {
           "uid": "WqlMacwk",
-          "handle": "..."
+          "handle": "Negat esse eam, inquit, propter se expetendam. A villa enim, credo, et: Si ibi te esse scissem, ad te ipse venissem. ",
+          "condition": "back"
         },
         {
           "uid": "Ac3LPhtI",
-          "handle": "..."
+          "handle": "Hoc loco discipulos quaerere videtur, ut, qui asoti esse velint, philosophi ante fiant. ",
+          "condition": "history.length<12 && alive",
+          "node": "plaza"
         },
         {
           "uid": "b1Gq8cBL",
-          "handle": "..."
+          "handle": "Post enim Chrysippum eum non sane est disputatum.",
+          "node": "inn"
+        },
+        {
+          "uid": "FGTUOVqF",
+          "handle": "Si enim ita est, vide ne facinus facias, cum mori suadeas. "
         }
       ],
       "nodes": [
