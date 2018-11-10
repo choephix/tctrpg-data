@@ -411,8 +411,54 @@
       ]
     },
     "sequences": {
-      "triggers": [],
-      "nodes": []
+      "triggers": [
+        {
+          "uid": "&Pl7hrPV",
+          "handle": "..."
+        },
+        {
+          "uid": "WqlMacwk",
+          "handle": "..."
+        },
+        {
+          "uid": "Ac3LPhtI",
+          "handle": "..."
+        },
+        {
+          "uid": "b1Gq8cBL",
+          "handle": "..."
+        }
+      ],
+      "nodes": [
+        {
+          "uid": "uhAZ6Ch0",
+          "cause": "&Pl7hrPV",
+          "text": "...",
+          "choices": [
+            {
+              "handle": "..."
+            },
+            {
+              "handle": "..."
+            }
+          ]
+        },
+        {
+          "uid": "_I6pgrma",
+          "cause": "&Pl7hrPV",
+          "text": "..."
+        },
+        {
+          "uid": "CSCRaYtH",
+          "cause": "&Pl7hrPV",
+          "text": "...",
+          "choices": [
+            {
+              "handle": "..."
+            }
+          ]
+        }
+      ]
     }
   },
   "ini": {
