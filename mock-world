@@ -3,7 +3,7 @@
     "nodes": [
       {
         "slug": "center",
-        "uid": "hrI2_4vL",
+        "uid": "@center",
         "x": 0,
         "y": 0
       }
@@ -26,34 +26,89 @@
     "actions": {
       "goto": []
     },
-    "sequence_nodes": [
-      {
-        "uid": "ungamuS8",
-        "text": "...",
-        "choices": [
-          {
-            "handle": "...",
-            "next": ""
-          }
-        ]
-      },
-      {
-        "uid": "ijjN5RJg",
-        "text": "..."
-      },
-      {
-        "uid": "t0p2vTp8",
-        "text": "...",
-        "choices": [
-          {
-            "handle": "..."
-          },
-          {
-            "handle": "..."
-          }
-        ]
-      }
-    ]
+    "sequences": {
+      "triggers": [
+        {
+          "uid": "@001",
+          "handle": "Try sequence 001"
+        },
+        {
+          "uid": "@101",
+          "handle": "Try sequence 101"
+        },
+        {
+          "uid": "@201",
+          "handle": "Try sequence 201"
+        }
+      ],
+      "nodes": [
+        {
+          "cause": "@001",
+          "text": "Hello! This node has no choices! Our sequence should end here..."
+        },
+        {
+          "cause": "@101",
+          "text": "Yo! This node has no choices either! Our sequence should end here..."
+        },
+        {
+          "cause": "@201",
+          "text": "Aah, this is a choicy one. Go ahead -- do something. Make a choice!",
+          "choices": [
+            {
+              "handle": "Choose the blue pill",
+              "next": "@202"
+            },
+            {
+              "handle": "Choose the red pill",
+              "next": "@203"
+            },
+            {
+              "handle": "\"Fuck this...\""
+            }
+          ]
+        },
+        {
+          "cause": "@202",
+          "text": "You take a blue pill. You die. You resurrect. You mutate a third arm. Your balls are glowing.",
+          "choices": [
+            {
+              "handle": "What is this? What the hell happened?",
+              "next": "@204"
+            },
+            {
+              "handle": "\"Fuck this...\""
+            }
+          ]
+        },
+        {
+          "cause": "@203",
+          "text": "You take a red pill. Nothing happens.",
+          "choices": [
+            {
+              "handle": "What the...?",
+              "next": "@205"
+            }
+          ]
+        },
+        {
+          "cause": "@205",
+          "text": "Something happens. You turn into a ball.",
+          "choices": [
+            {
+              "handle": "What the hell is this? What happened?",
+              "next": "@204"
+            },
+            {
+              "handle": "\"Fuck this...\""
+            }
+          ]
+        },
+        {
+          "cause": "@204",
+          "text": "Bye..."
+        }
+      ]
+    }
   },
   "ini": {
     "spawn_node": "center"
