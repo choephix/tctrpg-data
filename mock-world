@@ -438,7 +438,7 @@
         },
         {
           "uid": "VeQstjlo",
-          "handle": "Quod totum contra est."
+          "handle": "Quod totum contra est. (get my random notes)"
         }
       ],
       "nodes": [
@@ -538,6 +538,11 @@
           "uid": "dTjpv8ER",
           "cause": "@off",
           "text": "You tell what's-his-face to fuck off and move on doing your own thing."
+        },
+        {
+          "uid": "4jsY4NSb",
+          "cause": "VeQstjlo",
+          "text": "\"Wow. You're really just... full of facts, aren't you?\"\nInnkeep looks at you under his bushy eyebrows. \nHe really does seem to have some eyes in there, but you're just still not 100%."
         }
       ]
     }
