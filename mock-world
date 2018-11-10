@@ -441,30 +441,39 @@
         {
           "uid": "uhAZ6Ch0",
           "cause": "&Pl7hrPV",
-          "text": "...",
+          "text": "Whaddaya wanna know, kiddo?",
           "choices": [
             {
-              "handle": "..."
+              "handle": " Where does it come from?"
             },
             {
-              "handle": "..."
+              "handle": "Why do we use it?"
+            },
+            {
+              "handle": "Where can I get some?"
             }
-          ]
+          ],
+          "type": "convo"
         },
         {
           "uid": "_I6pgrma",
           "cause": "&Pl7hrPV",
-          "text": "..."
+          "text": "I got nothing else for you.\nI laid it all out for you as I know it, now go fight some lorem demons and leave me alone!",
+          "condition": "done",
+          "type": "convo"
         },
         {
           "uid": "CSCRaYtH",
           "cause": "&Pl7hrPV",
-          "text": "...",
           "choices": [
             {
-              "handle": "..."
+              "handle": "Sure...",
+              "next": "&Pl7hrPV"
             }
-          ]
+          ],
+          "text": "Anything else",
+          "condition": "back",
+          "type": "convo"
         }
       ]
     }
