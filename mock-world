@@ -146,5 +146,6 @@
   },
   "ini": {
     "spawn_node": "spawnpoint"
-  }
+  },
+  "kod": {}
 }
