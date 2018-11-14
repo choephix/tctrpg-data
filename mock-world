@@ -3,7 +3,7 @@
     "nodes": [
       {
         "slug": "spawnpoint",
-        "uid": "rMCIS4ch",
+        "uid": "@spawnpoint",
         "x": 0,
         "y": 0
       }
