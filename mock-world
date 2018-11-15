@@ -1824,7 +1824,8 @@
         },
         {
           "uid": "UldNsW7a",
-          "handle": "The chameleon."
+          "handle": "The chameleon.",
+          "node": "f0UwV9Iv"
         },
         {
           "uid": "p_aKke7J",
@@ -1832,11 +1833,13 @@
         },
         {
           "uid": "1IavX1uE",
-          "handle": "Lenient ouch according far laughing much gallantly hungrily one."
+          "handle": "Lenient ouch according far laughing much gallantly hungrily one.",
+          "node": "f0UwV9Iv"
         },
         {
           "uid": "WVCwnqKr",
-          "handle": "Alas dolphin rigorously jeez imperatively cosmetically therefore for."
+          "handle": "Alas dolphin rigorously jeez imperatively cosmetically therefore for.",
+          "node": "httHFWsE"
         },
         {
           "uid": "TxIkPM0J",
@@ -1844,11 +1847,13 @@
         },
         {
           "uid": "xn&R1J37",
-          "handle": "Glared."
+          "handle": "Glared.",
+          "node": "tuXccyEG"
         },
         {
           "uid": "ZJXQz2UL",
-          "handle": "Indirect where human sparing forward ouch."
+          "handle": "Indirect where human sparing forward ouch.",
+          "node": "6v3vhyti"
         },
         {
           "uid": "Z&sET9Mc",
@@ -1856,7 +1861,8 @@
         },
         {
           "uid": "xM9bWGs3",
-          "handle": "Far forbiddingly drolly indirectly frustrating apt."
+          "handle": "Far forbiddingly drolly indirectly frustrating apt.",
+          "node": "PRdowzf9"
         },
         {
           "uid": "gs6vusaq",
@@ -1864,7 +1870,9 @@
         },
         {
           "uid": "hhCMua5a",
-          "handle": "Less wicked one."
+          "handle": "Less wicked one.",
+          "node": "Rk&w7uQI",
+          "condition": "health < .50"
         },
         {
           "uid": "HcHnmZVV",
@@ -2119,7 +2127,7 @@
         {
           "uid": "dTjpv8ER",
           "cause": "@off",
-          "text": "You tell what's-his-face to fuck off and move on doing your own thing."
+          "text": "You tell what's-his-face to fuck off and move on with yo shit."
         },
         {
           "uid": "4jsY4NSb",
@@ -2184,7 +2192,8 @@
         {
           "uid": "RV8FkuVN",
           "cause": "hhCMua5a",
-          "text": "Much therefore forward flexed that positively before instead callously candidly smiled darn and wombat out slackly the arose overran far woolly far seal before lemming much on inside because goodness much august the crud some swiftly sleekly well stoutly following some stubbornly fishy mature lyrically that casual persistently a then ouch much raccoon more until abrasive wherever much jeepers much well pessimistic dear one more glaring ahead far maliciously hello oafish far fittingly and truculent."
+          "text": "You heal your wounds and go on your merry way",
+          "code": "inv.potions -= 1"
         },
         {
           "uid": "BMKg68zU",
