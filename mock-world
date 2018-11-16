@@ -2,13 +2,42 @@
   "world": {
     "nodes": [
       {
-        "slug": "spawnpoint",
-        "uid": "rMCIS4ch",
+        "slug": "Hub Street",
+        "uid": "@hubstreet",
         "x": 0,
         "y": 0
+      },
+      {
+        "slug": "Tavern",
+        "uid": "tavern",
+        "x": 0,
+        "y": 180
+      },
+      {
+        "slug": "Home",
+        "uid": "home",
+        "x": -144,
+        "y": -104
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "from": "tavern",
+        "to": "@hubstreet"
+      },
+      {
+        "from": "@hubstreet",
+        "to": "tavern"
+      },
+      {
+        "from": "home",
+        "to": "@hubstreet"
+      },
+      {
+        "from": "@hubstreet",
+        "to": "home"
+      }
+    ],
     "subnodes": [],
     "areas": [],
     "characters": [],
