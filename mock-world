@@ -4,8 +4,8 @@
       {
         "slug": "Hub Street",
         "uid": "@hubstreet",
-        "x": 0,
-        "y": 0
+        "x": 2,
+        "y": -2
       },
       {
         "slug": "Tavern",
@@ -63,11 +63,42 @@
     ],
     "defaults": [],
     "actions": {
-      "goto": []
+      "goto": [
+        {
+          "uid": "5Lbpp2Tr",
+          "to": "@hubstreet",
+          "condition": "!visits",
+          "text": "I stepped into the unnaturally wide street, which ran down the middle of the village.\nOther than my own house, the only other points of interest to me around, are a small market place to the left; and the old, dark, run-down tavern right across the street.\n\nWhile I was admiring this abysmal piece of architecture, I could hear a loud kid's voice right behind me.\n\"Welcome, sir, to the village of Áppe!\"",
+          "code": "event(\"loud-kid\")",
+          "handle": "Go out into the streets for the first time ever"
+        }
+      ]
     },
     "sequences": {
-      "triggers": [],
-      "nodes": []
+      "triggers": [
+        {
+          "uid": "e-loud-kid",
+          "handle": "?!"
+        }
+      ],
+      "nodes": [
+        {
+          "uid": "R4_C7qdD",
+          "cause": "e-loud-kid",
+          "text": "\"I've been living here for six years, Sit, you moronic child! You do this every single morning, what the hell is wrong with you?\"\nThe freak stared blankly at me for a few seconds...\n\"Enjoy your stay in our beautiful town, stranger! Best of luck to you, and don't forget to buy some sweet potions from the ma-a-arket!\"",
+          "choices": [
+            {
+              "handle": "...",
+              "next": "KRPvKA9avFDQ"
+            }
+          ]
+        },
+        {
+          "uid": "eYCE2tmY",
+          "cause": "KRPvKA9avFDQ",
+          "text": "\"There is no market here (yet), and this is not a town, you just said it's a village, and it's barely even that. Go disappoint your parents.\"\nHe threw a small stone at me, which he had seeming prepared long in advance for this, then scurried off down the street.\n\n\"Ouch!\"\n\n-1 HP\n\n...\n\nI thought there weren't going to be health points in this.\n\nNasty little twerp."
+        }
+      ]
     }
   },
   "ini": {
