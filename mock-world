@@ -6,9 +6,24 @@
         "uid": "@spawnpoint",
         "x": 0,
         "y": 0
+      },
+      {
+        "slug": "schtrasse",
+        "uid": "@schtrasse",
+        "x": -3.5,
+        "y": 91.5
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "from": "@schtrasse",
+        "to": "@spawnpoint"
+      },
+      {
+        "from": "@spawnpoint",
+        "to": "@schtrasse"
+      }
+    ],
     "subnodes": [],
     "areas": [],
     "characters": [],
@@ -62,13 +77,13 @@
               "when": [
                 {
                   "type": "goto",
-                  "condition": "to==='@spawnpoint'"
+                  "condition": "to==='@schtrasse'"
                 }
               ],
               "what": [
                 {
                   "code": "level 5",
-                  "text": "As you enter the spawnpoint you hear a loud crack. A tiny dinosaur-elephant doars through the sky. The sun turns pink. Your pants fall off."
+                  "text": "As you enter the schtrasse you hear a loud crack. A tiny dinosaur-elephant soars through the sky. The sun turns pink. Your pants fall off."
                 }
               ],
               "choices": [
