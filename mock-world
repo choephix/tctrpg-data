@@ -28,8 +28,53 @@
     },
     "sequences": {
       "triggers": [],
-      "nodes": []
-    }
+      "nodes": [
+        {
+          "uid": "$alohobota",
+          "cause": "$alohobota",
+          "text": "\"Alohobota!\"\n\nNothing happens",
+          "choices": [
+            {
+              "handle": "Try again",
+              "next": "$alohobots"
+            },
+            {
+              "handle": "Fuck this",
+              "next": "$theend"
+            }
+          ],
+          "type": "solo"
+        },
+        {
+          "uid": "$theend",
+          "cause": "$theend",
+          "text": "Well...\n\nNothing else to do.",
+          "type": "solo"
+        }
+      ]
+    },
+    "interceptors": [
+      {
+        "when": [
+          {
+            "type": "goto",
+            "condition": "to==='@spawnpoint'"
+          }
+        ],
+        "what": [
+          {
+            "code": "level 5",
+            "text": "As you enter the spawnpoint you hear a loud crack. A tiny dinosaur-elephant doars through the sky. The sun turns pink. Your pants fall off."
+          }
+        ],
+        "choices": [
+          {
+            "handle": "Say the magic word!",
+            "next": "$alohobota"
+          }
+        ]
+      }
+    ]
   },
   "ini": {
     "spawn_node": "spawnpoint"
