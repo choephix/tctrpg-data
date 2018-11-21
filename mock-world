@@ -70,31 +70,30 @@
     },
     "threads": [
       {
-        "uid": "#spatula",
-        "stages": {
-          "initial": [
-            {
-              "when": [
-                {
-                  "type": "goto",
-                  "condition": "to==='@schtrasse'"
-                }
-              ],
-              "what": [
-                {
-                  "code": "level 5",
-                  "text": "As you enter the schtrasse you hear a loud crack. A tiny dinosaur-elephant soars through the sky. The sun turns pink. Your pants fall off."
-                }
-              ],
-              "choices": [
-                {
-                  "handle": "Say the magic word!",
-                  "next": "$alohobota"
-                }
-              ]
-            }
-          ]
-        }
+        "slug": "test-thread",
+        "stages": [
+          {
+            "slug": "initial",
+            "when": [
+              {
+                "type": "goto",
+                "condition": "to==='@schtrasse'"
+              }
+            ],
+            "what": [
+              {
+                "code": "level 5",
+                "text": "As you enter the schtrasse you hear a loud crack. A tiny dinosaur-elephant soars through the sky. The sun turns pink. Your pants fall off."
+              }
+            ],
+            "choices": [
+              {
+                "handle": "Say the magic word!",
+                "next": "$alohobota"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
