@@ -98,6 +98,15 @@
             ]
           }
         ]
+      },
+      {
+        "slug": "alpha"
+      },
+      {
+        "slug": "beta"
+      },
+      {
+        "slug": "gamma"
       }
     ]
   },
