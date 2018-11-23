@@ -92,6 +92,14 @@
                   {
                     "handle": "Say the magic word!",
                     "next": "$alohobota"
+                  },
+                  {
+                    "handle": "Scream the magic word!",
+                    "next": "$alohobota"
+                  },
+                  {
+                    "handle": "Whisper the magic word!",
+                    "next": "$alohobota"
                   }
                 ]
               }
