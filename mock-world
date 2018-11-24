@@ -51,7 +51,7 @@
           "choices": [
             {
               "handle": "Try again",
-              "next": "$alohobots"
+              "next": "$alohobota"
             },
             {
               "handle": "Fuck this",
