@@ -160,7 +160,8 @@
           "text": "Bye..."
         }
       ]
-    }
+    },
+    "threads": []
   },
   "ini": {
     "spawn_node": "center"
