@@ -142,7 +142,8 @@
     "sequences": {
       "triggers": [],
       "nodes": []
-    }
+    },
+    "threads": []
   },
   "ini": {
     "spawn_node": "spawnpoint"
