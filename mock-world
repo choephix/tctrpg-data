@@ -84,7 +84,7 @@
                 ],
                 "what": [
                   {
-                    "code": "level 5",
+                    "code": "context.level=2",
                     "text": "As you enter the schtrasse you hear a loud crack. A tiny dinosaur-elephant soars through the sky. The sun turns pink. Your pants fall off."
                   }
                 ],
@@ -100,6 +100,59 @@
                   {
                     "handle": "Whisper the magic word!",
                     "next": "$alohobota"
+                  }
+                ]
+              },
+              {
+                "when": [
+                  {
+                    "type": "goto",
+                    "condition": "never===true"
+                  },
+                  {
+                    "type": "goto",
+                    "condition": "neverever===true"
+                  }
+                ],
+                "what": [
+                  {
+                    "condition": "!context.poopfly",
+                    "code": "context.poopfly=true",
+                    "text": "A poop-fly passes by?"
+                  },
+                  {
+                    "text": "This should never happen. How did you do this?"
+                  },
+                  {
+                    "text": "Are you a wizard?"
+                  },
+                  {
+                    "text": "How's the weather?"
+                  }
+                ],
+                "choices": [
+                  {
+                    "handle": "I have no choice...",
+                    "next": "$theend"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "slug": "phase-two",
+            "interceptors": [
+              {
+                "when": [
+                  {
+                    "type": "goto",
+                    "condition": "to==='@spawnpoint'"
+                  }
+                ],
+                "what": [
+                  {
+                    "code": "context.level=999999",
+                    "text": "You have now returned to your spawnpoint with newfound resolve!!"
                   }
                 ]
               }
