@@ -1,27 +1,29 @@
 {
   "world": {
-    "nodes": [
+    "locations": [
       {
         "slug": "spawnpoint",
         "uid": "@spawnpoint",
         "x": 0,
-        "y": 0
+        "y": 0,
+        "exits": [
+          {
+            "from": "@spawnpoint",
+            "to": "@schtrasse"
+          }
+        ]
       },
       {
         "slug": "schtrasse",
         "uid": "@schtrasse",
         "x": -3.5,
-        "y": 91.5
-      }
-    ],
-    "links": [
-      {
-        "from": "@schtrasse",
-        "to": "@spawnpoint"
-      },
-      {
-        "from": "@spawnpoint",
-        "to": "@schtrasse"
+        "y": 91.5,
+        "exits": [
+          {
+            "from": "@schtrasse",
+            "to": "@spawnpoint"
+          }
+        ]
       }
     ],
     "subnodes": [],
