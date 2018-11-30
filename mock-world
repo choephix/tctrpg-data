@@ -10,22 +10,10 @@
         "x": 0.7920000000000088,
         "y": 4.5120000000000475,
         "exits": [
-          {
-            "from": "@spawnpoint",
-            "to": "@tavern"
-          },
-          {
-            "from": "@spawnpoint",
-            "to": "@market"
-          },
-          {
-            "from": "@spawnpoint",
-            "to": "@the_north"
-          },
-          {
-            "from": "@spawnpoint",
-            "to": "@home"
-          }
+          "@tavern",
+          "@market",
+          "@the_north",
+          "@home"
         ]
       },
       {
@@ -34,14 +22,8 @@
         "x": 0,
         "y": 100,
         "exits": [
-          {
-            "from": "@tavern",
-            "to": "@market"
-          },
-          {
-            "from": "@tavern",
-            "to": "@home"
-          }
+          "@market",
+          "@home"
         ]
       },
       {
@@ -50,14 +32,8 @@
         "x": 100,
         "y": 0,
         "exits": [
-          {
-            "from": "@market",
-            "to": "@tavern"
-          },
-          {
-            "from": "@market",
-            "to": "@the_north"
-          }
+          "@tavern",
+          "@the_north"
         ]
       },
       {
@@ -66,14 +42,8 @@
         "x": 0,
         "y": -100,
         "exits": [
-          {
-            "from": "@the_north",
-            "to": "@market"
-          },
-          {
-            "from": "@the_north",
-            "to": "@home"
-          }
+          "@market",
+          "@home"
         ]
       },
       {
@@ -82,14 +52,8 @@
         "x": -100,
         "y": -2,
         "exits": [
-          {
-            "from": "@home",
-            "to": "@the_north"
-          },
-          {
-            "from": "@home",
-            "to": "@tavern"
-          }
+          "@the_north",
+          "@tavern"
         ]
       }
     ],
