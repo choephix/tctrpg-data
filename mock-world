@@ -1,6 +1,5 @@
 {
   "world": {
-    "subnodes": [],
     "areas": [],
     "characters": [],
     "items": [],
@@ -12,7 +11,8 @@
         "y": 0,
         "exits": []
       }
-    ]
+    ],
+    "subnodes": []
   },
   "journal": {
     "aliases": [],
