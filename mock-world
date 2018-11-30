@@ -1,51 +1,57 @@
 {
   "world": {
-    "nodes": [
+    "locations": [
       {
         "slug": "Hub Street",
         "uid": "@hubstreet",
         "x": 2,
-        "y": -2
+        "y": -2,
+        "exits": [
+          {
+            "from": "@hubstreet",
+            "to": "@tavern"
+          },
+          {
+            "from": "@hubstreet",
+            "to": "@home"
+          }
+        ]
       },
       {
         "slug": "Tavern",
-        "uid": "tavern",
+        "uid": "@tavern",
         "x": 0,
-        "y": 180
+        "y": 180,
+        "exits": [
+          {
+            "from": "@tavern",
+            "to": "@hubstreet"
+          }
+        ]
       },
       {
         "slug": "Home",
-        "uid": "home",
+        "uid": "@home",
         "x": -144,
-        "y": -104
+        "y": -104,
+        "exits": [
+          {
+            "from": "@home",
+            "to": "@hubstreet"
+          }
+        ]
       },
       {
         "slug": "Market",
-        "uid": "market",
+        "uid": "@market",
         "x": 130,
-        "y": -106
-      }
-    ],
-    "links": [
-      {
-        "from": "tavern",
-        "to": "@hubstreet"
-      },
-      {
-        "from": "@hubstreet",
-        "to": "tavern"
-      },
-      {
-        "from": "home",
-        "to": "@hubstreet"
-      },
-      {
-        "from": "@hubstreet",
-        "to": "home"
-      },
-      {
-        "from": "market",
-        "to": "@hubstreet"
+        "y": -106,
+        "exits": [
+          {
+            "from": "@market",
+            "to": "@hubstreet"
+          }
+        ]
       }
     ],
     "subnodes": [],
