@@ -2445,7 +2445,8 @@
                     "text": "A poop-fly passes by?"
                   },
                   {
-                    "text": "This should never happen. How did you do this?"
+                    "text": "This should never happen. How did you do this?",
+                    "condition": "never\n"
                   },
                   {
                     "text": "Are you a wizard?"
