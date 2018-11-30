@@ -56,15 +56,12 @@
     "actions": {
       "goto": [
         {
-          "uid": "pJkTcFrW",
-          "code": "threads.unlock(\"loudkid\")"
-        },
-        {
           "uid": "5Lbpp2Tr",
           "to": "@hubstreet",
           "condition": "!visits",
           "text": "I stepped into the unnaturally wide street, which ran down the middle of the village.\nOther than my own house, the only other points of interest to me around, are a small market place to the left; and the old, dark, run-down village tavern right across the street.\n\nAs I was marvelling at this abysmal piece of architecture, I could hear a loud kid's voice right behind me.\n\"Welcome, sir, to the village of Áppe!\"",
-          "handle": "Go out into the streets for the first time ever"
+          "handle": "Go out into the streets for the first time ever",
+          "code": "threads.unlock(\"loudkid\")"
         }
       ]
     },
