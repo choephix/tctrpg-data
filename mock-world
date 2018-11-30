@@ -1,6 +1,5 @@
 {
   "world": {
-    "links": [],
     "subnodes": [],
     "areas": [],
     "characters": [],
@@ -10,7 +9,8 @@
         "slug": "spawnpoint",
         "uid": "@spawnpoint",
         "x": 0,
-        "y": 0
+        "y": 0,
+        "exits": []
       }
     ]
   },
