@@ -1,105 +1,5 @@
 {
   "world": {
-    "subnodes": [
-      {
-        "slug": "blacksmith_armor",
-        "uid": "DPLJ_G60",
-        "parent": "I6c&hdXb",
-        "x": -164,
-        "y": -22
-      },
-      {
-        "slug": "blacksmith_weapons",
-        "uid": "RT4Jdr49",
-        "parent": "I6c&hdXb",
-        "x": -137,
-        "y": -30
-      },
-      {
-        "uid": "QyG9weFC",
-        "slug": "desk",
-        "x": -85,
-        "y": -113,
-        "parent": "HVTgFo7x"
-      },
-      {
-        "uid": "kyzsaF1E",
-        "slug": "bed",
-        "x": -104,
-        "y": -70,
-        "parent": "HVTgFo7x"
-      },
-      {
-        "uid": "I1PKrb_3",
-        "slug": "drawer",
-        "x": -99.72320000000002,
-        "y": -105.86719999999998,
-        "parent": "QyG9weFC"
-      },
-      {
-        "slug": "asorted_goods",
-        "uid": "SdZSP4AG",
-        "parent": "77UGodwK",
-        "x": -116,
-        "y": 65
-      },
-      {
-        "slug": "food_a",
-        "uid": "VRqbyWzJ",
-        "parent": "77UGodwK",
-        "x": -36,
-        "y": 87
-      },
-      {
-        "slug": "leatherworks",
-        "uid": "cg_fgFgU",
-        "parent": "77UGodwK",
-        "x": -100,
-        "y": 129
-      },
-      {
-        "slug": "jewlery",
-        "uid": "nZcr9sEV",
-        "parent": "GkLzsCod",
-        "x": 21,
-        "y": 146
-      },
-      {
-        "slug": "herbs_and_potions",
-        "uid": "S&6ZPPk5",
-        "parent": "GkLzsCod",
-        "x": 19,
-        "y": 84
-      },
-      {
-        "slug": "food_b",
-        "uid": "df2HglHF",
-        "parent": "GkLzsCod",
-        "x": 71,
-        "y": 163
-      },
-      {
-        "slug": "the_bar",
-        "uid": "EE6EVAiy",
-        "parent": "2IwPnWo4",
-        "x": -90,
-        "y": -152
-      },
-      {
-        "slug": "magic",
-        "uid": "gAmwYwOF",
-        "parent": "3U&W5itp",
-        "x": 151,
-        "y": 67
-      },
-      {
-        "slug": "lore",
-        "uid": "I22iIzzK",
-        "parent": "3U&W5itp",
-        "x": 185.36160000000007,
-        "y": 66.96608
-      }
-    ],
     "areas": [],
     "characters": [],
     "items": [],
@@ -491,6 +391,106 @@
             "to": "2IwPnWo4"
           }
         ]
+      }
+    ],
+    "subnodes": [
+      {
+        "slug": "blacksmith_armor",
+        "uid": "DPLJ_G60",
+        "parent": "I6c&hdXb",
+        "x": -164,
+        "y": -22
+      },
+      {
+        "slug": "blacksmith_weapons",
+        "uid": "RT4Jdr49",
+        "parent": "I6c&hdXb",
+        "x": -137,
+        "y": -30
+      },
+      {
+        "uid": "QyG9weFC",
+        "slug": "desk",
+        "x": -85,
+        "y": -113,
+        "parent": "HVTgFo7x"
+      },
+      {
+        "uid": "kyzsaF1E",
+        "slug": "bed",
+        "x": -104,
+        "y": -70,
+        "parent": "HVTgFo7x"
+      },
+      {
+        "uid": "I1PKrb_3",
+        "slug": "drawer",
+        "x": -99.72320000000002,
+        "y": -105.86719999999998,
+        "parent": "QyG9weFC"
+      },
+      {
+        "slug": "asorted_goods",
+        "uid": "SdZSP4AG",
+        "parent": "77UGodwK",
+        "x": -116,
+        "y": 65
+      },
+      {
+        "slug": "food_a",
+        "uid": "VRqbyWzJ",
+        "parent": "77UGodwK",
+        "x": -36,
+        "y": 87
+      },
+      {
+        "slug": "leatherworks",
+        "uid": "cg_fgFgU",
+        "parent": "77UGodwK",
+        "x": -100,
+        "y": 129
+      },
+      {
+        "slug": "jewlery",
+        "uid": "nZcr9sEV",
+        "parent": "GkLzsCod",
+        "x": 21,
+        "y": 146
+      },
+      {
+        "slug": "herbs_and_potions",
+        "uid": "S&6ZPPk5",
+        "parent": "GkLzsCod",
+        "x": 19,
+        "y": 84
+      },
+      {
+        "slug": "food_b",
+        "uid": "df2HglHF",
+        "parent": "GkLzsCod",
+        "x": 71,
+        "y": 163
+      },
+      {
+        "slug": "the_bar",
+        "uid": "EE6EVAiy",
+        "parent": "2IwPnWo4",
+        "x": -90,
+        "y": -152
+      },
+      {
+        "slug": "magic",
+        "uid": "gAmwYwOF",
+        "parent": "3U&W5itp",
+        "x": 151,
+        "y": 67
+      },
+      {
+        "slug": "lore",
+        "uid": "I22iIzzK",
+        "parent": "3U&W5itp",
+        "x": 185.36160000000007,
+        "y": 66.96608
       }
     ]
   },
