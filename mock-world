@@ -1,18 +1,18 @@
 {
   "world": {
-    "nodes": [
+    "links": [],
+    "subnodes": [],
+    "areas": [],
+    "characters": [],
+    "items": [],
+    "locations": [
       {
         "slug": "spawnpoint",
         "uid": "@spawnpoint",
         "x": 0,
         "y": 0
       }
-    ],
-    "links": [],
-    "subnodes": [],
-    "areas": [],
-    "characters": [],
-    "items": []
+    ]
   },
   "journal": {
     "aliases": [],
