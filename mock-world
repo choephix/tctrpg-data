@@ -7,10 +7,7 @@
         "x": 0,
         "y": 0,
         "exits": [
-          {
-            "from": "@spawnpoint",
-            "to": "@schtrasse"
-          }
+          "@schtrasse"
         ]
       },
       {
@@ -19,10 +16,7 @@
         "x": -3.5,
         "y": 91.5,
         "exits": [
-          {
-            "from": "@schtrasse",
-            "to": "@spawnpoint"
-          }
+          "@spawnpoint"
         ]
       }
     ],
