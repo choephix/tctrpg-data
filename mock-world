@@ -1,55 +1,5 @@
 {
   "world": {
-    "links": [
-      {
-        "from": "@tavern",
-        "to": "@market"
-      },
-      {
-        "from": "@market",
-        "to": "@tavern"
-      },
-      {
-        "from": "@market",
-        "to": "@the_north"
-      },
-      {
-        "from": "@the_north",
-        "to": "@market"
-      },
-      {
-        "from": "@the_north",
-        "to": "@home"
-      },
-      {
-        "from": "@home",
-        "to": "@the_north"
-      },
-      {
-        "from": "@home",
-        "to": "@tavern"
-      },
-      {
-        "from": "@tavern",
-        "to": "@home"
-      },
-      {
-        "from": "@spawnpoint",
-        "to": "@tavern"
-      },
-      {
-        "from": "@spawnpoint",
-        "to": "@market"
-      },
-      {
-        "from": "@spawnpoint",
-        "to": "@the_north"
-      },
-      {
-        "from": "@spawnpoint",
-        "to": "@home"
-      }
-    ],
     "subnodes": [
       {
         "slug": "bar",
@@ -67,31 +17,89 @@
         "slug": "spawnpoint",
         "uid": "@spawnpoint",
         "x": 0.7920000000000088,
-        "y": 4.5120000000000475
+        "y": 4.5120000000000475,
+        "exits": [
+          {
+            "from": "@spawnpoint",
+            "to": "@tavern"
+          },
+          {
+            "from": "@spawnpoint",
+            "to": "@market"
+          },
+          {
+            "from": "@spawnpoint",
+            "to": "@the_north"
+          },
+          {
+            "from": "@spawnpoint",
+            "to": "@home"
+          }
+        ]
       },
       {
         "slug": "tavern",
         "uid": "@tavern",
         "x": 0,
-        "y": 100
+        "y": 100,
+        "exits": [
+          {
+            "from": "@tavern",
+            "to": "@market"
+          },
+          {
+            "from": "@tavern",
+            "to": "@home"
+          }
+        ]
       },
       {
         "slug": "market",
         "uid": "@market",
         "x": 100,
-        "y": 0
+        "y": 0,
+        "exits": [
+          {
+            "from": "@market",
+            "to": "@tavern"
+          },
+          {
+            "from": "@market",
+            "to": "@the_north"
+          }
+        ]
       },
       {
         "slug": "the_north",
         "uid": "@the_north",
         "x": 0,
-        "y": -100
+        "y": -100,
+        "exits": [
+          {
+            "from": "@the_north",
+            "to": "@market"
+          },
+          {
+            "from": "@the_north",
+            "to": "@home"
+          }
+        ]
       },
       {
         "slug": "home",
         "uid": "@home",
         "x": -100,
-        "y": -2
+        "y": -2,
+        "exits": [
+          {
+            "from": "@home",
+            "to": "@the_north"
+          },
+          {
+            "from": "@home",
+            "to": "@tavern"
+          }
+        ]
       }
     ]
   },
