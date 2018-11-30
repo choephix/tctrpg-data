@@ -1,37 +1,5 @@
 {
   "world": {
-    "nodes": [
-      {
-        "slug": "spawnpoint",
-        "uid": "@spawnpoint",
-        "x": 0.7920000000000088,
-        "y": 4.5120000000000475
-      },
-      {
-        "slug": "tavern",
-        "uid": "@tavern",
-        "x": 0,
-        "y": 100
-      },
-      {
-        "slug": "market",
-        "uid": "@market",
-        "x": 100,
-        "y": 0
-      },
-      {
-        "slug": "the_north",
-        "uid": "@the_north",
-        "x": 0,
-        "y": -100
-      },
-      {
-        "slug": "home",
-        "uid": "@home",
-        "x": -100,
-        "y": -2
-      }
-    ],
     "links": [
       {
         "from": "@tavern",
@@ -93,7 +61,39 @@
     ],
     "areas": [],
     "characters": [],
-    "items": []
+    "items": [],
+    "locations": [
+      {
+        "slug": "spawnpoint",
+        "uid": "@spawnpoint",
+        "x": 0.7920000000000088,
+        "y": 4.5120000000000475
+      },
+      {
+        "slug": "tavern",
+        "uid": "@tavern",
+        "x": 0,
+        "y": 100
+      },
+      {
+        "slug": "market",
+        "uid": "@market",
+        "x": 100,
+        "y": 0
+      },
+      {
+        "slug": "the_north",
+        "uid": "@the_north",
+        "x": 0,
+        "y": -100
+      },
+      {
+        "slug": "home",
+        "uid": "@home",
+        "x": -100,
+        "y": -2
+      }
+    ]
   },
   "journal": {
     "aliases": [],
