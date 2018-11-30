@@ -1,151 +1,5 @@
 {
   "world": {
-    "nodes": [
-      {
-        "slug": "spawnlake",
-        "uid": "vTm5shJb",
-        "x": -400,
-        "y": -597
-      },
-      {
-        "slug": "spawnlake_shore",
-        "uid": "AdGMquH_",
-        "x": -395,
-        "y": -553
-      },
-      {
-        "slug": "forest_path",
-        "uid": "9gx1gQdw",
-        "x": -217,
-        "y": -499
-      },
-      {
-        "slug": "north_exit",
-        "uid": "vpq2wkZM",
-        "x": -92,
-        "y": -393
-      },
-      {
-        "slug": "north_residential",
-        "uid": "r9JTpNBe",
-        "x": 22,
-        "y": -204
-      },
-      {
-        "slug": "inn_street",
-        "uid": "88MjFB6v",
-        "x": -6,
-        "y": -71
-      },
-      {
-        "slug": "inn",
-        "uid": "2IwPnWo4",
-        "x": -44,
-        "y": -107
-      },
-      {
-        "slug": "plaza",
-        "uid": "XOdVqZ2R",
-        "x": 0,
-        "y": 17
-      },
-      {
-        "slug": "clinic",
-        "uid": "fIpqTS9u",
-        "x": 43,
-        "y": 55
-      },
-      {
-        "slug": "blacksmith_street",
-        "uid": "I6c&hdXb",
-        "x": -137,
-        "y": 14
-      },
-      {
-        "slug": "market_west",
-        "uid": "77UGodwK",
-        "x": -72,
-        "y": 103
-      },
-      {
-        "slug": "market_east",
-        "uid": "GkLzsCod",
-        "x": 51,
-        "y": 124
-      },
-      {
-        "slug": "bookstore_street",
-        "uid": "ebvZuS52",
-        "x": 139,
-        "y": 156
-      },
-      {
-        "slug": "residential_south",
-        "uid": "CT7QCqPJ",
-        "x": 241,
-        "y": 269
-      },
-      {
-        "slug": "exit_south",
-        "uid": "AE16o1Td",
-        "x": 372,
-        "y": 351
-      },
-      {
-        "slug": "intersection",
-        "uid": "4O8zhFYE",
-        "x": 406,
-        "y": 540
-      },
-      {
-        "slug": "dungeon_one",
-        "uid": "TCgPBgqZ",
-        "x": 508,
-        "y": 629
-      },
-      {
-        "slug": "dungeon_two",
-        "uid": "Rp0JkVv4",
-        "x": 262,
-        "y": 594
-      },
-      {
-        "slug": "combat_trainer",
-        "uid": "87kjcOlj",
-        "x": 61,
-        "y": -221
-      },
-      {
-        "slug": "bookstore",
-        "uid": "3U&W5itp",
-        "x": 166,
-        "y": 103
-      },
-      {
-        "slug": "maho",
-        "uid": "iDCuO2eE",
-        "x": 259,
-        "y": 223
-      },
-      {
-        "slug": "bear_lair",
-        "uid": "I&iu5GU1",
-        "x": -91,
-        "y": -561
-      },
-      {
-        "slug": "myroom",
-        "uid": "HVTgFo7x",
-        "x": -65,
-        "y": -70
-      },
-      {
-        "uid": "SbQpKjcC",
-        "slug": "inn_basement",
-        "x": -20,
-        "y": -157
-      }
-    ],
     "links": [
       {
         "from": "vTm5shJb",
@@ -446,7 +300,153 @@
     ],
     "areas": [],
     "characters": [],
-    "items": []
+    "items": [],
+    "locations": [
+      {
+        "slug": "spawnlake",
+        "uid": "vTm5shJb",
+        "x": -400,
+        "y": -597
+      },
+      {
+        "slug": "spawnlake_shore",
+        "uid": "AdGMquH_",
+        "x": -395,
+        "y": -553
+      },
+      {
+        "slug": "forest_path",
+        "uid": "9gx1gQdw",
+        "x": -217,
+        "y": -499
+      },
+      {
+        "slug": "north_exit",
+        "uid": "vpq2wkZM",
+        "x": -92,
+        "y": -393
+      },
+      {
+        "slug": "north_residential",
+        "uid": "r9JTpNBe",
+        "x": 22,
+        "y": -204
+      },
+      {
+        "slug": "inn_street",
+        "uid": "88MjFB6v",
+        "x": -6,
+        "y": -71
+      },
+      {
+        "slug": "inn",
+        "uid": "2IwPnWo4",
+        "x": -44,
+        "y": -107
+      },
+      {
+        "slug": "plaza",
+        "uid": "XOdVqZ2R",
+        "x": 0,
+        "y": 17
+      },
+      {
+        "slug": "clinic",
+        "uid": "fIpqTS9u",
+        "x": 43,
+        "y": 55
+      },
+      {
+        "slug": "blacksmith_street",
+        "uid": "I6c&hdXb",
+        "x": -137,
+        "y": 14
+      },
+      {
+        "slug": "market_west",
+        "uid": "77UGodwK",
+        "x": -72,
+        "y": 103
+      },
+      {
+        "slug": "market_east",
+        "uid": "GkLzsCod",
+        "x": 51,
+        "y": 124
+      },
+      {
+        "slug": "bookstore_street",
+        "uid": "ebvZuS52",
+        "x": 139,
+        "y": 156
+      },
+      {
+        "slug": "residential_south",
+        "uid": "CT7QCqPJ",
+        "x": 241,
+        "y": 269
+      },
+      {
+        "slug": "exit_south",
+        "uid": "AE16o1Td",
+        "x": 372,
+        "y": 351
+      },
+      {
+        "slug": "intersection",
+        "uid": "4O8zhFYE",
+        "x": 406,
+        "y": 540
+      },
+      {
+        "slug": "dungeon_one",
+        "uid": "TCgPBgqZ",
+        "x": 508,
+        "y": 629
+      },
+      {
+        "slug": "dungeon_two",
+        "uid": "Rp0JkVv4",
+        "x": 262,
+        "y": 594
+      },
+      {
+        "slug": "combat_trainer",
+        "uid": "87kjcOlj",
+        "x": 61,
+        "y": -221
+      },
+      {
+        "slug": "bookstore",
+        "uid": "3U&W5itp",
+        "x": 166,
+        "y": 103
+      },
+      {
+        "slug": "maho",
+        "uid": "iDCuO2eE",
+        "x": 259,
+        "y": 223
+      },
+      {
+        "slug": "bear_lair",
+        "uid": "I&iu5GU1",
+        "x": -91,
+        "y": -561
+      },
+      {
+        "slug": "myroom",
+        "uid": "HVTgFo7x",
+        "x": -65,
+        "y": -70
+      },
+      {
+        "uid": "SbQpKjcC",
+        "slug": "inn_basement",
+        "x": -20,
+        "y": -157
+      }
+    ]
   },
   "journal": {
     "aliases": [],
