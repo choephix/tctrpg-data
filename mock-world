@@ -1,203 +1,5 @@
 {
   "world": {
-    "links": [
-      {
-        "from": "vTm5shJb",
-        "to": "AdGMquH_"
-      },
-      {
-        "from": "AdGMquH_",
-        "to": "9gx1gQdw"
-      },
-      {
-        "from": "9gx1gQdw",
-        "to": "AdGMquH_"
-      },
-      {
-        "from": "9gx1gQdw",
-        "to": "vpq2wkZM"
-      },
-      {
-        "from": "vpq2wkZM",
-        "to": "9gx1gQdw"
-      },
-      {
-        "from": "vpq2wkZM",
-        "to": "r9JTpNBe"
-      },
-      {
-        "from": "r9JTpNBe",
-        "to": "vpq2wkZM"
-      },
-      {
-        "from": "r9JTpNBe",
-        "to": "88MjFB6v"
-      },
-      {
-        "from": "88MjFB6v",
-        "to": "r9JTpNBe"
-      },
-      {
-        "from": "88MjFB6v",
-        "to": "2IwPnWo4"
-      },
-      {
-        "from": "88MjFB6v",
-        "to": "XOdVqZ2R"
-      },
-      {
-        "from": "2IwPnWo4",
-        "to": "88MjFB6v"
-      },
-      {
-        "from": "XOdVqZ2R",
-        "to": "88MjFB6v"
-      },
-      {
-        "from": "XOdVqZ2R",
-        "to": "fIpqTS9u"
-      },
-      {
-        "from": "XOdVqZ2R",
-        "to": "I6c&hdXb"
-      },
-      {
-        "from": "XOdVqZ2R",
-        "to": "77UGodwK"
-      },
-      {
-        "from": "fIpqTS9u",
-        "to": "GkLzsCod"
-      },
-      {
-        "from": "fIpqTS9u",
-        "to": "XOdVqZ2R"
-      },
-      {
-        "from": "I6c&hdXb",
-        "to": "XOdVqZ2R"
-      },
-      {
-        "from": "I6c&hdXb",
-        "to": "77UGodwK"
-      },
-      {
-        "from": "77UGodwK",
-        "to": "XOdVqZ2R"
-      },
-      {
-        "from": "77UGodwK",
-        "to": "I6c&hdXb"
-      },
-      {
-        "from": "77UGodwK",
-        "to": "GkLzsCod"
-      },
-      {
-        "from": "GkLzsCod",
-        "to": "77UGodwK"
-      },
-      {
-        "from": "GkLzsCod",
-        "to": "fIpqTS9u"
-      },
-      {
-        "from": "GkLzsCod",
-        "to": "ebvZuS52"
-      },
-      {
-        "from": "ebvZuS52",
-        "to": "GkLzsCod"
-      },
-      {
-        "from": "ebvZuS52",
-        "to": "CT7QCqPJ"
-      },
-      {
-        "from": "CT7QCqPJ",
-        "to": "ebvZuS52"
-      },
-      {
-        "from": "CT7QCqPJ",
-        "to": "AE16o1Td"
-      },
-      {
-        "from": "AE16o1Td",
-        "to": "CT7QCqPJ"
-      },
-      {
-        "from": "4O8zhFYE",
-        "to": "TCgPBgqZ"
-      },
-      {
-        "from": "4O8zhFYE",
-        "to": "Rp0JkVv4"
-      },
-      {
-        "from": "4O8zhFYE",
-        "to": "AE16o1Td"
-      },
-      {
-        "from": "TCgPBgqZ",
-        "to": "4O8zhFYE"
-      },
-      {
-        "from": "Rp0JkVv4",
-        "to": "4O8zhFYE"
-      },
-      {
-        "from": "AE16o1Td",
-        "to": "4O8zhFYE"
-      },
-      {
-        "from": "r9JTpNBe",
-        "to": "87kjcOlj"
-      },
-      {
-        "from": "87kjcOlj",
-        "to": "r9JTpNBe"
-      },
-      {
-        "from": "ebvZuS52",
-        "to": "3U&W5itp"
-      },
-      {
-        "from": "3U&W5itp",
-        "to": "ebvZuS52"
-      },
-      {
-        "from": "CT7QCqPJ",
-        "to": "iDCuO2eE"
-      },
-      {
-        "from": "iDCuO2eE",
-        "to": "CT7QCqPJ"
-      },
-      {
-        "from": "9gx1gQdw",
-        "to": "I&iu5GU1"
-      },
-      {
-        "from": "I&iu5GU1",
-        "to": "9gx1gQdw"
-      },
-      {
-        "from": "2IwPnWo4",
-        "to": "HVTgFo7x"
-      },
-      {
-        "from": "HVTgFo7x",
-        "to": "2IwPnWo4"
-      },
-      {
-        "from": "2IwPnWo4",
-        "to": "SbQpKjcC"
-      },
-      {
-        "from": "SbQpKjcC",
-        "to": "2IwPnWo4"
-      }
-    ],
     "subnodes": [
       {
         "slug": "blacksmith_armor",
@@ -306,145 +108,389 @@
         "slug": "spawnlake",
         "uid": "vTm5shJb",
         "x": -400,
-        "y": -597
+        "y": -597,
+        "exits": [
+          {
+            "from": "vTm5shJb",
+            "to": "AdGMquH_"
+          }
+        ]
       },
       {
         "slug": "spawnlake_shore",
         "uid": "AdGMquH_",
         "x": -395,
-        "y": -553
+        "y": -553,
+        "exits": [
+          {
+            "from": "AdGMquH_",
+            "to": "9gx1gQdw"
+          }
+        ]
       },
       {
         "slug": "forest_path",
         "uid": "9gx1gQdw",
         "x": -217,
-        "y": -499
+        "y": -499,
+        "exits": [
+          {
+            "from": "9gx1gQdw",
+            "to": "AdGMquH_"
+          },
+          {
+            "from": "9gx1gQdw",
+            "to": "vpq2wkZM"
+          },
+          {
+            "from": "9gx1gQdw",
+            "to": "I&iu5GU1"
+          }
+        ]
       },
       {
         "slug": "north_exit",
         "uid": "vpq2wkZM",
         "x": -92,
-        "y": -393
+        "y": -393,
+        "exits": [
+          {
+            "from": "vpq2wkZM",
+            "to": "9gx1gQdw"
+          },
+          {
+            "from": "vpq2wkZM",
+            "to": "r9JTpNBe"
+          }
+        ]
       },
       {
         "slug": "north_residential",
         "uid": "r9JTpNBe",
         "x": 22,
-        "y": -204
+        "y": -204,
+        "exits": [
+          {
+            "from": "r9JTpNBe",
+            "to": "vpq2wkZM"
+          },
+          {
+            "from": "r9JTpNBe",
+            "to": "88MjFB6v"
+          },
+          {
+            "from": "r9JTpNBe",
+            "to": "87kjcOlj"
+          }
+        ]
       },
       {
         "slug": "inn_street",
         "uid": "88MjFB6v",
         "x": -6,
-        "y": -71
+        "y": -71,
+        "exits": [
+          {
+            "from": "88MjFB6v",
+            "to": "r9JTpNBe"
+          },
+          {
+            "from": "88MjFB6v",
+            "to": "2IwPnWo4"
+          },
+          {
+            "from": "88MjFB6v",
+            "to": "XOdVqZ2R"
+          }
+        ]
       },
       {
         "slug": "inn",
         "uid": "2IwPnWo4",
         "x": -44,
-        "y": -107
+        "y": -107,
+        "exits": [
+          {
+            "from": "2IwPnWo4",
+            "to": "88MjFB6v"
+          },
+          {
+            "from": "2IwPnWo4",
+            "to": "HVTgFo7x"
+          },
+          {
+            "from": "2IwPnWo4",
+            "to": "SbQpKjcC"
+          }
+        ]
       },
       {
         "slug": "plaza",
         "uid": "XOdVqZ2R",
         "x": 0,
-        "y": 17
+        "y": 17,
+        "exits": [
+          {
+            "from": "XOdVqZ2R",
+            "to": "88MjFB6v"
+          },
+          {
+            "from": "XOdVqZ2R",
+            "to": "fIpqTS9u"
+          },
+          {
+            "from": "XOdVqZ2R",
+            "to": "I6c&hdXb"
+          },
+          {
+            "from": "XOdVqZ2R",
+            "to": "77UGodwK"
+          }
+        ]
       },
       {
         "slug": "clinic",
         "uid": "fIpqTS9u",
         "x": 43,
-        "y": 55
+        "y": 55,
+        "exits": [
+          {
+            "from": "fIpqTS9u",
+            "to": "GkLzsCod"
+          },
+          {
+            "from": "fIpqTS9u",
+            "to": "XOdVqZ2R"
+          }
+        ]
       },
       {
         "slug": "blacksmith_street",
         "uid": "I6c&hdXb",
         "x": -137,
-        "y": 14
+        "y": 14,
+        "exits": [
+          {
+            "from": "I6c&hdXb",
+            "to": "XOdVqZ2R"
+          },
+          {
+            "from": "I6c&hdXb",
+            "to": "77UGodwK"
+          }
+        ]
       },
       {
         "slug": "market_west",
         "uid": "77UGodwK",
         "x": -72,
-        "y": 103
+        "y": 103,
+        "exits": [
+          {
+            "from": "77UGodwK",
+            "to": "XOdVqZ2R"
+          },
+          {
+            "from": "77UGodwK",
+            "to": "I6c&hdXb"
+          },
+          {
+            "from": "77UGodwK",
+            "to": "GkLzsCod"
+          }
+        ]
       },
       {
         "slug": "market_east",
         "uid": "GkLzsCod",
         "x": 51,
-        "y": 124
+        "y": 124,
+        "exits": [
+          {
+            "from": "GkLzsCod",
+            "to": "77UGodwK"
+          },
+          {
+            "from": "GkLzsCod",
+            "to": "fIpqTS9u"
+          },
+          {
+            "from": "GkLzsCod",
+            "to": "ebvZuS52"
+          }
+        ]
       },
       {
         "slug": "bookstore_street",
         "uid": "ebvZuS52",
         "x": 139,
-        "y": 156
+        "y": 156,
+        "exits": [
+          {
+            "from": "ebvZuS52",
+            "to": "GkLzsCod"
+          },
+          {
+            "from": "ebvZuS52",
+            "to": "CT7QCqPJ"
+          },
+          {
+            "from": "ebvZuS52",
+            "to": "3U&W5itp"
+          }
+        ]
       },
       {
         "slug": "residential_south",
         "uid": "CT7QCqPJ",
         "x": 241,
-        "y": 269
+        "y": 269,
+        "exits": [
+          {
+            "from": "CT7QCqPJ",
+            "to": "ebvZuS52"
+          },
+          {
+            "from": "CT7QCqPJ",
+            "to": "AE16o1Td"
+          },
+          {
+            "from": "CT7QCqPJ",
+            "to": "iDCuO2eE"
+          }
+        ]
       },
       {
         "slug": "exit_south",
         "uid": "AE16o1Td",
         "x": 372,
-        "y": 351
+        "y": 351,
+        "exits": [
+          {
+            "from": "AE16o1Td",
+            "to": "CT7QCqPJ"
+          },
+          {
+            "from": "AE16o1Td",
+            "to": "4O8zhFYE"
+          }
+        ]
       },
       {
         "slug": "intersection",
         "uid": "4O8zhFYE",
         "x": 406,
-        "y": 540
+        "y": 540,
+        "exits": [
+          {
+            "from": "4O8zhFYE",
+            "to": "TCgPBgqZ"
+          },
+          {
+            "from": "4O8zhFYE",
+            "to": "Rp0JkVv4"
+          },
+          {
+            "from": "4O8zhFYE",
+            "to": "AE16o1Td"
+          }
+        ]
       },
       {
         "slug": "dungeon_one",
         "uid": "TCgPBgqZ",
         "x": 508,
-        "y": 629
+        "y": 629,
+        "exits": [
+          {
+            "from": "TCgPBgqZ",
+            "to": "4O8zhFYE"
+          }
+        ]
       },
       {
         "slug": "dungeon_two",
         "uid": "Rp0JkVv4",
         "x": 262,
-        "y": 594
+        "y": 594,
+        "exits": [
+          {
+            "from": "Rp0JkVv4",
+            "to": "4O8zhFYE"
+          }
+        ]
       },
       {
         "slug": "combat_trainer",
         "uid": "87kjcOlj",
         "x": 61,
-        "y": -221
+        "y": -221,
+        "exits": [
+          {
+            "from": "87kjcOlj",
+            "to": "r9JTpNBe"
+          }
+        ]
       },
       {
         "slug": "bookstore",
         "uid": "3U&W5itp",
         "x": 166,
-        "y": 103
+        "y": 103,
+        "exits": [
+          {
+            "from": "3U&W5itp",
+            "to": "ebvZuS52"
+          }
+        ]
       },
       {
         "slug": "maho",
         "uid": "iDCuO2eE",
         "x": 259,
-        "y": 223
+        "y": 223,
+        "exits": [
+          {
+            "from": "iDCuO2eE",
+            "to": "CT7QCqPJ"
+          }
+        ]
       },
       {
         "slug": "bear_lair",
         "uid": "I&iu5GU1",
         "x": -91,
-        "y": -561
+        "y": -561,
+        "exits": [
+          {
+            "from": "I&iu5GU1",
+            "to": "9gx1gQdw"
+          }
+        ]
       },
       {
         "slug": "myroom",
         "uid": "HVTgFo7x",
         "x": -65,
-        "y": -70
+        "y": -70,
+        "exits": [
+          {
+            "from": "HVTgFo7x",
+            "to": "2IwPnWo4"
+          }
+        ]
       },
       {
         "uid": "SbQpKjcC",
         "slug": "inn_basement",
         "x": -20,
-        "y": -157
+        "y": -157,
+        "exits": [
+          {
+            "from": "SbQpKjcC",
+            "to": "2IwPnWo4"
+          }
+        ]
       }
     ]
   },
