@@ -90,7 +90,8 @@
           "text": "\"There is no market here (yet), and this is not a town, you just said it's a village, and it's barely even that. Go disappoint your parents.\"\nHe threw a small stone at me, which he had seeming prepared long in advance for this, then scurried off down the street.\n\n\"Ouch!\"\n\n-1 HP\n\n...\n\nI thought there weren't going to be health points in this.\n\nNasty little freak."
         }
       ]
-    }
+    },
+    "threads": []
   },
   "ini": {
     "spawn_node": "spawnpoint"
