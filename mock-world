@@ -2049,7 +2049,7 @@
     ]
   },
   "ini": {
-    "spawn_node": "spawnbath"
+    "spawn_node": "@spawnbath"
   },
   "kod": {
     "anywhere": "",
