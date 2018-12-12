@@ -94,7 +94,7 @@
     "threads": []
   },
   "ini": {
-    "spawn_node": "spawnpoint"
+    "spawn_node": "@home"
   },
   "kod": {}
 }
