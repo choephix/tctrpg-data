@@ -75,7 +75,7 @@
                 "when": [
                   {
                     "type": "goto",
-                    "condition": "to==='@schtrasse'"
+                    "condition": "to==='@schtrasse' && context.tests>0 && (context.tests%5===0)"
                   }
                 ],
                 "what": [
