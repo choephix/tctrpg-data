@@ -132,6 +132,20 @@
                     "next": "$theend"
                   }
                 ]
+              },
+              {
+                "when": [
+                  {
+                    "type": "goto",
+                    "condition": "to==='@schtrasse' && context.tests>0"
+                  }
+                ],
+                "what": [
+                  {
+                    "text": "You step into the schtrasse, but something is off... \n\nYou hear a faint whisper--\n\"You are on the right path, but you need to be divisible by 5... ;)\"\n\n(cool how they whispered a wink, right? I have no explanation for this, move on...)"
+                  }
+                ],
+                "choices": []
               }
             ]
           },
